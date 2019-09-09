@@ -19,6 +19,18 @@ use Illuminate\Database\Eloquent\Model;
  */
 class MetaTagPageContent extends Model
 {
+
+    protected $fillable = [
+        'meta_tag_page_id',
+        'title',
+        'description',
+        'keywords',
+        'og_title',
+        'og_description',
+        'h1',
+        'update_by'
+    ];
+
     /**
      * @return mixed
      */

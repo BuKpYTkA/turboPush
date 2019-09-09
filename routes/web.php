@@ -19,7 +19,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
 Route::middleware(['auth'])->group(function () {
     Route::get('/home', 'HomeController@index')->name('home');
     Route::match(['get', 'post'], '/page-content', PageContentController::controller())->name('adminPanel.pageContent');

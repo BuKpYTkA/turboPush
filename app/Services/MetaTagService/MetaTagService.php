@@ -10,6 +10,7 @@ namespace App\Services\MetaTagService;
 
 use App\Models\MetaTagPage\MetaTagPage;
 use App\Models\MetaTagPageContent\MetaTagPageContent;
+use App\Services\Factories\MetaTagPageContentFactory\MetaTagPageContentFactory;
 use Illuminate\Http\Request;
 
 /**
@@ -20,6 +21,20 @@ class MetaTagService
 {
 
     const DEFAULT_PAGE = 'default';
+
+    /**
+     * @var MetaTagPageContentFactory
+     */
+    private $metaTagPageContentFactory;
+
+    /**
+     * MetaTagService constructor.
+     * @param MetaTagPageContentFactory $metaTagPageContentFactory
+     */
+    public function __construct(MetaTagPageContentFactory $metaTagPageContentFactory)
+    {
+        $this->metaTagPageContentFactory = $metaTagPageContentFactory;
+    }
 
     /**
      * @param Request $request
@@ -33,13 +48,16 @@ class MetaTagService
          * @var $metaTagPage MetaTagPage
          */
         $metaTagPage = MetaTagPage::query()->where('page_alias', $pageAlias)->first();
-        if (!$metaTagPage) {
+        if ($metaTagPage !== null && $defaultMetaTagPage !==null) {
             $metaTagPage = $defaultMetaTagPage;
+            /**
+             * @var $metaTagPageContent MetaTagPageContent
+             */
+            $metaTagPageContent = MetaTagPageContent::query()->where('meta_tag_page_id', $metaTagPage->getId())->first();
+        } else {
+            $metaTagPageContent = $this->metaTagPageContentFactory->createFromConfig(config('metatags'));
+
         }
-        /**
-         * @var $metaTagPageContent MetaTagPageContent
-         */
-        $metaTagPageContent = MetaTagPageContent::query()->where('meta_tag_page_id', $metaTagPage->getId())->first();
         return $metaTagPageContent;
     }
 

@@ -37,7 +37,11 @@ class PriceListController extends Controller
      */
     public function __invoke(Request $request)
     {
-        $content = PageContent::query()->where('page_alias', $request->getPathInfo())->first()->getContent();
+        $content = '';
+        $pageContent = PageContent::query()->where('page_alias', $request->getPathInfo())->first();
+        if ($pageContent) {
+            $content = $pageContent->getContent();
+        }
         return view('staticPages.price-list', [
             'content' => $content
         ]);
