@@ -15,14 +15,13 @@ class CreateMetaTagPageContentsTable extends Migration
     {
         Schema::create('meta_tag_page_contents', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->text('meta_tag_page_id');
+            $table->integer('meta_tag_page_id');
             $table->text('title')->nullable();
             $table->text('description')->nullable();
             $table->text('keywords')->nullable();
             $table->text('og_title')->nullable();
             $table->text('og_description')->nullable();
             $table->text('h1')->nullable();
-            $table->integer('updated_by');
             $table->timestamps();
         });
     }

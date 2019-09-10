@@ -1,5 +1,5 @@
 
-@extends('layouts.staticPage')
+@extends('layouts.home')
 
 @section('content')
 <div class="container">

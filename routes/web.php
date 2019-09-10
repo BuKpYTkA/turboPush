@@ -15,9 +15,7 @@ use App\Http\Controllers\AdminPanel\PageContent\PageContentController;
 use App\Http\Controllers\PriceList\PriceListController;
 use App\Http\Controllers\StaticPage\StaticPageController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/home', 'HomeController@index')->name('home');
@@ -25,10 +23,13 @@ Route::middleware(['auth'])->group(function () {
 });
 
 Route::middleware(['global.vars'])->group(function () {
+    Route::get('/', function () {
+        return view('welcome');
+    });
     Route::get('/price-list', PriceListController::controller());
+    Route::get('{pageAlias}', StaticPageController::controller());
 });
 
-Route::get('{pageAlias}', StaticPageController::controller());
 
 
 Auth::routes();

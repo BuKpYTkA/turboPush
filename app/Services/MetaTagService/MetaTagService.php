@@ -8,9 +8,8 @@
 
 namespace App\Services\MetaTagService;
 
-use App\Models\MetaTagPage\MetaTagPage;
-use App\Models\MetaTagPageContent\MetaTagPageContent;
-use App\Services\Factories\MetaTagPageContentFactory\MetaTagPageContentFactory;
+use App\Models\MetaTag\MetaTag;
+use App\Services\Factories\MetaTagFactory\MetaTagFactory;
 use Illuminate\Http\Request;
 
 /**
@@ -23,42 +22,30 @@ class MetaTagService
     const DEFAULT_PAGE = 'default';
 
     /**
-     * @var MetaTagPageContentFactory
+     * @var MetaTagFactory
      */
-    private $metaTagPageContentFactory;
+    private $metaTagFactory;
 
     /**
      * MetaTagService constructor.
-     * @param MetaTagPageContentFactory $metaTagPageContentFactory
+     * @param MetaTagFactory $metaTagFactory
      */
-    public function __construct(MetaTagPageContentFactory $metaTagPageContentFactory)
+    public function __construct(MetaTagFactory $metaTagFactory)
     {
-        $this->metaTagPageContentFactory = $metaTagPageContentFactory;
+        $this->metaTagFactory = $metaTagFactory;
     }
 
     /**
      * @param Request $request
-     * @return MetaTagPageContent
+     * @return MetaTag
      */
     public function getCurrentMetaTags(Request $request)
     {
-        $defaultMetaTagPage = MetaTagPage::query()->where('page_alias', self::DEFAULT_PAGE)->first();
-        $pageAlias = $request->getPathInfo();
-        /**
-         * @var $metaTagPage MetaTagPage
-         */
-        $metaTagPage = MetaTagPage::query()->where('page_alias', $pageAlias)->first();
-        if ($metaTagPage !== null && $defaultMetaTagPage !==null) {
-            $metaTagPage = $defaultMetaTagPage;
-            /**
-             * @var $metaTagPageContent MetaTagPageContent
-             */
-            $metaTagPageContent = MetaTagPageContent::query()->where('meta_tag_page_id', $metaTagPage->getId())->first();
-        } else {
-            $metaTagPageContent = $this->metaTagPageContentFactory->createFromConfig(config('metatags'));
-
+        $metaTag = MetaTag::query()->where('page_alias', $request->getPathInfo())->first();
+        if (!$metaTag) {
+            $metaTag = $this->metaTagFactory->createFromArray(config('metatags'));
         }
-        return $metaTagPageContent;
+        return $metaTag;
     }
 
 }

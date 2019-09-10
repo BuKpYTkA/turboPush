@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\PriceList;
 
 use App\Models\MetaTagPage\MetaTagPage;
+use App\Models\MetaTagPageContent\MetaTagPageContent;
 use App\Models\PageContent\PageContent;
 use App\Services\MetaTagService\MetaTagService;
 use Illuminate\Http\Request;

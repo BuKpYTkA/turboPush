@@ -249,7 +249,7 @@ return [
     | Set a default avatar for newly created users.
     |
     */
-    'default_avatar' => '/vendor/laravel-admin/AdminLTE/dist/img/user2-160x160.jpg',
+    'default_avatar' => '/images/admin-avatars/default-avatar.jpg',
 
     /*
     |--------------------------------------------------------------------------
@@ -373,7 +373,7 @@ return [
     | The global Grid action display class.
     |--------------------------------------------------------------------------
     */
-    'grid_action_class' => \Encore\Admin\Grid\Displayers\DropdownActions::class,
+    'grid_action_class' => \App\Admin\Modules\Actions::class,
 
     /*
     |--------------------------------------------------------------------------
