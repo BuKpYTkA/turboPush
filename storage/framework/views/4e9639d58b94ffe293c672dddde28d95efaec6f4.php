@@ -1,6 +1,6 @@
 <?php
 /**
- * @var $metaTagContent \App\Models\MetaTagPageContent\MetaTagPageContent
+ * @var $metaTagContent \App\Models\MetaTag\MetaTag
  */
 ?>
 
@@ -16,25 +16,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
     <!-- ========== PAGE TITLE ========== -->
-    <title><?php echo e($metaTagContent->getTitle()); ?></title>
+    <title><?php echo e($metaTagContent->getTitle(), false); ?></title>
 
     <!-- ========== META TAGS ========== -->
-    <meta name="description" content="<?php echo e($metaTagContent->getDescription()); ?>">
-    <meta name="keywords" content="<?php echo e($metaTagContent->getKeywords()); ?>">
-    <meta property="og:title" content="<?php echo e($metaTagContent->getOgTitle()); ?>">
-    <meta property="og:description" content="<?php echo e($metaTagContent->getOgDescription()); ?>">
+    <meta name="description" content="<?php echo e($metaTagContent->getDescription(), false); ?>">
+    <meta name="keywords" content="<?php echo e($metaTagContent->getKeywords(), false); ?>">
+    <meta property="og:title" content="<?php echo e($metaTagContent->getOgTitle(), false); ?>">
+    <meta property="og:description" content="<?php echo e($metaTagContent->getOgDescription(), false); ?>">
 
     <!-- ========== FAVICON & APPLE ICONS ========== -->
-    <link rel="shortcut icon" href="<?php echo e(asset('frontEnd')); ?>/images/favicon.ico">
-    <link rel="apple-touch-icon" href="<?php echo e(asset('frontEnd')); ?>/images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="<?php echo e(asset('frontEnd'), false); ?>/images/favicon.ico">
+    <link rel="apple-touch-icon" href="<?php echo e(asset('frontEnd'), false); ?>/images/apple-touch-icon.png">
 
     <!-- ========== MINIFIED VENDOR CSS ========== -->
-    <link rel="stylesheet" href="<?php echo e(asset('frontEnd')); ?>/styles/vendor.css">
+    <link rel="stylesheet" href="<?php echo e(asset('frontEnd'), false); ?>/styles/vendor.css">
 
     <!-- ========== MAIN CSS ========== -->
-    <link rel="stylesheet" href="<?php echo e(asset('frontEnd')); ?>/styles/main.css">
+    <link rel="stylesheet" href="<?php echo e(asset('frontEnd'), false); ?>/styles/main.css">
 
-    <script src="<?php echo e(asset('frontEnd')); ?>/scripts/vendor/modernizr.js"></script>
+    <script src="<?php echo e(asset('frontEnd'), false); ?>/scripts/vendor/modernizr.js"></script>
 </head>
 
 <!-- ==================================================
@@ -68,7 +68,7 @@ nav-hidden - Open nav on icon click
             <li data-index="rs-226" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0" data-saveperformance="off"
                 data-title="Intro">
                 <!-- MAIN IMAGE -->
-                <img src="<?php echo e(asset('frontEnd')); ?>/images/bg-img-5.jpg" alt="" title="Page title" width="1920" height="980" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                <img src="<?php echo e(asset('frontEnd'), false); ?>/images/bg-img-5.jpg" alt="" title="Page title" width="1920" height="980" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -88,7 +88,7 @@ nav-hidden - Open nav on icon click
                 <div class="tp-caption NotGeneric-SubTitle tp-resizeme" id="slide-226-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['52','52','28','13']" data-width="none"
                      data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                      data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap;text-transform:left;color:#fff;">
-                    <h1 style="color: white"><?php echo e($metaTagContent->getH1()); ?></h1>
+                    <h1 style="color: white"><?php echo e($metaTagContent->getH1(), false); ?></h1>
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -112,9 +112,9 @@ sticky-footer - Reveal footer on scroll
 <?php echo $__env->make('layouts.components.footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
 
-<script src="<?php echo e(asset('frontEnd')); ?>/scripts/vendor.js"></script>
-<script src="<?php echo e(asset('frontEnd')); ?>/scripts/plugins.js"></script>
-<script src="<?php echo e(asset('frontEnd')); ?>/scripts/main.js"></script>
+<script src="<?php echo e(asset('frontEnd'), false); ?>/scripts/vendor.js"></script>
+<script src="<?php echo e(asset('frontEnd'), false); ?>/scripts/plugins.js"></script>
+<script src="<?php echo e(asset('frontEnd'), false); ?>/scripts/main.js"></script>
 
 
 </body>

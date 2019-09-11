@@ -12,6 +12,7 @@
 */
 
 use App\Http\Controllers\AdminPanel\PageContent\PageContentController;
+use App\Http\Controllers\Order\CreateOrderController;
 use App\Http\Controllers\PriceList\PriceListController;
 use App\Http\Controllers\StaticPage\StaticPageController;
 
@@ -29,6 +30,8 @@ Route::middleware(['global.vars'])->group(function () {
     Route::get('/price-list', PriceListController::controller());
     Route::get('{pageAlias}', StaticPageController::controller());
 });
+
+Route::post('/order/create', CreateOrderController::controller())->name('order.create');
 
 
 

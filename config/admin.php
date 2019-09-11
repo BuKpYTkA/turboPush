@@ -1,5 +1,7 @@
 <?php
 
+use Encore\Admin\Grid\Displayers\DropdownActions;
+
 return [
 
     /*
@@ -373,7 +375,7 @@ return [
     | The global Grid action display class.
     |--------------------------------------------------------------------------
     */
-    'grid_action_class' => \App\Admin\Modules\Actions::class,
+    'grid_action_class' => DropdownActions::class,
 
     /*
     |--------------------------------------------------------------------------

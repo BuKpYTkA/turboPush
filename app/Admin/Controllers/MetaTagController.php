@@ -21,6 +21,11 @@ use Encore\Admin\Show;
  */
 class MetaTagController extends AdminController
 {
+
+    const PAGE_ALIAS = 'Алиас страницы';
+
+    const UPDATED_BY = 'Последнее действие';
+
     /**
      * Title for current resource.
      *
@@ -38,8 +43,10 @@ class MetaTagController extends AdminController
     {
         $grid = new Grid(new MetaTag());
 
-        $grid->column('page_alias', __('Page Alias'))->sortable();
-        $grid->column('admin.username', __('Updated By'))->sortable();
+        $grid->column('page_alias', __(self::PAGE_ALIAS))->sortable();
+        $grid->actions(function ($actions) {
+            $actions->disableView();
+        });
 
         return $grid;
     }
@@ -53,7 +60,7 @@ class MetaTagController extends AdminController
     protected function detail($id)
     {
         $show = new Show(MetaTag::query()->findOrFail($id));
-        $show->field('page_alias', __('Page Alias'));
+        $show->field('page_alias', __(self::PAGE_ALIAS));
         $show->field('title', __('title'));
         $show->field('description', __('description'));
         $show->field('keywords', __('keywords'));
@@ -72,14 +79,20 @@ class MetaTagController extends AdminController
     {
         $form = new Form(new MetaTag());
         $form->hidden('id')->attribute('id');
-        $form->hidden('updated_by')->attribute('updatedBy')->value(Admin::user()->getAuthIdentifier());
-        $form->text('page_alias')->attribute('pageAlias')->required();
-        $form->text('title')->attribute('title');
-        $form->text('description')->attribute('description');
-        $form->text('keywords')->attribute('keywords');
-        $form->text('h_1')->attribute('header');
-        $form->text('og_title')->attribute('ogTitle');
-        $form->text('og_description')->attribute('ogDescription');
+        $form->text('page_alias', __(self::PAGE_ALIAS))->attribute('pageAlias')->required();
+        $form->divider();
+        $form->text('title', __('title'))->attribute('title');
+        $form->text('description', __('description'))->attribute('description');
+        $form->text('keywords', __('keywords'))->attribute('keywords');
+        $form->text('h_1', __('h1'))->attribute('header');
+        $form->text('og_title', __('og title'))->attribute('ogTitle');
+        $form->text('og_description', __('og description'))->attribute('ogDescription');
+        $form->footer(function ($footer) {
+            $footer->disableViewCheck();
+        });
+        $form->tools(function (Form\Tools $tools) {
+            $tools->disableView();
+        });
         return $form;
     }
 

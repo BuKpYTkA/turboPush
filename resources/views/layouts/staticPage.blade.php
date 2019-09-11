@@ -1,6 +1,6 @@
 <?php
 /**
- * @var $metaTagContent \App\Models\MetaTagPageContent\MetaTagPageContent
+ * @var $metaTagContent \App\Models\MetaTag\MetaTag
  */
 ?>
 
@@ -58,7 +58,6 @@ nav-hidden - Open nav on icon click
 @include('layouts.components.navbar')
 
 <!-- ========== MAIN ========== -->
-
 <!-- ========== HOME SECTION ========== -->
 <!-- ========== ANIMATED PAGE TITLE ========== -->
 <div class="slider-container rev_slider_wrapper">
