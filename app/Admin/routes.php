@@ -14,4 +14,5 @@ Route::group([
     $router->get('/', 'HomeController@index')->name('admin.home');
     $router->resource('/meta-tags', 'MetaTagController');
     $router->resource('/orders', 'OrderController');
+    $router->resource('/images', 'ImageController');
 });

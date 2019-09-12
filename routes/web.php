@@ -27,7 +27,7 @@ Route::middleware(['global.vars'])->group(function () {
     Route::get('/', function () {
         return view('welcome');
     });
-    Route::get('/price-list', PriceListController::controller());
+    Route::get('/price-list', PriceListController::controller())->name('price-list');
     Route::get('{pageAlias}', StaticPageController::controller());
 });
 

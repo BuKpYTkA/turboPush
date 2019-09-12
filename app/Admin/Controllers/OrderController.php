@@ -21,7 +21,7 @@ class OrderController extends AdminController
 
     const CREATED_AT = 'Когда создана';
 
-    const IS_MODERATED = 'Модерация';
+    const IS_MODERATED = 'Заявка выполнена';
 
     const MESSAGE = 'Текст сообщения';
 
@@ -43,6 +43,7 @@ class OrderController extends AdminController
     {
         $grid = new Grid(new Order);
 
+        $grid->model()->orderBy('is_moderated');
         $grid->column('id', __('Id'))->sortable();
         $grid->column('made_by', __(self::NAME))->sortable();
         $grid->column('email', __(self::EMAIL));

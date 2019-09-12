@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateMetaTagPages extends Migration
+class CreateImagesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,9 @@ class CreateMetaTagPages extends Migration
      */
     public function up()
     {
-        Schema::create('meta_tag_pages', function (Blueprint $table) {
+        Schema::create('images', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->text('page_alias');
-            $table->integer('updated_by');
+            $table->text('url');
             $table->timestamps();
         });
     }
@@ -28,6 +27,6 @@ class CreateMetaTagPages extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('meta_tag_pages');
+        Schema::dropIfExists('images');
     }
 }

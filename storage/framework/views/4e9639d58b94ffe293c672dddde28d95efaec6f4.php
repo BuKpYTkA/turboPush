@@ -58,7 +58,6 @@ nav-hidden - Open nav on icon click
 <?php echo $__env->make('layouts.components.navbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
 <!-- ========== MAIN ========== -->
-
 <!-- ========== HOME SECTION ========== -->
 <!-- ========== ANIMATED PAGE TITLE ========== -->
 <div class="slider-container rev_slider_wrapper">
