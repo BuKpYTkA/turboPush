@@ -1,5 +1,9 @@
 <?php
 
+use App\Admin\Controllers\HomeController;
+use App\Admin\Controllers\ImageController;
+use App\Admin\Controllers\MetaTagController;
+use App\Admin\Controllers\NavBarElementController;
 use App\Admin\Controllers\OrderController;
 use Illuminate\Routing\Router;
 
@@ -11,8 +15,9 @@ Route::group([
     'middleware'    => config('admin.route.middleware'),
 ], function (Router $router) {
 
-    $router->get('/', 'HomeController@index')->name('admin.home');
-    $router->resource('/meta-tags', 'MetaTagController');
-    $router->resource('/orders', 'OrderController');
-    $router->resource('/images', 'ImageController');
+    $router->get('/dashboard', HomeController::class . '@index')->name('admin.home');
+    $router->resource('/meta-tags', MetaTagController::class);
+    $router->resource('/', OrderController::class);
+    $router->resource('/images', ImageController::class);
+    $router->resource('/nav-bar-elements', NavBarElementController::class);
 });

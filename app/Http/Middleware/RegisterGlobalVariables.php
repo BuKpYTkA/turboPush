@@ -2,10 +2,15 @@
 
 namespace App\Http\Middleware;
 
+use App\Models\NavBarElement\NavBarElement;
 use App\Services\MetaTagService\MetaTagService;
 use Closure;
 use Illuminate\Support\Facades\View;
 
+/**
+ * Class RegisterGlobalVariables
+ * @package App\Http\Middleware
+ */
 class RegisterGlobalVariables
 {
 
@@ -33,6 +38,7 @@ class RegisterGlobalVariables
     public function handle($request, Closure $next)
     {
         View::share('metaTagContent', $this->metaTagService->getCurrentMetaTags($request));
+        View::share('navBarElements', NavBarElement::query()->where([])->orderBy('order')->get());
         return $next($request);
     }
 }

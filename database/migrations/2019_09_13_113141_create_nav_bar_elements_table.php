@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateImagesTable extends Migration
+class CreateNavBarElementsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,13 @@ class CreateImagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('images', function (Blueprint $table) {
+        Schema::create('nav_bar_elements', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->text('url');
-            $table->text('alt')->nullable();
+            $table->text('title');
+            $table->integer('parent_id')->default(0);
+            $table->text('icon')->nullable();
+            $table->text('link')->nullable();
+            $table->integer('order')->default(0);
             $table->timestamps();
         });
     }
@@ -28,6 +31,6 @@ class CreateImagesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('images');
+        Schema::dropIfExists('nav_bar_elements');
     }
 }

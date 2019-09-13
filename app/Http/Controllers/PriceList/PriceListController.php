@@ -2,10 +2,13 @@
 
 namespace App\Http\Controllers\PriceList;
 
+use App\Models\Image\Image;
 use App\Models\MetaTagPage\MetaTagPage;
 use App\Models\MetaTagPageContent\MetaTagPageContent;
+use App\Models\NavBarElement\NavBarElement;
 use App\Models\PageContent\PageContent;
 use App\Services\MetaTagService\MetaTagService;
+use App\Services\StorageService\AdminStorageService;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -20,14 +23,20 @@ class PriceListController extends Controller
      * @var MetaTagService
      */
     private $metaTagService;
+    /**
+     * @var AdminStorageService
+     */
+    private $storageService;
 
     /**
      * StaticPageController constructor.
      * @param MetaTagService $metaTagService
+     * @param AdminStorageService $storageService
      */
-    public function __construct(MetaTagService $metaTagService)
+    public function __construct(MetaTagService $metaTagService, AdminStorageService $storageService)
     {
         $this->metaTagService = $metaTagService;
+        $this->storageService = $storageService;
     }
 
     /**

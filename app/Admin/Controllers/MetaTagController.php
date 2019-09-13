@@ -11,7 +11,6 @@ namespace App\Admin\Controllers;
 use App\Admin\Modules\Grid;
 use App\Models\MetaTag\MetaTag;
 use Encore\Admin\Controllers\AdminController;
-use Encore\Admin\Facades\Admin;
 use Encore\Admin\Form;
 use Encore\Admin\Show;
 

@@ -7,63 +7,73 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Class PageContent
  * @package App\Models\PageContent
- * @property $id
- * @property $page_alias
- * @property $content
+ * @property int $id
+ * @property string $page_alias
+ * @property string $content
+ * @property string $banner
  */
 class PageContent extends Model
 {
 
     protected $fillable = [
-        'content'
+        'content',
+        'banner'
     ];
 
     /**
-     * @return mixed
+     * @return int
      */
-    public function getId()
+    public function getId(): int
     {
         return $this->id;
     }
 
     /**
-     * @param mixed $id
+     * @return string
      */
-    public function setId($id): void
-    {
-        $this->id = $id;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getPageAlias()
+    public function getPageAlias(): string
     {
         return $this->page_alias;
     }
 
     /**
-     * @param mixed $page_alias
+     * @param string $pageAlias
      */
-    public function setPageAlias($page_alias): void
+    public function setPageAlias(string $pageAlias): void
     {
-        $this->page_alias = $page_alias;
+        $this->page_alias = $pageAlias;
     }
 
     /**
-     * @return mixed
+     * @return string
      */
-    public function getContent()
+    public function getContent(): string
     {
         return $this->content;
     }
 
     /**
-     * @param mixed $content
+     * @param string $content
      */
-    public function setContent($content): void
+    public function setContent(string $content): void
     {
         $this->content = $content;
+    }
+
+    /**
+     * @return string
+     */
+    public function getBanner(): string
+    {
+        return $this->banner;
+    }
+
+    /**
+     * @param string $banner
+     */
+    public function setBanner(string $banner): void
+    {
+        $this->banner = $banner;
     }
 
 }

@@ -8,15 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Class MetaTag
  * @package App\Models\MetaTag
- * @property $id
- * @property $page_alias
- * @property $title
- * @property $description
- * @property $keywords
- * @property $og_title
- * @property $og_description
- * @property $updated_by
- * @property $h_1
+ * @property int $id
+ * @property string $page_alias
+ * @property string $title
+ * @property string $description
+ * @property string $keywords
+ * @property string $og_title
+ * @property string $og_description
+ * @property int $updated_by
+ * @property string $h_1
  */
 class MetaTag extends Model
 {
@@ -33,139 +33,139 @@ class MetaTag extends Model
     ];
 
     /**
-     * @return mixed
+     * @return int
      */
-    public function getPageAlias()
+    public function getId(): int
+    {
+        return $this->id;
+    }
+
+    /**
+     * @return string
+     */
+    public function getPageAlias(): string
     {
         return $this->page_alias;
     }
 
     /**
-     * @param mixed $page_alias
+     * @param string $page_alias
      */
-    public function setPageAlias($page_alias): void
+    public function setPageAlias(string $page_alias): void
     {
         $this->page_alias = $page_alias;
     }
 
     /**
-     * @return mixed
+     * @return string
      */
-    public function getTitle()
+    public function getTitle(): string
     {
-        return $this->title;
+        return $this->title ?? '';
     }
 
     /**
-     * @param mixed $title
+     * @param string $title
      */
-    public function setTitle($title): void
+    public function setTitle(string $title): void
     {
         $this->title = $title;
     }
 
     /**
-     * @return mixed
+     * @return string
      */
-    public function getDescription()
+    public function getDescription(): string
     {
-        return $this->description;
+        return $this->description ?? '';
     }
 
     /**
-     * @param mixed $description
+     * @param string $description
      */
-    public function setDescription($description): void
+    public function setDescription(string $description): void
     {
         $this->description = $description;
     }
 
     /**
-     * @return mixed
+     * @return string
      */
-    public function getKeywords()
+    public function getKeywords(): string
     {
-        return $this->keywords;
+        return $this->keywords ?? '';
     }
 
     /**
-     * @param mixed $keywords
+     * @param string $keywords
      */
-    public function setKeywords($keywords): void
+    public function setKeywords(string $keywords): void
     {
         $this->keywords = $keywords;
     }
 
     /**
-     * @return mixed
+     * @return string
      */
-    public function getOgTitle()
+    public function getOgTitle(): string
     {
-        return $this->og_title;
+        return $this->og_title ?? '';
     }
 
     /**
-     * @param mixed $og_title
+     * @param string $ogTitle
      */
-    public function setOgTitle($og_title): void
+    public function setOgTitle(string $ogTitle): void
     {
-        $this->og_title = $og_title;
+        $this->og_title = $ogTitle;
     }
 
     /**
-     * @return mixed
+     * @return string
      */
-    public function getOgDescription()
+    public function getOgDescription(): string
     {
-        return $this->og_description;
+        return $this->og_description ?? '';
     }
 
     /**
-     * @param mixed $og_description
+     * @param string $ogDescription
      */
-    public function setOgDescription($og_description): void
+    public function setOgDescription(string $ogDescription): void
     {
-        $this->og_description = $og_description;
+        $this->og_description = $ogDescription;
     }
 
     /**
-     * @return mixed
+     * @return int
      */
-    public function getUpdatedBy()
+    public function getUpdatedBy(): int
     {
         return $this->updated_by;
     }
 
     /**
-     * @param mixed $updated_by
+     * @param int $updatedBy
      */
-    public function setUpdatedBy($updated_by): void
+    public function setUpdatedBy(int $updatedBy): void
     {
-        $this->updated_by = $updated_by;
+        $this->updated_by = $updatedBy;
     }
 
     /**
-     * @return mixed
+     * @return string
      */
-    public function getH1()
+    public function getH1(): string
     {
         return $this->h_1;
     }
 
     /**
-     * @param mixed $h1
+     * @param string $h1
      */
-    public function setH1($h1): void
+    public function setH1(string $h1): void
     {
         $this->h_1 = $h1;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getId()
-    {
-        return $this->id;
     }
 
     /**

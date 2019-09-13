@@ -2,39 +2,64 @@
 
 namespace App\Models\Image;
 
+use App\Events\Image\ImageDeleted;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Image
  * @package App\Models\Image
- * @property $id
- * @property $url
+ * @property int $id
+ * @property string $url
+ * @property string|null $alt
  */
 class Image extends Model
 {
 
     /**
-     * @return mixed
+     * @var array
      */
-    public function getId()
+    protected $dispatchesEvents = [
+        'deleted' => ImageDeleted::class
+    ];
+
+    /**
+     * @return int
+     */
+    public function getId(): int
     {
         return $this->id;
     }
 
     /**
-     * @return mixed
+     * @return string
      */
-    public function getUrl()
+    public function getUrl(): string
     {
         return $this->url;
     }
 
     /**
-     * @param mixed $url
+     * @param string $url
      */
-    public function setUrl($url): void
+    public function setUrl(string $url): void
     {
         $this->url = $url;
+    }
+
+    /**
+     * @return null|string
+     */
+    public function getAlt(): ?string
+    {
+        return $this->alt;
+    }
+
+    /**
+     * @param null|string $alt
+     */
+    public function setAlt(?string $alt): void
+    {
+        $this->alt = $alt;
     }
 
 }

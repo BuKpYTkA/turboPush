@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateImagesTable extends Migration
+class AddBannerImageColumnToPageContentsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,8 @@ class CreateImagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('images', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->text('url');
-            $table->text('alt')->nullable();
-            $table->timestamps();
+        Schema::table('page_contents', function (Blueprint $table) {
+            $table->text('banner')->nullable();
         });
     }
 
@@ -28,6 +25,8 @@ class CreateImagesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('images');
+        Schema::table('page_contents', function (Blueprint $table) {
+            $table->dropColumn('banner');
+        });
     }
 }
