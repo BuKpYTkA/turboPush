@@ -19,10 +19,9 @@ class CreateMetaTagsTable extends Migration
             $table->text('title')->nullable();
             $table->text('description')->nullable();
             $table->text('keywords')->nullable();
-            $table->text('h1')->nullable();
+            $table->text('h_1')->nullable();
             $table->text('og_title')->nullable();
             $table->text('og_description')->nullable();
-            $table->integer('updated_by');
             $table->timestamps();
         });
     }

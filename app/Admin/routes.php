@@ -16,8 +16,9 @@ Route::group([
 ], function (Router $router) {
 
     $router->get('/dashboard', HomeController::class . '@index')->name('admin.home');
+    $router->get('/', HomeController::class . '@home')->name('admin.home');
     $router->resource('/meta-tags', MetaTagController::class);
-    $router->resource('/', OrderController::class);
+    $router->resource('/orders', OrderController::class);
     $router->resource('/images', ImageController::class);
     $router->resource('/nav-bar-elements', NavBarElementController::class);
 });

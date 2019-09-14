@@ -63,6 +63,7 @@ class MetaTagController extends AdminController
         $show->field('title', __('title'));
         $show->field('description', __('description'));
         $show->field('keywords', __('keywords'));
+        $show->field('h_1', __('h1'));
         $show->field('og_title', __('og title'));
         $show->field('og_description', __('og description'));
         $show->getModel();

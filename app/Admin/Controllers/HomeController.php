@@ -35,4 +35,13 @@ class HomeController extends Controller
                 });
             });
     }
+
+    /**
+     * @param Content $content
+     * @return Content
+     */
+    public function home(Content $content)
+    {
+        return $content->title('Административная панель');
+    }
 }

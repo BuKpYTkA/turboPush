@@ -19,7 +19,7 @@ class CreateNavBarElementsTable extends Migration
             $table->integer('parent_id')->default(0);
             $table->text('icon')->nullable();
             $table->text('link')->nullable();
-            $table->integer('order')->default(0);
+            $table->integer('order')->default(100);
             $table->timestamps();
         });
     }

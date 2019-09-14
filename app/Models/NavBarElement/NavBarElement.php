@@ -76,7 +76,7 @@ class NavBarElement extends Model
      */
     public function getIcon(): string
     {
-        return $this->icon;
+        return $this->icon ?? '';
     }
 
     /**

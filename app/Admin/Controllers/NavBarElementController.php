@@ -36,6 +36,7 @@ class NavBarElementController extends AdminController
 
                 $row->column(6, function (Column $column) {
                     $form = new \Encore\Admin\Widgets\Form();
+                    $form->action(admin_url('/nav-bar-elements'));
                     $menuModel = NavBarElement::class;
                     $form->select('parent_id', trans('admin.parent_id'))->options($menuModel::selectOptions());
                     $form->text('title', trans('admin.title'))->rules('required');
