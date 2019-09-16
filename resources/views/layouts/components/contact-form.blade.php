@@ -23,10 +23,10 @@
         </div>
         <div class="form-group">
             <div class="row" style="display: flex; align-items: center;">
-                <div class="col-md-1 col-xs-2" style="margin-top: 15px">
+                <div class="col-md-1 col-xs-2 col-sm-1" style="margin-top: 15px">
                     <label for="" style="font-size: 16px;">+380</label>
                 </div>
-                <div class="col-md-11 col-xs-10">
+                <div class="col-md-11 col-xs-10 col-sm-11">
                     <label for="subject">Телефон</label>
                     @if ($errors->has('phone'))
                         <span role="alert">
