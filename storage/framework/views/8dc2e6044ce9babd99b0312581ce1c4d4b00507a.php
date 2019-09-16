@@ -11,7 +11,7 @@
 
             <!-- ========== Logo ========== -->
             <div class="logo">
-                <img src="<?php echo e(asset('frontEnd'), false); ?>/images/logo-dark.png" alt="Salt" class="logo-img">
+                <a href="/"><img src="<?php echo e(asset('frontEnd'), false); ?>/images/logo-dark.png" alt="Salt" class="logo-img"></a>
             </div> <!-- end logo -->
 
             <!-- ========== main-menu ========== -->

@@ -7,35 +7,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- ========== VIEWPORT META ========== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-
-    <!-- ========== PAGE TITLE ========== -->
-    <title>{{ $metaTagContent->getTitle() }}</title>
-
-    <!-- ========== META TAGS ========== -->
-    <meta name="description" content="{{ $metaTagContent->getDescription() }}">
-    <meta name="keywords" content="{{ $metaTagContent->getKeywords() }}">
-    <meta property="og:title" content="{{ $metaTagContent->getOgTitle() }}">
-    <meta property="og:description" content="{{ $metaTagContent->getOgDescription() }}">
-
-    <!-- ========== FAVICON & APPLE ICONS ========== -->
-    <link rel="shortcut icon" href="{{ asset('frontEnd') }}/images/favicon.ico">
-    <link rel="apple-touch-icon" href="{{ asset('frontEnd') }}/images/apple-touch-icon.png">
-
-    <!-- ========== MINIFIED VENDOR CSS ========== -->
-    <link rel="stylesheet" href="{{ asset('frontEnd') }}/styles/vendor.css">
-
-    <!-- ========== MAIN CSS ========== -->
-    <link rel="stylesheet" href="{{ asset('frontEnd') }}/styles/main.css">
-
-    <script src="{{ asset('frontEnd') }}/scripts/vendor/modernizr.js"></script>
-</head>
+@include('layouts.components.head')
 
 <!-- ==================================================
 Body: Classes
@@ -52,9 +24,6 @@ nav-hidden - Open nav on icon click
 <body class="header-shadow dark-header">
 
 <!-- ========== LOADER ========== -->
-@include('layouts.components.loader')
-
-<!-- ========== HEADER ========== -->
 @include('layouts.components.navbar')
 
 <!-- ========== MAIN ========== -->
@@ -87,7 +56,8 @@ nav-hidden - Open nav on icon click
                 <div class="tp-caption NotGeneric-SubTitle tp-resizeme" id="slide-226-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['52','52','28','13']" data-width="none"
                      data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                      data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap;text-transform:left;color:#fff;">
-                    <h1 style="color: white">{{ $metaTagContent->getH1() }}</h1>
+                    <h1 style="color: white; text-align: center">{{ $metaTagContent->getH1() }}</h1>
+                    <p style="color: white; text-align: center; font-size: 16px">additional text kjsdkaj asdjkj asdksja asdkjask</p>
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -109,11 +79,8 @@ sticky-footer - Reveal footer on scroll
 ================================================== -->
 
 @include('layouts.components.footer')
-
-
-<script src="{{ asset('frontEnd') }}/scripts/vendor.js"></script>
-<script src="{{ asset('frontEnd') }}/scripts/plugins.js"></script>
-<script src="{{ asset('frontEnd') }}/scripts/main.js"></script>
+@include('layouts.components.helpers')
+@include('layouts.components.scripts')
 
 
 </body>

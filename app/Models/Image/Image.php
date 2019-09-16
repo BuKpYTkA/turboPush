@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Model;
  * @package App\Models\Image
  * @property int $id
  * @property string $url
- * @property string|null $alt
+ * @property string $alt
  */
 class Image extends Model
 {
@@ -49,9 +49,9 @@ class Image extends Model
     /**
      * @return null|string
      */
-    public function getAlt(): ?string
+    public function getAlt(): string
     {
-        return $this->alt;
+        return $this->alt ?? '';
     }
 
     /**

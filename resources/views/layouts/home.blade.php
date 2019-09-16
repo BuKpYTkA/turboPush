@@ -1,28 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-
-    <title>Salt | Landing | Multipurpose Responsive HTML Site Template</title>
-
-    <meta name="description" content="Salt - Responsive Multipurpose HTML5 Template ">
-    <meta name="keywords" content="business, responsive, multi-purpose">
-    <meta name="author" content="ThemesEase">
-
-    <link rel="shortcut icon" href="{{ asset('frontEnd') }}/images/favicon.ico">
-    <link rel="apple-touch-icon" href="{{ asset('frontEnd') }}/images/apple-touch-icon.png">
-
-    <link rel="stylesheet" href="{{ asset('frontEnd') }}/styles/vendor.css">
-
-    <link rel="stylesheet" href="{{ asset('frontEnd') }}/styles/main.css">
-
-    <script src="{{ asset('frontEnd') }}/scripts/vendor/modernizr.js"></script>
-</head>
+@include('layouts.components.head')
 
 <!-- ==================================================
 Body: Classes
@@ -43,6 +22,7 @@ nav-hidden - Open nav on icon click
 
 <!-- ========== HEADER ========== -->
 @include('layouts.components.navbar')
+@include('layouts.components.contact-modal')
 
 <!-- ========== MAIN ========== -->
 
@@ -79,11 +59,7 @@ dark-footer - Dark footer [Use with .footer]
 sticky-footer - Reveal footer on scroll
 ================================================== -->
 @include('layouts.components.footer')
-
-
-<script src="{{ asset('frontEnd') }}/scripts/vendor.js"></script>
-<script src="{{ asset('frontEnd') }}/scripts/plugins.js"></script>
-<script src="{{ asset('frontEnd') }}/scripts/main.js"></script>
+@include('layouts.components.scripts')
 
 
 </body>
