@@ -69,6 +69,7 @@ nav-hidden - Open nav on icon click
 
 <section class="content-section">
     <?php echo $__env->yieldContent('content'); ?>
+    <a href="#contact-us" class="contact-modal">modalka</a>
 </section>
 
 <!-- ==================================================

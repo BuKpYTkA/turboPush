@@ -5,7 +5,23 @@
      */
 ?>
 <div class="header menu-style-2">
+    <div class="top-menu">
+        <div class="container-fluid">
+            <div class="left-div pull-left">
+                <a class="" href="#">About Us</a>
+                <a class="" href="#">Contact Us</a>
+                <a class="" href="#">Login</a>
+                <a class="" href="#">Sign Up</a>
+            </div>
+            <div class="right-div pull-right">
+                <a href="#">+1 (123) 456-7890</a>
+                <a href="#">support@themesease.com</a>
+            </div>
+        </div> <!-- end container-fluid -->
+    </div> <!-- end top-menu -->
 
+    <div class="container-fluid">
+    </div>
     <div class="container-fluid">
         <div class="menu" id="menu">
 

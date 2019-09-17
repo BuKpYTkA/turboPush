@@ -75,22 +75,72 @@
 
             </div> <!-- end row -->
         </div> <!-- end container -->
-    </section>
-    <div class="container-fluid">
+        <div class="container">
         <div class="row">
-            <div class="col-md-12 mt40 mb40">
-                <div class="cta-3">
-                            <h2 class="title">Свяжитесь с нами</h2>
-                    <p class="desc">Узнайте стоимость восстановления Вашей турбины.</p>
-                                <p class="desc">Запишитесь на бесплатную диагностику</p>
+            <div class="col-md-12 section-header text-center">
+                <h3 class="section-title underline">Виды ремонтных работ</h3>
+                <p class="section-subtitle">После бесплатной диагностики мастера предложат подходящий вид ремонтных работ:</p>
+            </div> <!-- end section-header -->
 
-                            <!-- ========== button ========== -->
-                            <a href="#" class="st-btn primary-btn hvr-back hvr-sweep-to-right">Contact Us</a>
-                            <div class="clearfix"></div>
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title capitalize">Panel Heading</h3>
+                    </div> <!-- end panel-heading -->
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                    </div> <!-- end panel-body -->
+                    <div class="panel-footer">
+                        Panel Footer
+                    </div>
+                </div> <!-- end panel -->
+            </div> <!-- end col-md-3 -->
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title capitalize">Panel Heading</h3>
+                    </div> <!-- end panel-heading -->
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                    </div> <!-- end panel-body -->
+                    <div class="panel-footer">
+                        Panel Footer
+                    </div>
+                </div> <!-- end panel -->
+            </div> <!-- end col-md-3 -->
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title capitalize">Panel Heading</h3>
+                    </div> <!-- end panel-heading -->
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                    </div> <!-- end panel-body -->
+                    <div class="panel-footer">
+                        Panel Footer
+                    </div>
+                </div> <!-- end panel -->
+            </div> <!-- end col-md-3 -->
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title capitalize">Panel Heading</h3>
+                    </div> <!-- end panel-heading -->
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                    </div> <!-- end panel-body -->
+                    <div class="panel-footer">
+                        Panel Footer
+                    </div>
+                </div> <!-- end panel -->
+            </div> <!-- end col-md-3 -->
 
-                    <span class="ion-ios-cog-outline bg-icon icon-rotate"></span>
-                </div>
-            </div>
+        </div> <!-- end row -->
         </div>
-    </div>
+    </section>
+
 @endsection

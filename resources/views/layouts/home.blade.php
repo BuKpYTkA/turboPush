@@ -38,11 +38,8 @@ nav-hidden - Open nav on icon click
                     <li><i class="fa fa-thumbs-up list-icon"></i>155+ HTML Pages</li>
                     <li><i class="fa fa-gear list-icon"></i>Mailchimp Integrated</li>
                 </ul>
-                <h4 class="mt40 mb20">Register for a free demo!</h4>
-                <div class="col-md-9 col-sm-8">
-                    <input type="email" class="form-control input-style-2" id="email" placeholder="Enter Your Email Address..." required="">
-                </div>
-                <button type="submit" class="st-btn primary-btn hvr-back hvr-sweep-to-right pull-right">Submit</button>
+                <h4 class="mt40 mb20">Свяжитесь с нами</h4>
+                <a href="/contact-us"><button type="submit" class="st-btn primary-btn hvr-back hvr-sweep-to-right">Submit</button></a>
             </div> <!-- end col-md-6 -->
         </div> <!-- end row -->
     </div> <!-- end container -->
