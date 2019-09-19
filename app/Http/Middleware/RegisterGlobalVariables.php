@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use App\Models\NavBarElement\NavBarElement;
+use App\Services\BannerImageService\BannerImageService;
 use App\Services\MetaTagService\MetaTagService;
 use Closure;
 use Illuminate\Support\Facades\View;
@@ -20,12 +21,19 @@ class RegisterGlobalVariables
     private $metaTagService;
 
     /**
+     * @var BannerImageService
+     */
+    private $bannerImageService;
+
+    /**
      * RegisterGlobalVariables constructor.
      * @param MetaTagService $metaTagService
+     * @param BannerImageService $bannerImageService
      */
-    public function __construct(MetaTagService $metaTagService)
+    public function __construct(MetaTagService $metaTagService, BannerImageService $bannerImageService)
     {
         $this->metaTagService = $metaTagService;
+        $this->bannerImageService = $bannerImageService;
     }
 
     /**
@@ -39,6 +47,7 @@ class RegisterGlobalVariables
     {
         View::share('metaTagContent', $this->metaTagService->getCurrentMetaTags($request));
         View::share('navBarElements', NavBarElement::query()->where([])->orderBy('order')->get());
+        View::share('bannerImage', $this->bannerImageService->getCurrentBannerImage($request));
         return $next($request);
     }
 }

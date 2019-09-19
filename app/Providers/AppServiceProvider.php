@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Services\BannerImageService\BannerImageService;
 use App\Services\MetaTagService\MetaTagService;
 use App\Services\StorageService\AdminStorageService;
 use Illuminate\Support\ServiceProvider;
@@ -24,6 +25,9 @@ class AppServiceProvider extends ServiceProvider
         $this->app->when(MetaTagService::class)
             ->needs('$defaultMetaTags')
             ->give(config('metatags'));
+        $this->app->when(BannerImageService::class)
+            ->needs('$defaultBannerImage')
+            ->give(config('app.defaultBannerImage'));
     }
 
     /**

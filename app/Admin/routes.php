@@ -1,5 +1,6 @@
 <?php
 
+use App\Admin\Controllers\BannerImageController;
 use App\Admin\Controllers\HomeController;
 use App\Admin\Controllers\ImageController;
 use App\Admin\Controllers\MetaTagController;
@@ -21,4 +22,5 @@ Route::group([
     $router->resource('/orders', OrderController::class);
     $router->resource('/images', ImageController::class);
     $router->resource('/nav-bar-elements', NavBarElementController::class);
+    $router->resource('/banner-images', BannerImageController::class);
 });

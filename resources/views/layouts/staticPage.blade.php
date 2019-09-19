@@ -1,6 +1,7 @@
 <?php
 /**
  * @var $metaTagContent \App\Models\MetaTag\MetaTag
+ * @var $bannerImage \App\Models\BannerImage\BannerImage
  */
 ?>
 
@@ -36,7 +37,7 @@ nav-hidden - Open nav on icon click
             <li data-index="rs-226" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0" data-saveperformance="off"
                 data-title="Intro">
                 <!-- MAIN IMAGE -->
-                <img src="{{ asset('frontEnd') }}/images/bg-img-5.jpg" alt="" title="Page title" width="1920" height="980" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                <img src="{{ $bannerImage->getImageUrl() }}" alt="{{ $metaTagContent->getTitle() }}" width="1920" height="980" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -57,7 +58,9 @@ nav-hidden - Open nav on icon click
                      data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                      data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap;text-transform:left;color:#fff;">
                     <h1 style="color: white; text-align: center">{{ $metaTagContent->getH1() }}</h1>
-                    <p style="color: white; text-align: center; font-size: 16px">additional text kjsdkaj asdjkj asdksja asdkjask</p>
+                    @if($bannerImage->getSmallText())
+                        <p style="color: white; text-align: center; font-size: 16px">{{ $bannerImage->getSmallText() }}</p>
+                    @endif
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -68,9 +71,50 @@ nav-hidden - Open nav on icon click
 </div> <!-- end slider-container -->
 
 <section class="content-section">
-    @yield('content')
-    <a href="#contact-us" class="contact-modal">modalka</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-header text-center">
+                <h3 class="section-title underline">Наши преимущества</h3>
+            </div> <!-- end section-header -->
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-2 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
+                <div class="icon underline longer-underline">
+                    <i class="fa fa-check"></i>
+                </div>
+                <h5 class="feature-title no-letter-spacing">Гарантия до 2‐х лет</h5>
+            </div> <!-- end feature -->
+            <div class="col-md-2 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
+                <div class="icon underline longer-underline">
+                    <i class="fa fa-cogs"></i>
+                </div>
+                <h5 class="feature-title no-letter-spacing">Самое современное оборудование</h5>
+            </div> <!-- end feature -->
+            <div class="col-md-2 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
+                <div class="icon underline longer-underline">
+                    <i class="fa fa-money"></i>
+                </div>
+                <h5 class="feature-title no-letter-spacing">Низкая стоимость услуг</h5>
+            </div> <!-- end feature -->
+            <div class="col-md-2 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
+                <div class="icon underline longer-underline">
+                    <i class="fa fa-usd"></i>
+                </div>
+                <h5 class="feature-title no-letter-spacing">Сэкономьте 70% от стоимости новой</h5>
+            </div> <!-- end feature -->
+            <div class="col-md-2 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
+                <div class="icon underline longer-underline">
+                    <i class="fa fa-car"></i>
+                </div>
+                <h5 class="feature-title no-letter-spacing">Работаем по всей Украине</h5>
+            </div> <!-- end feature -->
+            <div class="col-md-1">
+            </div>
+        </div> <!-- end row -->
+    </div> <!-- end container -->
 </section>
+
+@yield('content')
 
 <!-- ==================================================
 Footer: Classes

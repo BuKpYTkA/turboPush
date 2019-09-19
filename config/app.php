@@ -228,4 +228,6 @@ return [
 
     ],
 
+    'defaultBannerImage' => 'images/nature1.jpg',
+
 ];

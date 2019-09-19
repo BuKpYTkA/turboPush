@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\StaticPage;
 
+use App\Models\BannerImage\BannerImage;
 use App\Models\MetaTagPage\MetaTagPage;
 use App\Services\MetaTagService\MetaTagService;
 use Illuminate\Http\Request;

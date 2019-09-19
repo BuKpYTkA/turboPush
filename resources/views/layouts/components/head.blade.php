@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{{ asset('frontEnd') }}/styles/vendor.css">
 
     <link rel="stylesheet" href="{{ asset('frontEnd') }}/styles/main.css">
+    <link rel="stylesheet" href="{{ asset('css') }}/components.css">
 
     <script src="{{ asset('frontEnd') }}/scripts/vendor/modernizr.js"></script>
 </head>

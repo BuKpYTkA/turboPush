@@ -1,6 +1,6 @@
 @extends('layouts.staticPage')
 @section('content')
     <div class="container">
-        {!! $content !!}
+        <h3>HELLO</h3>
     </div>
 @endsection

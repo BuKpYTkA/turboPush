@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\PriceList;
 
+use App\Models\BannerImage\BannerImage;
 use App\Models\Image\Image;
 use App\Models\MetaTagPage\MetaTagPage;
 use App\Models\MetaTagPageContent\MetaTagPageContent;
