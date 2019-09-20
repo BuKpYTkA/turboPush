@@ -8,4 +8,5 @@
 
 @section('content')
     <p>{{ $post->getTitle() }}</p>
+    {!! $post->getContent() !!}
 @endsection

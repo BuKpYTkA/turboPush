@@ -65,7 +65,7 @@ class PostsController extends AdminController
     {
         $show = new Show(Post::findOrFail($id));
 
-        $show->field('page_alias', __(self::PAGE_ALIAS));
+        $show->field('alias', __(self::PAGE_ALIAS));
         $show->field('title', __(self::TITLE));
         $show->field('content', __(self::CONTENT));
         $show->field('created_at', __(self::CREATED_AT));
