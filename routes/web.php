@@ -12,7 +12,9 @@
 */
 
 use App\Http\Controllers\AdminPanel\PageContent\PageContentController;
+use App\Http\Controllers\CarInfoPage\CarInfoPageController;
 use App\Http\Controllers\Order\CreateOrderController;
+use App\Http\Controllers\Post\PostController;
 use App\Http\Controllers\PriceList\PriceListController;
 use App\Http\Controllers\StaticPage\StaticPageController;
 
@@ -28,6 +30,8 @@ Route::middleware(['global.vars'])->group(function () {
         return view('welcome');
     });
     Route::get('{pageAlias}', StaticPageController::controller());
+    Route::get('brand/{alias}', CarInfoPageController::controller());
+    Route::get('posts/{alias}', PostController::controller());
 });
 
 Route::post('/order/create', CreateOrderController::controller())->name('order.create');

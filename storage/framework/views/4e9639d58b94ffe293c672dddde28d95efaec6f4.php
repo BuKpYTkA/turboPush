@@ -70,6 +70,8 @@ nav-hidden - Open nav on icon click
     </div> <!-- end pageTitleHero -->
 </div> <!-- end slider-container -->
 
+<?php echo $__env->yieldContent('content'); ?>
+
 <section class="content-section">
     <div class="container">
         <div class="row">
@@ -113,8 +115,6 @@ nav-hidden - Open nav on icon click
         </div> <!-- end row -->
     </div> <!-- end container -->
 </section>
-
-<?php echo $__env->yieldContent('content'); ?>
 
 <!-- ==================================================
 Footer: Classes

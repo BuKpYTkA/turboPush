@@ -2,10 +2,16 @@
 
 namespace App\Providers;
 
+use App\Events\CarInfoPage\CarInfoPageDeleted;
+use App\Events\CarInfoPage\CarInfoPageUpdated;
 use App\Events\Image\ImageDeleted;
 use App\Events\NavBarElement\NavBarElementUpdated;
+use App\Events\Post\PostCreated;
+use App\Listeners\CarInfoPage\CarInfoPageDeletedListener;
+use App\Listeners\CarInfoPage\CarInfoPageUpdatedListener;
 use App\Listeners\Image\ImageDeletedListener;
 use App\Listeners\NavBarElement\NavBarElementUpdatedListener;
+use App\Listeners\Post\PostCreatedListener;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
@@ -27,6 +33,15 @@ class EventServiceProvider extends ServiceProvider
         ],
         NavBarElementUpdated::class => [
             NavBarElementUpdatedListener::class
+        ],
+        CarInfoPageUpdated::class => [
+            CarInfoPageUpdatedListener::class
+        ],
+        CarInfoPageDeleted::class => [
+            CarInfoPageDeletedListener::class
+        ],
+        PostCreated::class => [
+            PostCreatedListener::class
         ]
     ];
 

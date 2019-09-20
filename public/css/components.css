@@ -5,3 +5,8 @@
 body {
     letter-spacing: 0;
 }
+
+section {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}

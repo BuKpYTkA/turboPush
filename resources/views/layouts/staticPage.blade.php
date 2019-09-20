@@ -70,6 +70,8 @@ nav-hidden - Open nav on icon click
     </div> <!-- end pageTitleHero -->
 </div> <!-- end slider-container -->
 
+@yield('content')
+
 <section class="content-section">
     <div class="container">
         <div class="row">
@@ -113,8 +115,6 @@ nav-hidden - Open nav on icon click
         </div> <!-- end row -->
     </div> <!-- end container -->
 </section>
-
-@yield('content')
 
 <!-- ==================================================
 Footer: Classes

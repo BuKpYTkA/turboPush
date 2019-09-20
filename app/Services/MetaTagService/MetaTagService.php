@@ -43,14 +43,17 @@ class MetaTagService
 
     /**
      * @param Request $request
+     * @param array $config
      * @return MetaTag
      */
-    public function getCurrentMetaTags(Request $request)
+    public function getCurrentMetaTags(Request $request, array $config = [])
     {
-        $metaTag = MetaTag::query()->where('page_alias', $request->getPathInfo())->first();
+        $pathInfo = '/' . explode('/', $request->path())[0];
+        $metaTag = MetaTag::query()->where('page_alias', $pathInfo)->first();
         if (!$metaTag) {
             $metaTag = $this->metaTagFactory->createFromArray($this->defaultMetaTags);
         }
+        $metaTag = $this->map($metaTag, $config);
         return $this->fillEmptyFields($metaTag);
     }
 
@@ -78,6 +81,23 @@ class MetaTagService
         }
         if (!$defaultMetaTag->getTitle()) {
             $metaTag->setTitle($defaultMetaTag->getTitle());
+        }
+        return $metaTag;
+    }
+
+    /**
+     * @param MetaTag $metaTag
+     * @param array $config
+     * @return MetaTag
+     */
+    private function map(MetaTag $metaTag, array $config = [])
+    {
+        if ($config) {
+            $metaTags = $metaTag->toArray();
+            foreach ($config as $key => $value) {
+                $metaTags = str_replace("%" . $key . "%", $value, $metaTags);
+            }
+            return new MetaTag($metaTags);
         }
         return $metaTag;
     }

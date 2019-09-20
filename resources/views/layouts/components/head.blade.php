@@ -11,6 +11,7 @@
     <meta name="keywords" content="{{ $metaTagContent->getKeywords() }}">
     <meta property="og:title" content="{{ $metaTagContent->getOgTitle() }}">
     <meta property="og:description" content="{{ $metaTagContent->getOgDescription() }}">
+    <meta property="og:image" content="{{ $bannerImage->getImageUrl() }}">
 
     <link rel="shortcut icon" href="{{ asset('frontEnd') }}/images/favicon.ico">
     <link rel="apple-touch-icon" href="{{ asset('frontEnd') }}/images/apple-touch-icon.png">

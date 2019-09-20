@@ -43,10 +43,8 @@ class StaticPageController extends Controller
             return abort(404);
 
         }
-        $metaTagContent = $this->metaTagService->getCurrentMetaTags($request);
         $viewPath = 'staticPages.' . $pageAlias;
         return view($viewPath, [
-            'metaTagContent' => $metaTagContent
         ]);
     }
 

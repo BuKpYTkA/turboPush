@@ -2,30 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b550565-e093-4966-a370-257a1f9a43a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/BannerImageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/BannerImage/BannerImage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/BannerImageService/BannerImageService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/Factories/BannerImageFactory/BannerImageFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_09_18_080012_create_banner_images_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/components.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/nature1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/staticPages/diagnostic.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/CarInfoPageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/PostsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Events/CarInfoPage/CarInfoPageDeleted.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Events/CarInfoPage/CarInfoPageUpdated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Events/Post/PostCreated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Post/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/CarInfoPage/CarInfoPageDeletedListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/CarInfoPage/CarInfoPageUpdatedListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/Post/PostCreatedListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/CarInfoPage/CarInfoPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Post/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_09_20_084215_create_car_info_pages_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_09_20_142138_create_posts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dynamic_pages/car_info_page.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dynamic_pages/post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f2a999d3-9680-4350-ad9d-bd4c675ef6e3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f2a999d3-9680-4350-ad9d-bd4c675ef6e3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PriceList/PriceListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PriceList/PriceListController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StaticPage/StaticPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StaticPage/StaticPageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RegisterGlobalVariables.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RegisterGlobalVariables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/BannerImageService/BannerImageService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/BannerImageService/BannerImageService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/MetaTagService/MetaTagService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/MetaTagService/MetaTagService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/components.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/components/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/components/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/staticPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/staticPage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/staticPages/price-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/staticPages/price-list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/staticPages/contact-us.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/staticPages/contact-us.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/4e9639d58b94ffe293c672dddde28d95efaec6f4.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/4e9639d58b94ffe293c672dddde28d95efaec6f4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/5c30362e24046557740c323a589ff4e4d5e7276f.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/5c30362e24046557740c323a589ff4e4d5e7276f.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/8dc2e6044ce9babd99b0312581ce1c4d4b00507a.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/8dc2e6044ce9babd99b0312581ce1c4d4b00507a.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,42 +77,48 @@
     <session id="-451937356">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="artisan" value="3" />
           <entry key="banner_image" value="1" />
-          <entry key="banner_images" value="3" />
-          <entry key="css" value="2" />
-          <entry key="jpg" value="7" />
-          <entry key="php" value="25" />
+          <entry key="banner_images" value="6" />
+          <entry key="car_info_pages" value="2" />
+          <entry key="css" value="4" />
+          <entry key="jpg" value="9" />
+          <entry key="meta_tags" value="2" />
+          <entry key="php" value="121" />
           <entry key="png" value="1" />
+          <entry key="posts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="6" />
-          <entry key="CSS" value="2" />
-          <entry key="Database Element" value="4" />
-          <entry key="Image" value="8" />
-          <entry key="PHP" value="19" />
+          <entry key="Blade" value="16" />
+          <entry key="CSS" value="4" />
+          <entry key="Database Element" value="12" />
+          <entry key="Image" value="10" />
+          <entry key="PHP" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="61" />
+          <entry key="cell" value="2" />
+          <entry key="css" value="106" />
           <entry key="dummy" value="1" />
-          <entry key="php" value="1903" />
-          <entry key="txt" value="11" />
+          <entry key="php" value="6014" />
+          <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="808" />
-          <entry key="CSS" value="61" />
-          <entry key="PHP" value="1095" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Blade" value="1420" />
+          <entry key="CSS" value="106" />
+          <entry key="PHP" value="4594" />
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="3" />
+          <entry key="PHP Class.type" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -113,61 +126,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/staticPage.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="108" column="58" selection-start-line="108" selection-start-column="58" selection-end-line="108" selection-end-column="58" />
-              <folding>
-                <element signature="e#6#65#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/head.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/components.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StaticPage/StaticPageController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="487">
               <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
               <folding>
-                <element signature="e#51#90#0#PHP" expanded="true" />
+                <element signature="e#33#79#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/scripts.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/PostsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+            <state relative-caret-position="1362">
+              <caret line="86" column="63" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
+              <folding>
+                <element signature="e#129#154#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/staticPages/price-list.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Services/BannerImageService/BannerImageService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="487">
+              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+              <folding>
+                <element signature="e#140#179#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,22 +164,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state relative-caret-position="323">
+              <caret line="32" column="69" lean-forward="true" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Services/MetaTagService/MetaTagService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+              <folding>
+                <element signature="e#135#166#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Post/PostController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+              <folding>
+                <element signature="e#45#70#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/dynamic_pages/post.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Events/Post/PostCreated.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding>
+                <element signature="e#35#60#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Listeners/Post/PostCreatedListener.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#38#70#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/staticPages/diagnostic.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-              <folding>
-                <element signature="e#1773#1799#0#HTML" expanded="true" />
-                <element signature="e#4020#4040#0#HTML" expanded="true" />
-                <element signature="e#5470#5489#0#HTML" expanded="true" />
-              </folding>
+        <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/posts">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -206,10 +247,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>'auth'</find>
-      <find>'admin_users'</find>
-      <find>Light He</find>
-      <find>'admin_users</find>
       <find>AuthController</find>
       <find>auth/setting</find>
       <find>navbar navbar-static-top</find>
@@ -236,7 +273,16 @@
       <find>UTC+</find>
       <find>auth/menu</find>
       <find>add</find>
+      <find>field</find>
+      <find>787878</find>
+      <find>289eb5</find>
+      <find>textarea</find>
     </findStrings>
+    <replaceStrings>
+      <replace>textarea</replace>
+      <replace>787878</replace>
+      <replace>text</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -245,26 +291,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2019_09_12_104743_create_images_table.php" />
-        <option value="$PROJECT_DIR$/app/Models/Image/Events/ImageDeleted.php" />
-        <option value="$PROJECT_DIR$/app/Events/Image/ImageDeleted.php" />
-        <option value="$PROJECT_DIR$/app/Services/StorageService/StorageService.php" />
-        <option value="$PROJECT_DIR$/app/Listeners/Image/ImageDeletedListener.php" />
-        <option value="$PROJECT_DIR$/app/Services/StorageService/AdminStorageService.php" />
-        <option value="$PROJECT_DIR$/app/Events/NavBarElement/NavBarElementCreated.php" />
-        <option value="$PROJECT_DIR$/app/Events/NavBarElement/NavBarElementUpdated.php" />
-        <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Services/NavBarService/NavBarService.php" />
-        <option value="$PROJECT_DIR$/vendor/encore/laravel-admin/src/Controllers/AuthController.php" />
-        <option value="$PROJECT_DIR$/config/admin.php" />
-        <option value="$PROJECT_DIR$/app/Admin/Controllers/ImageController.php" />
-        <option value="$PROJECT_DIR$/app/Listeners/NavBarElement/NavBarElementUpdatedListener.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/Order/CreateOrderRequest.php" />
-        <option value="$PROJECT_DIR$/app/Models/Image/Image.php" />
-        <option value="$PROJECT_DIR$/app/Models/MetaTag/MetaTag.php" />
-        <option value="$PROJECT_DIR$/app/Services/MetaTagService/MetaTagService.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_09_13_172613_add_banner_image_column_to_page_contents_table.php" />
-        <option value="$PROJECT_DIR$/app/Models/PageContent/PageContent.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_09_13_173252_drop_updated_by_column_from_page_contents_table.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/HomeController.php" />
@@ -275,27 +301,47 @@
         <option value="$PROJECT_DIR$/app/Admin/Controllers/NavBarElementController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_09_13_113141_create_nav_bar_elements_table.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/scripts.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_09_18_080012_create_banner_image_table.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_09_18_080012_create_banner_images_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/StaticPage/StaticPageController.php" />
-        <option value="$PROJECT_DIR$/app/Admin/routes.php" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/BannerImageController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/RegisterGlobalVariables.php" />
         <option value="$PROJECT_DIR$/app/Services/Factories/BannerImageFactory/BannerImageFactory.php" />
-        <option value="$PROJECT_DIR$/app/Services/BannerImageService/BannerImageService.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PriceList/PriceListController.php" />
         <option value="$PROJECT_DIR$/app/Models/BannerImage/BannerImage.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/resources/views/staticPages/price-list.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/components/head.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/staticPages/diagnostic.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_09_20_084215_create_car_info_pages_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/dynamic_pages/car_info_page.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/staticPages/contact-us.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/staticPage.blade.php" />
         <option value="$PROJECT_DIR$/public/css/components.css" />
-        <option value="$PROJECT_DIR$/resources/views/staticPages/diagnostic.blade.php" />
+        <option value="$PROJECT_DIR$/public/frontEnd/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/Events/CarInfoPage/CarInfoPageUpdated.php" />
+        <option value="$PROJECT_DIR$/app/Listeners/CarInfoPage/CarInfoPageUpdatedListener.php" />
+        <option value="$PROJECT_DIR$/app/Events/CarInfoPage/CarInfoPageDeleted.php" />
+        <option value="$PROJECT_DIR$/app/Listeners/CarInfoPage/CarInfoPageDeletedListener.php" />
+        <option value="$PROJECT_DIR$/app/Models/CarInfoPage/CarInfoPage.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/components/head.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/StaticPage/StaticPageController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_09_20_142138_create_posts_table.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Controllers/CarInfoPageController.php" />
+        <option value="$PROJECT_DIR$/app/Admin/routes.php" />
+        <option value="$PROJECT_DIR$/app/Events/Post/PostCreated.php" />
+        <option value="$PROJECT_DIR$/app/Models/Post/Post.php" />
+        <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Listeners/Post/PostCreatedListener.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Controllers/PostsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/dynamic_pages/post.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Post/PostController.php" />
+        <option value="$PROJECT_DIR$/app/Services/BannerImageService/BannerImageService.php" />
+        <option value="$PROJECT_DIR$/app/Services/MetaTagService/MetaTagService.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -305,6 +351,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="turbopush.loc" id="06a24fb1-a825-40ed-b219-dfd29da5792f" name="turbopush.loc" />
@@ -406,10 +453,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="65" />
-    <option name="width" value="975" />
-    <option name="height" value="1050" />
+    <option name="x" value="263" />
+    <option name="y" value="66" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -433,46 +480,22 @@
               <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
               <item name="turboPush" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
               <item name="turboPush" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
               <item name="turboPush" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
-              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-              <item name="BannerImage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
-              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
-              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
-              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-              <item name="Factories" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Post" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
@@ -492,6 +515,12 @@
             <path>
               <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
               <item name="turboPush" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -505,39 +534,6 @@
               <item name="turboPush" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
-              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
-              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
-              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="380-360" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
-              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="380-450" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
@@ -563,6 +559,19 @@
               <item name="turboPush" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic_pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -573,7 +582,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/routes/web.php&#10;Sta&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Controllers/StaticPage/StaticPageController.php&#10;Pri&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Controllers/PriceList/PriceListController.php&#10;stat&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/staticPage.blade.php&#10;reg&#9;null&#9;null&#10;PageCo&#9;null&#9;null&#10;nav&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/navbar.blade.php&#10;MetaTS&#9;null&#9;null&#10;admin&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/config/admin.php&#10;Nav&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Models/NavBarElement/NavBarElement.php&#10;Ima&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Models/Image/Image.php&#10;Delete&#9;null&#9;null&#10;app&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/config/app.php&#10;sta&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/staticPage.blade.php&#10;Drop&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/vendor/encore/laravel-admin/src/Grid/Displayers/DropdownActions.php&#10;rou&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/routes.php&#10;route&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/routes.php&#10;CreaO&#9;null&#9;null&#10;files&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/config/filesystems.php&#10;Reg&#9;null&#9;null&#10;MetS&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Services/MetaTagService/MetaTagService.php&#10;Me&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Models/MetaTag/MetaTag.php&#10;Met&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Models/MetaTag/MetaTag.php&#10;MetaTaP&#9;null&#9;null&#10;Adminis&#9;null&#9;null&#10;MetaTa&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Models/MetaTagPageContent/MetaTagPageContent.php&#10;Re&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Middleware/RegisterGlobalVariables.php" />
+    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/routes/web.php&#10;sta&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/staticPage.blade.php&#10;Met&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Services/MetaTagService/MetaTagService.php&#10;Me&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/database/migrations/2019_09_10_104217_create_meta_tags_table.php&#10;Post&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Controllers/Post/PostController.php&#10;PostC&#9;null&#9;null&#10;Bann&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Services/BannerImageService/BannerImageService.php&#10;Eve&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Providers/EventServiceProvider.php&#10;we&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/routes/web.php&#10;nav&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/navbar.blade.php&#10;MetTa&#9;null&#9;null&#10;MetTS&#9;null&#9;null&#10;Reg&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Middleware/RegisterGlobalVariables.php&#10;stati&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/staticPage.blade.php&#10;head&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/head.blade.php&#10;CaIPC&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/Controllers/CarInfoPageController.php&#10;Ev&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Providers/EventServiceProvider.php&#10;Ca&#9;null&#9;null&#10;CarI&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Models/CarInfoPage/CarInfoPage.php&#10;main.css&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/public/frontEnd/styles/main.css&#10;com&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/public/css/components.css&#10;contact&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/staticPages/contact-us.blade.php&#10;Car&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Models/CarInfoPage/CarInfoPage.php&#10;car_&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/dynamic_pages/car_info_page.blade.php&#10;Sta&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Controllers/StaticPage/StaticPageController.php&#10;Pri&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Controllers/PriceList/PriceListController.php&#10;stat&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/staticPage.blade.php&#10;reg&#9;null&#9;null&#10;PageCo&#9;null&#9;null&#10;MetaTS&#9;null&#9;null&#10;admin&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/config/admin.php&#10;Nav&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Models/NavBarElement/NavBarElement.php&#10;Ima&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Models/Image/Image.php&#10;Delete&#9;null&#9;null&#10;app&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/config/app.php&#10;Drop&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/vendor/encore/laravel-admin/src/Grid/Displayers/DropdownActions.php&#10;rou&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/routes.php&#10;route&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/routes.php&#10;CreaO&#9;null&#9;null&#10;files&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/config/filesystems.php&#10;MetS&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Services/MetaTagService/MetaTagService.php&#10;MetaTaP&#9;null&#9;null&#10;Adminis&#9;null&#9;null&#10;MetaTa&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Models/MetaTagPageContent/MetaTagPageContent.php&#10;Re&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Middleware/RegisterGlobalVariables.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
@@ -795,11 +804,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568736230903</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first page started">
+      <created>1568908443502</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568908443502</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124267000" />
+    <option name="totallyTimeSpent" value="144626000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -814,7 +830,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -828,37 +844,14 @@
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3275488" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32995737" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.32995737" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39696312" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.329718" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3373102" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32995737" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -869,7 +862,8 @@
     <MESSAGE value="Orders added;&#10;orders added to admin panel;&#10;contact-us page added;" />
     <MESSAGE value="admin home page configured;&#10;NavBarElement updated;&#10;MetaTagController updated;&#10;NavBarElementController updated;&#10;migrations fixed" />
     <MESSAGE value="little bit" />
-    <option name="LAST_COMMIT_MESSAGE" value="little bit" />
+    <MESSAGE value="first page started" />
+    <option name="LAST_COMMIT_MESSAGE" value="first page started" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -883,11 +877,6 @@
           <url>file://$PROJECT_DIR$/app/Admin/Controllers/MetaTagController.php</url>
           <line>60</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Admin/Controllers/MetaTagController.php</url>
-          <line>79</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/Order/CreateOrderController.php</url>
@@ -935,14 +924,34 @@
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Http/Middleware/RegisterGlobalVariables.php</url>
-          <line>49</line>
-          <option name="timeStamp" value="60" />
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php</url>
+          <line>44</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Services/BannerImageService/BannerImageService.php</url>
-          <line>45</line>
-          <option name="timeStamp" value="61" />
+          <url>file://$PROJECT_DIR$/app/Listeners/CarInfoPage/CarInfoPageUpdatedListener.php</url>
+          <line>39</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php</url>
+          <line>40</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Listeners/Post/PostCreatedListener.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Listeners/Post/PostCreatedListener.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -950,242 +959,93 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>$request-&gt;getPathInfo()</expression-string>
+        <expression-string>$posts-&gt;count()</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>property_exists($this, 'redirectTo') ? $this-&gt;redirectTo : config('admin.route.prefix')</expression-string>
+        <expression-string>$posts-&gt;</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$navBar-&gt;getChild()-&gt;getQuery()-&gt;toSql()</expression-string>
+        <expression-string>$posts-&gt;getItems()</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$navBar-&gt;getChild()-&gt;getQuery()</expression-string>
+        <expression-string>$posts-&gt;items</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$navBar-&gt;getChild()</expression-string>
+        <expression-string>$request-&gt;path()</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>NavBarElement::query()-&gt;find($event-&gt;navBarElement-&gt;getParentId());</expression-string>
+        <expression-string>$request-&gt;getFormat()</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>NavBarElement::query()-&gt;find($event-&gt;navBarElement-&gt;getParentId())-&gt;first();</expression-string>
+        <expression-string>$request-&gt;getRealMethod()</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$event-&gt;navBarElement-&gt;getParentId()</expression-string>
+        <expression-string>$request-&gt;getRelativeUriForPath()</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>config('filesystems.disks.admin.url')</expression-string>
+        <expression-string>$request-&gt;getRequestFormat()</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/admin.php">
+    <entry file="file://$PROJECT_DIR$/app/Events/CarInfoPage/CarInfoPageDeleted.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6572" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Listeners/NavBarElement/NavBarElementUpdatedListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/NavBarElement/NavBarElement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding>
-            <element signature="e#44#94#0#PHP" expanded="true" />
+            <element signature="e#42#81#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
-          <folding>
-            <element signature="e#41#77#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/public/uploads/images/2686-1.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/NavBarElementController.php">
+    <entry file="file://$PROJECT_DIR$/app/Listeners/CarInfoPage/CarInfoPageDeletedListener.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+          <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
           <folding>
-            <element signature="e#41#84#0#PHP" expanded="true" />
+            <element signature="e#45#91#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/nav_bar_elements" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_09_13_113141_create_nav_bar_elements_table.php">
+    <entry file="file://$PROJECT_DIR$/app/Models/CarInfoPage/CarInfoPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Controllers/MenuController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/contact-modal.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/components.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/structural.rnc" />
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/contact-form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/helpers.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/staticPages/contact-us.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/banner_image">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="80" column="52" lean-forward="true" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_09_18_080012_create_banner_images_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/MetaTagController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state relative-caret-position="271">
+          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
           <folding>
-            <element signature="e#7#55#0#PHP" expanded="true" />
+            <element signature="e#42#88#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/images/7521.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/ImageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
+        <state relative-caret-position="425">
           <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/BannerImageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-          <folding>
-            <element signature="e#129#168#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/frontEnd/images/slides/revolution/arrow1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/frontEnd/images/slides/revolution/slide6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
-          <folding>
-            <element signature="e#33#88#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,149 +1056,338 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/MetaTagService/MetaTagService.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
-          <folding>
-            <element signature="e#135#166#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="177">
+          <caret line="1119" selection-start-line="1119" selection-end-line="1119" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/Factories/BannerImageFactory/BannerImageFactory.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RegisterGlobalVariables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/BannerImageService/BannerImageService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#140#179#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/frontEnd/images/slides/revolution/nature1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PriceList/PriceListController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="e#50#89#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="177">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/BannerImage/BannerImage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        <state relative-caret-position="425">
+          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/staticPage.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="230" column="29" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
+        <state relative-caret-position="300">
+          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RegisterGlobalVariables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="49" column="70" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/meta_tags">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/meta_tags">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/meta_tags">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/meta_tags">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/MetaTag/MetaTag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2169">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StaticPage/StaticPageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        <state relative-caret-position="379">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#51#90#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/staticPages/price-list.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Services/Factories/MetaTagFactory/MetaTagFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="243">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/meta_tags">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/meta_tags">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/meta_tags">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/head.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/meta_tags">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/car_info_pages">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#52#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artisan">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_09_20_142059_create_blogs_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_09_20_142138_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CarInfoPageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="102" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="102" selection-end-column="5" />
+          <folding>
+            <element signature="e#130#169#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="48" />
+          <folding>
+            <element signature="e#41#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/MetaTagController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="81" column="63" lean-forward="true" selection-start-line="81" selection-start-column="63" selection-end-line="81" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#7#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Post/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <element signature="e#35#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Events/Post/PostCreated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="e#35#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <element signature="e#33#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Listeners/Post/PostCreatedListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#38#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1362">
+          <caret line="86" column="63" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
+          <folding>
+            <element signature="e#129#154#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_09_10_104217_create_meta_tags_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Factories/BannerImageFactory/BannerImageFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dynamic_pages/post.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Post/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+          <folding>
+            <element signature="e#45#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/MetaTagService/MetaTagService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+          <folding>
+            <element signature="e#135#166#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/BannerImageService/BannerImageService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding>
+            <element signature="e#140#179#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state relative-caret-position="323">
+          <caret line="32" column="69" lean-forward="true" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/scripts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/head.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/staticPage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="108" column="58" selection-start-line="108" selection-start-column="58" selection-end-line="108" selection-end-column="58" />
-          <folding>
-            <element signature="e#6#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/components.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/frontEnd/images/bg-img-12.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/frontEnd/images/demo-img-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/frontEnd/images/slides/revolution/photography9-320x160.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/frontEnd/images/portfolio/380-360/01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/frontEnd/images/portfolio/380-450/02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/staticPages/diagnostic.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-          <folding>
-            <element signature="e#1773#1799#0#HTML" expanded="true" />
-            <element signature="e#4020#4040#0#HTML" expanded="true" />
-            <element signature="e#5470#5489#0#HTML" expanded="true" />
-          </folding>
+    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/posts">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

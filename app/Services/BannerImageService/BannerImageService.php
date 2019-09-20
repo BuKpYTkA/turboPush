@@ -39,11 +39,12 @@ class BannerImageService
 
     /**
      * @param Request $request
+     * @param array $config
      * @return BannerImage
      */
-    public function getCurrentBannerImage(Request $request)
+    public function getCurrentBannerImage(Request $request, array $config = [])
     {
-        $path = $request->getPathInfo();
+        $path = '/' . explode('/', $request->path())[0];
         /**
          * @var $bannerImage BannerImage
          */
@@ -51,8 +52,21 @@ class BannerImageService
         if (!$bannerImage) {
             $bannerImage = $this->bannerImageFactory->create($path, $this->defaultBannerImage);
         }
+        $bannerImage = $this->map($bannerImage, $config);
         if (!$bannerImage->getImageUrl()) {
             $bannerImage->setImageUrl($this->defaultBannerImage);
+        }
+        return $bannerImage;
+    }
+
+    private function map(BannerImage $bannerImage, array $config = [])
+    {
+        if ($config) {
+            $bannerImages = $bannerImage->toArray();
+            foreach ($config as $key => $value) {
+                $bannerImages = str_replace("%" . $key . "%", $value, $bannerImages);
+            }
+            return new BannerImage($bannerImages);
         }
         return $bannerImage;
     }
