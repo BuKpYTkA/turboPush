@@ -40,7 +40,7 @@
                             <i class="bg-icon fa fa-bar-chart"></i>
                         </div>
                         <!-- /.pricing-head -->
-                        <div class="pricing-foot" style="border-top: #47b475 solid 3px">
+                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
                             <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
                         </div>
                         <!-- /.pricing-foot -->
@@ -56,7 +56,7 @@
                             <i class="bg-icon fa fa-cog"></i>
                         </div>
                         <!-- /.pricing-head -->
-                        <div class="pricing-foot" style="border-top: #47b475 solid 3px">
+                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
                             <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
                         </div>
                         <!-- /.pricing-foot -->
@@ -73,7 +73,7 @@
                             <i class="bg-icon fa fa-gears"></i>
                         </div>
                         <!-- /.pricing-head -->
-                        <div class="pricing-foot" style="border-top: #47b475 solid 3px">
+                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
                             <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
                         </div>
                         <!-- /.pricing-foot -->

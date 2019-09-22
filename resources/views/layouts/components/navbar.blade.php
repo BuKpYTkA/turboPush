@@ -24,7 +24,7 @@
 
             <!-- ========== Logo ========== -->
             <div class="logo">
-                <a href="/"><img src="{{ asset('frontEnd') }}/images/logo-dark.png" alt="Salt" class="logo-img"></a>
+                <a href="/"><img src="{{ asset('images') }}/main-logo.png" alt="Salt" class="logo-img"></a>
             </div> <!-- end logo -->
 
             <!-- ========== main-menu ========== -->
