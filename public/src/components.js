@@ -16,4 +16,24 @@ $(function($) {
             mainClass: 'my-mfp-zoom-in'
         }
     }
+
+    $('.owl-carousel-3').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            },
+            1200: {
+                items:6
+            }
+        }
+    });
 });

@@ -54,10 +54,10 @@ nav-hidden - Open nav on icon click
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption NotGeneric-SubTitle tp-resizeme" id="slide-226-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['52','52','28','13']" data-width="none"
+                <div class="tp-caption NotGeneric-SubTitle tp-resizeme text-center" id="slide-226-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['52','52','28','13']" data-width="none"
                      data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                      data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap;text-transform:left;color:#fff;">
-                    <h1 style="color: white; text-align: center">{{ $metaTagContent->getH1() }}</h1>
+                    <h1 class="underline" style="color: white; text-align: center">{{ $metaTagContent->getH1() }}</h1>
                     @if($bannerImage->getSmallText())
                         <p style="color: white; text-align: center; font-size: 16px">{{ $bannerImage->getSmallText() }}</p>
                     @endif
@@ -71,50 +71,6 @@ nav-hidden - Open nav on icon click
 </div> <!-- end slider-container -->
 
 @yield('content')
-
-<section class="content-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 section-header text-center">
-                <h3 class="section-title underline">Наши преимущества</h3>
-            </div> <!-- end section-header -->
-            <div class="col-md-1">
-            </div>
-            <div class="col-md-2 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
-                <div class="icon underline longer-underline">
-                    <i class="fa fa-check"></i>
-                </div>
-                <h5 class="feature-title no-letter-spacing">Гарантия до 2‐х лет</h5>
-            </div> <!-- end feature -->
-            <div class="col-md-2 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
-                <div class="icon underline longer-underline">
-                    <i class="fa fa-cogs"></i>
-                </div>
-                <h5 class="feature-title no-letter-spacing">Самое современное оборудование</h5>
-            </div> <!-- end feature -->
-            <div class="col-md-2 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
-                <div class="icon underline longer-underline">
-                    <i class="fa fa-money"></i>
-                </div>
-                <h5 class="feature-title no-letter-spacing">Низкая стоимость услуг</h5>
-            </div> <!-- end feature -->
-            <div class="col-md-2 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
-                <div class="icon underline longer-underline">
-                    <i class="fa fa-usd"></i>
-                </div>
-                <h5 class="feature-title no-letter-spacing">Сэкономьте 70% от стоимости новой</h5>
-            </div> <!-- end feature -->
-            <div class="col-md-2 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
-                <div class="icon underline longer-underline">
-                    <i class="fa fa-car"></i>
-                </div>
-                <h5 class="feature-title no-letter-spacing">Работаем по всей Украине</h5>
-            </div> <!-- end feature -->
-            <div class="col-md-1">
-            </div>
-        </div> <!-- end row -->
-    </div> <!-- end container -->
-</section>
 
 <!-- ==================================================
 Footer: Classes

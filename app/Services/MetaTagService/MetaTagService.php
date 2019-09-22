@@ -79,7 +79,7 @@ class MetaTagService
         if (!$metaTag->getOgTitle()) {
             $metaTag->setOgTitle($defaultMetaTag->getOgTitle());
         }
-        if (!$defaultMetaTag->getTitle()) {
+        if (!$metaTag->getTitle()) {
             $metaTag->setTitle($defaultMetaTag->getTitle());
         }
         return $metaTag;

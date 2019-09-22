@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use App\Models\NavBarElement\NavBarElement;
+use App\Models\PhoneNumber\PhoneNumber;
 use App\Services\BannerImageService\BannerImageService;
 use App\Services\MetaTagService\MetaTagService;
 use Closure;
@@ -48,6 +49,7 @@ class RegisterGlobalVariables
         View::share('metaTagContent', $this->metaTagService->getCurrentMetaTags($request));
         View::share('navBarElements', NavBarElement::query()->where([])->orderBy('order')->get());
         View::share('bannerImage', $this->bannerImageService->getCurrentBannerImage($request));
+        View::share('phoneNumbers', PhoneNumber::query()->where([])->get());
         return $next($request);
     }
 }

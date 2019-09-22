@@ -6,7 +6,68 @@ body {
     letter-spacing: 0;
 }
 
+h6 {
+    letter-spacing: 0;
+}
+
 section {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
+}
+
+li {
+    font-size: 16px;
+}
+
+table {
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 10px !important;
+    font-size: 16px;
+}
+
+.pricing-box {
+    margin-bottom: 10px;
+}
+
+.margin-list {
+    position: relative;
+    padding-left: 35px;
+}
+
+.margin-list:before {
+    left: -5px;
+    position: absolute;
+}
+
+.li-icon {
+    position: absolute;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.li-p {
+    position: relative;
+    padding-left: 25px;
+}
+
+.p-main {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-left: 20px
+}
+
+.p-abzac {
+    text-indent: 20px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.carousel-custom-item {
+    max-height: 120px;
+    max-width: 120px;
 }

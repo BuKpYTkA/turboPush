@@ -2,13 +2,16 @@
     /**
      * @var $navBarElements \App\Models\NavBarElement\NavBarElement[]
      * @var $childElement \App\Models\NavBarElement\NavBarElement
+     * @var $phoneNumbers \App\Models\PhoneNumber\PhoneNumber[]
      */
 ?>
 <div class="header menu-style-2">
     <div class="top-menu">
         <div class="container-fluid">
             <div class="right-div pull-right">
-                <a href="#">+1 (123) 456-7890</a>
+                @foreach($phoneNumbers as $phoneNumber)
+                    <a href="#">{{ $phoneNumber->getPhone() }}</a>
+                @endforeach
                 <a href="#">support@themesease.com</a>
             </div>
         </div> <!-- end container-fluid -->

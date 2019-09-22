@@ -1,6 +1,7 @@
 <?php
 /**
  * @var $metaTagContent \App\Models\MetaTag\MetaTag
+ * @var $bannerImage \App\Models\BannerImage\BannerImage
  */
 ?>
 
@@ -36,7 +37,7 @@ nav-hidden - Open nav on icon click
             <li data-index="rs-226" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0" data-saveperformance="off"
                 data-title="Intro">
                 <!-- MAIN IMAGE -->
-                <img src="<?php echo e(asset('frontEnd'), false); ?>/images/bg-img-5.jpg" alt="" title="Page title" width="1920" height="980" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                <img src="<?php echo e($bannerImage->getImageUrl(), false); ?>" alt="<?php echo e($metaTagContent->getTitle(), false); ?>" width="1920" height="980" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -53,11 +54,13 @@ nav-hidden - Open nav on icon click
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption NotGeneric-SubTitle tp-resizeme" id="slide-226-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['52','52','28','13']" data-width="none"
+                <div class="tp-caption NotGeneric-SubTitle tp-resizeme text-center" id="slide-226-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['52','52','28','13']" data-width="none"
                      data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                      data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap;text-transform:left;color:#fff;">
-                    <h1 style="color: white; text-align: center"><?php echo e($metaTagContent->getH1(), false); ?></h1>
-                    <p style="color: white; text-align: center; font-size: 16px">additional text kjsdkaj asdjkj asdksja asdkjask</p>
+                    <h1 class="underline" style="color: white; text-align: center"><?php echo e($metaTagContent->getH1(), false); ?></h1>
+                    <?php if($bannerImage->getSmallText()): ?>
+                        <p style="color: white; text-align: center; font-size: 16px"><?php echo e($bannerImage->getSmallText(), false); ?></p>
+                    <?php endif; ?>
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -67,10 +70,7 @@ nav-hidden - Open nav on icon click
     </div> <!-- end pageTitleHero -->
 </div> <!-- end slider-container -->
 
-<section class="content-section">
-    <?php echo $__env->yieldContent('content'); ?>
-    <a href="#contact-us" class="contact-modal">modalka</a>
-</section>
+<?php echo $__env->yieldContent('content'); ?>
 
 <!-- ==================================================
 Footer: Classes

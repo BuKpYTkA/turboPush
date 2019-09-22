@@ -2,10 +2,23 @@
     /**
      * @var $navBarElements \App\Models\NavBarElement\NavBarElement[]
      * @var $childElement \App\Models\NavBarElement\NavBarElement
+     * @var $phoneNumbers \App\Models\PhoneNumber\PhoneNumber[]
      */
 ?>
 <div class="header menu-style-2">
+    <div class="top-menu">
+        <div class="container-fluid">
+            <div class="right-div pull-right">
+                <?php $__currentLoopData = $phoneNumbers; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $phoneNumber): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <a href="#"><?php echo e($phoneNumber->getPhone(), false); ?></a>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                <a href="#">support@themesease.com</a>
+            </div>
+        </div> <!-- end container-fluid -->
+    </div> <!-- end top-menu -->
 
+    <div class="container-fluid">
+    </div>
     <div class="container-fluid">
         <div class="menu" id="menu">
 

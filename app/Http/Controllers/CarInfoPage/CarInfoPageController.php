@@ -38,7 +38,6 @@ class CarInfoPageController extends Controller
      */
     public function __invoke(Request $request, string $alias)
     {
-        $slug = str_slug('привет, я Антон и живу в Украине?', '-');
         /**
          * @var CarInfoPage $carInfoPage
          */

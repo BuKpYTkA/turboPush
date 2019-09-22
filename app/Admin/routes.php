@@ -7,6 +7,7 @@ use App\Admin\Controllers\ImageController;
 use App\Admin\Controllers\MetaTagController;
 use App\Admin\Controllers\NavBarElementController;
 use App\Admin\Controllers\OrderController;
+use App\Admin\Controllers\PhoneNumberController;
 use App\Admin\Controllers\PostsController;
 use Illuminate\Routing\Router;
 
@@ -27,4 +28,5 @@ Route::group([
     $router->resource('/banner-images', BannerImageController::class);
     $router->resource('/car-info-pages', CarInfoPageController::class);
     $router->resource('/posts', PostsController::class);
+    $router->resource('/phone-numbers', PhoneNumberController::class);
 });
