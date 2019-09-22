@@ -20,20 +20,17 @@ $(function($) {
     $('.owl-carousel-3').owlCarousel({
         loop:true,
         margin:10,
-        autoplay:false,
+        autoplay:true,
         responsive:{
             0:{
-                items:1
-            },
-            600:{
                 items:3
             },
-            1000:{
+            600:{
                 items:5
             },
-            1200: {
+            1000:{
                 items:6
-            }
+            },
         }
     });
 });

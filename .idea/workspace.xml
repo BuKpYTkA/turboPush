@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b550565-e093-4966-a370-257a1f9a43a5" name="Default Changelist" comment="Orders added;&#10;orders added to admin panel;&#10;contact-us page added;">
-      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/PhoneNumberController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/PhoneNumber/PhoneNumber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_09_22_113907_create_phone_numbers_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/frontEnd/Mailgun/composer.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/frontEnd/Mailgun/composer.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/frontEnd/Mailgun/vendor/autoload.php" afterDir="false" />
@@ -1391,27 +1388,9 @@
       <change afterPath="$PROJECT_DIR$/public/frontEnd/vendor/sweetalert2/src/sweetalert2.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/frontEnd/vendor/sweetalert2/src/sweetalert2.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/frontEnd/vendor/sweetalert2/sweetalert2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/components/any_questions.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/components/our_features.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/staticPages/agro-tech.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f2a999d3-9680-4350-ad9d-bd4c675ef6e3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f2a999d3-9680-4350-ad9d-bd4c675ef6e3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RegisterGlobalVariables.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RegisterGlobalVariables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/MetaTagService/MetaTagService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/MetaTagService/MetaTagService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/components.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/components.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/components.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dynamic_pages/car_info_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dynamic_pages/car_info_page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/staticPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/staticPage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/staticPages/price-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/staticPages/price-list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/03ab3b845ca1c4a0f776723a1c926ecb0246d18e.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/03ab3b845ca1c4a0f776723a1c926ecb0246d18e.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/21c6a4acec7fb4fae2775fe9906f1998b3de198d.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/21c6a4acec7fb4fae2775fe9906f1998b3de198d.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/67b87588aec124f5a7968827d0e7a1e0fe77e985.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/67b87588aec124f5a7968827d0e7a1e0fe77e985.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/a3afea7a6450c23a8b70e084820037b990180bb2.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/a3afea7a6450c23a8b70e084820037b990180bb2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1966,7 +1945,7 @@
       <workItem from="1568581822482" duration="14000" />
       <workItem from="1568655007579" duration="1913000" />
       <workItem from="1569066216796" duration="247000" />
-      <workItem from="1569142929097" duration="20977000" />
+      <workItem from="1569142929097" duration="21228000" />
     </task>
     <task id="LOCAL-00001" summary="meta tag controller added to admin panel;&#10;storage configured;">
       <created>1568132119380</created>
@@ -2024,11 +2003,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568993266973</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="a couple of views were made;&#10;PhoneNumber crated;&#10;MetaTagService updated;&#10;PoneNumberController created;">
+      <created>1569177423679</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569177423679</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177860000" />
+    <option name="totallyTimeSpent" value="178111000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -2041,7 +2027,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28389263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -2100,7 +2085,8 @@
     <MESSAGE value="little bit" />
     <MESSAGE value="first page started" />
     <MESSAGE value="Post created;&#10;-admin&#10;-controller&#10;-view&#10;-events&#10;-listeners&#10;CarInfoPage created;&#10;-admin&#10;-controller&#10;-view&#10;-events&#10;-listeners&#10;&#10;MetaTagService updated;&#10;BannerImageService updated;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Post created;&#10;-admin&#10;-controller&#10;-view&#10;-events&#10;-listeners&#10;CarInfoPage created;&#10;-admin&#10;-controller&#10;-view&#10;-events&#10;-listeners&#10;&#10;MetaTagService updated;&#10;BannerImageService updated;" />
+    <MESSAGE value="a couple of views were made;&#10;PhoneNumber crated;&#10;MetaTagService updated;&#10;PoneNumberController created;" />
+    <option name="LAST_COMMIT_MESSAGE" value="a couple of views were made;&#10;PhoneNumber crated;&#10;MetaTagService updated;&#10;PoneNumberController created;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
