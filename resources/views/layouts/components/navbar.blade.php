@@ -26,7 +26,6 @@
             <div class="logo">
                 <a href="/"><img height="75px" width="150px" src="{{ asset('images') }}/main-logo.svg" alt="Salt" class="logo-img"></a>
             </div> <!-- end logo -->
-
             <!-- ========== main-menu ========== -->
 
             <ul class="main-menu">

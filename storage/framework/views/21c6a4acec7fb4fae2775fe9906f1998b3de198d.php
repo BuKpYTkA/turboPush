@@ -10,7 +10,7 @@
         <div class="container-fluid">
             <div class="right-div pull-right">
                 <?php $__currentLoopData = $phoneNumbers; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $phoneNumber): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                    <a href="#"><?php echo e($phoneNumber->getPhone(), false); ?></a>
+                    <a href="tel:<?php echo e($phoneNumber->getPhone(), false); ?>"><?php echo e($phoneNumber->getPhone(), false); ?></a>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 <a href="#">support@themesease.com</a>
             </div>
@@ -19,15 +19,15 @@
 
     <div class="container-fluid">
     </div>
-    <div class="container-fluid">
+    <div class="container">
         <div class="menu" id="menu">
 
             <!-- ========== Logo ========== -->
             <div class="logo">
-                <a href="/"><img src="<?php echo e(asset('images'), false); ?>/main-logo.png" alt="Salt" class="logo-img"></a>
+                <a href="/"><img height="75px" width="150px" src="<?php echo e(asset('images'), false); ?>/main-logo.svg" alt="Salt" class="logo-img"></a>
             </div> <!-- end logo -->
-
             <!-- ========== main-menu ========== -->
+
             <ul class="main-menu">
                 <?php $__currentLoopData = $navBarElements; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $navBarElement): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <?php if(!$navBarElement->hasParent()): ?>
@@ -41,9 +41,7 @@
                         <?php endif; ?>
                     <?php endif; ?>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                <li class=" menu-item left-separator"><a href="#"><i class="menu-icon fa fa-facebook"></i> Facebook</a></li>
-                <li class="menu-item"><a href="#"><i class="menu-icon fa fa-twitter"></i> Twitter</a></li>
-            </ul> <!-- end main-menu -->
+                </ul> <!-- end main-menu -->
 
         </div> <!-- end menu -->
     </div> <!-- end container-fluid -->

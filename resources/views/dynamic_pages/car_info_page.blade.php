@@ -8,7 +8,7 @@
 
 @section('content')
     <section>
-        <div class="container">
+        <div class="container" style="margin-bottom: 40px!important;">
             <div class="row">
                 <div class="col-md-2">
                     <img height="200px" src="{{asset('uploads') . '/' . $carInfoPage->getImagePath() }}" alt="{{ $metaTagContent->getTitle() }}">
@@ -162,5 +162,6 @@
                 </div>
             </div>
         </div>
+        @include('layouts.components.our_features')
     </section>
 @endsection

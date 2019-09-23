@@ -84,7 +84,7 @@
             </div>
         </div>
         @include('layouts.components.our_features')
-        <div class="container">
+        <div class="container mt40">
             <p class="underline p-main">Наш сервис обслуживает турбонагнетатели сельскохозяйственной и спецтехники
                 как:</p>
             <br>

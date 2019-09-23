@@ -1,4 +1,4 @@
-    <div class="container-fluid mb-40" style="background-color: #f6f6f6; padding-bottom: 25px; padding-top: 25px">
+    <div class="container-fluid" style="background-color: #f6f6f6; padding-bottom: 25px; padding-top: 25px">
         <div class="row">
             <div class="col-md-12 section-header text-center mb10">
                 <h3 class="section-title underline">Наши преимущества</h3>
