@@ -76,7 +76,7 @@
         <div class="container">
         <div class="row">
             <div class="col-md-12 section-header text-center">
-                <h3 class="section-title underline">Виды ремонтных работ</h3>
+                <h3 class="section-title underline">Default Panels</h3>
                 <p class="section-subtitle">После бесплатной диагностики мастера предложат подходящий вид ремонтных работ:</p>
             </div> <!-- end section-header -->
 
@@ -111,7 +111,7 @@
             <div class="col-md-3">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title capitalize">Panel Heading</h3>
+                        <h3 class="panel-title capitalize"></h3>
                     </div> <!-- end panel-heading -->
                     <div class="panel-body">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor

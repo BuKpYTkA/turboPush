@@ -15,7 +15,7 @@
             @endif
             <p style="color:white;">
                 @foreach($phoneNumbers as $phoneNumber)
-                    <span>{{ $phoneNumber->getPhone() }}</span>
+                    <a href="tel:{{ $phoneNumber->getPhone() }}"><span>{{ $phoneNumber->getPhone() }}</span></a>
                 @endforeach
             </p>
         @endif

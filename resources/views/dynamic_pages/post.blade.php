@@ -7,6 +7,10 @@
 @extends('layouts.staticPage')
 
 @section('content')
-    <p>{{ $post->getTitle() }}</p>
-    {!! $post->getContent() !!}
+    <section>
+        <div class="container">
+            <p>{{ $post->getTitle() }}</p>
+            {!! $post->getContent() !!}
+        </div>
+    </section>
 @endsection

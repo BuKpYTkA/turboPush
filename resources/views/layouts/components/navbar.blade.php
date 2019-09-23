@@ -10,7 +10,7 @@
         <div class="container-fluid">
             <div class="right-div pull-right">
                 @foreach($phoneNumbers as $phoneNumber)
-                    <a href="#">{{ $phoneNumber->getPhone() }}</a>
+                    <a href="tel:{{ $phoneNumber->getPhone() }}">{{ $phoneNumber->getPhone() }}</a>
                 @endforeach
                 <a href="#">support@themesease.com</a>
             </div>
@@ -19,15 +19,16 @@
 
     <div class="container-fluid">
     </div>
-    <div class="container-fluid">
+    <div class="container">
         <div class="menu" id="menu">
 
             <!-- ========== Logo ========== -->
             <div class="logo">
-                <a href="/"><img src="{{ asset('images') }}/main-logo.png" alt="Salt" class="logo-img"></a>
+                <a href="/"><img height="75px" width="150px" src="{{ asset('images') }}/main-logo.svg" alt="Salt" class="logo-img"></a>
             </div> <!-- end logo -->
 
             <!-- ========== main-menu ========== -->
+
             <ul class="main-menu">
                 @foreach($navBarElements as $navBarElement)
                     @if(!$navBarElement->hasParent())
@@ -41,9 +42,7 @@
                         @endif
                     @endif
                 @endforeach
-                <li class=" menu-item left-separator"><a href="#"><i class="menu-icon fa fa-facebook"></i> Facebook</a></li>
-                <li class="menu-item"><a href="#"><i class="menu-icon fa fa-twitter"></i> Twitter</a></li>
-            </ul> <!-- end main-menu -->
+                </ul> <!-- end main-menu -->
 
         </div> <!-- end menu -->
     </div> <!-- end container-fluid -->

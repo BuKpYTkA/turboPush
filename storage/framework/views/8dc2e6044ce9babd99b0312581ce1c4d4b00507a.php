@@ -2,13 +2,16 @@
     /**
      * @var $navBarElements \App\Models\NavBarElement\NavBarElement[]
      * @var $childElement \App\Models\NavBarElement\NavBarElement
+     * @var $phoneNumbers \App\Models\PhoneNumber\PhoneNumber[]
      */
 ?>
 <div class="header menu-style-2">
     <div class="top-menu">
         <div class="container-fluid">
             <div class="right-div pull-right">
-                <a href="#">+1 (123) 456-7890</a>
+                <?php $__currentLoopData = $phoneNumbers; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $phoneNumber): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <a href="tel:<?php echo e($phoneNumber->getPhone(), false); ?>"><?php echo e($phoneNumber->getPhone(), false); ?></a>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 <a href="#">support@themesease.com</a>
             </div>
         </div> <!-- end container-fluid -->
@@ -16,15 +19,16 @@
 
     <div class="container-fluid">
     </div>
-    <div class="container-fluid">
+    <div class="container">
         <div class="menu" id="menu">
 
             <!-- ========== Logo ========== -->
             <div class="logo">
-                <a href="/"><img src="<?php echo e(asset('frontEnd'), false); ?>/images/logo-dark.png" alt="Salt" class="logo-img"></a>
+                <a href="/"><img height="75px" width="150px" src="<?php echo e(asset('images'), false); ?>/main-logo.svg" alt="Salt" class="logo-img"></a>
             </div> <!-- end logo -->
 
             <!-- ========== main-menu ========== -->
+
             <ul class="main-menu">
                 <?php $__currentLoopData = $navBarElements; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $navBarElement): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <?php if(!$navBarElement->hasParent()): ?>
@@ -38,9 +42,7 @@
                         <?php endif; ?>
                     <?php endif; ?>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                <li class=" menu-item left-separator"><a href="#"><i class="menu-icon fa fa-facebook"></i> Facebook</a></li>
-                <li class="menu-item"><a href="#"><i class="menu-icon fa fa-twitter"></i> Twitter</a></li>
-            </ul> <!-- end main-menu -->
+                </ul> <!-- end main-menu -->
 
         </div> <!-- end menu -->
     </div> <!-- end container-fluid -->

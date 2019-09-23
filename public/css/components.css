@@ -70,4 +70,19 @@ p {
 .carousel-custom-item {
     max-height: 120px;
     max-width: 120px;
+
+}
+
+.logo {
+    padding: 0!important;
+}
+
+.footer {
+    background-color: #1a1c37;
+}
+
+@media only screen and (max-width: 991px) {
+    .secondNav .menu-mobile {
+        color: #fff;
+    }
 }

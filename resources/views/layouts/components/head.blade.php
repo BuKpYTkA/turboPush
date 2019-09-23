@@ -13,8 +13,8 @@
     <meta property="og:description" content="{{ $metaTagContent->getOgDescription() }}">
     <meta property="og:image" content="{{ $bannerImage->getImageUrl() }}">
 
-    <link rel="shortcut icon" href="{{ asset('frontEnd') }}/images/favicon.ico">
-    <link rel="apple-touch-icon" href="{{ asset('frontEnd') }}/images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="{{ asset('images') }}/favicon.png">
+    <link rel="apple-touch-icon" href="{{ asset('images') }}/favicon.png">
 
     <link rel="stylesheet" href="{{ asset('frontEnd') }}/styles/vendor.css">
 

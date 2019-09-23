@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
-                    <img height="200px" src="{{asset('uploads') . '/' . $carInfoPage->getImagePath() }}" alt="">
+                    <img height="200px" src="{{asset('uploads') . '/' . $carInfoPage->getImagePath() }}" alt="{{ $metaTagContent->getTitle() }}">
                 </div>
                 <div class="col-md-1">
 
@@ -94,7 +94,7 @@
                             <div class="pricing-head">
                                 <span>от</span>
                                 <h2>₴ {{ $carInfoPage->getStandard() }}</h2>
-                                <h6>Стандартный ремонт</h6>
+                                <h6 class="inline-main">Стандартный ремонт</h6>
                                 <i class="bg-icon fa fa-cog"></i>
                             </div>
                             <!-- /.pricing-head -->
@@ -111,7 +111,7 @@
                             <div class="pricing-head">
                                 <span>от</span>
                                 <h2>₴ {{ $carInfoPage->getCapital() }}</h2>
-                                <h6 style="line-height: 19px">Капитальное восстановление</h6>
+                                <h6 class="inline-main">Капитальное восстановление</h6>
                                 <i class="bg-icon fa fa-gears"></i>
                             </div>
                             <!-- /.pricing-head -->

@@ -49,7 +49,7 @@
                       placeholder="Текст сообщения.." required="" rows="3">{{ old('message') }}</textarea>
         </div>
 
-        <button type="submit" class="st-btn primary-btn hvr-back hvr-sweep-to-right">Submit
+        <button type="submit" class="st-btn primary-btn hvr-back hvr-sweep-to-right">Отправить
         </button>
     </form>
 </div>

@@ -28,9 +28,9 @@ class PhoneNumberController extends AdminController
 
         $grid->column('id', __('Id'));
         $grid->column('phone', __('Phone'));
-        $grid->column('created_at', __('Created at'));
-        $grid->column('updated_at', __('Updated at'));
-
+        $grid->quickCreate(function (Grid\Tools\QuickCreate $create) {
+            $create->text('phone', 'Телефон');
+        });
         return $grid;
     }
 
@@ -46,8 +46,6 @@ class PhoneNumberController extends AdminController
 
         $show->field('id', __('Id'));
         $show->field('phone', __('Phone'));
-        $show->field('created_at', __('Created at'));
-        $show->field('updated_at', __('Updated at'));
 
         return $show;
     }
