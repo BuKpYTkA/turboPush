@@ -157,7 +157,7 @@ class MetaTag extends Model
      */
     public function getH1(): string
     {
-        return $this->h_1;
+        return $this->h_1 ?? '';
     }
 
     /**

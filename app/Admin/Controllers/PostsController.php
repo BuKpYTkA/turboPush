@@ -31,6 +31,8 @@ class PostsController extends AdminController
 
     const CREATED_AT = 'Когда создан';
 
+    const SHORT_DESCRIPTION = 'Краткое описание';
+
     /**
      * Title for current resource.
      *
@@ -51,6 +53,7 @@ class PostsController extends AdminController
         $grid->column('id', 'id');
         $grid->column('alias', __(self::PAGE_ALIAS));
         $grid->column('title', __(self::TITLE));
+        $grid->column('description', __(self::SHORT_DESCRIPTION));
         $grid->column('created_at', __(self::CREATED_AT));
         return $grid;
     }
@@ -67,6 +70,7 @@ class PostsController extends AdminController
 
         $show->field('alias', __(self::PAGE_ALIAS));
         $show->field('title', __(self::TITLE));
+        $show->field('description', __(self::SHORT_DESCRIPTION));
         $show->field('content', __(self::CONTENT));
         $show->field('created_at', __(self::CREATED_AT));
         $show->field('image_path', __(self::IMAGE))->image('', 200, 200);
@@ -83,6 +87,7 @@ class PostsController extends AdminController
         $form = new Form(new Post());
 
         $form->text('title', __(self::TITLE))->required();
+        $form->text('description', __(self::SHORT_DESCRIPTION))->required();
         $form->ckeditor('content', __(self::CONTENT))->required();
         $form->text('image_path', __(self::IMAGE))->required();
         return $form;

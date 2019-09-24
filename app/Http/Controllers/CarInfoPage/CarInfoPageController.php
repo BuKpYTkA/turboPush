@@ -45,14 +45,23 @@ class CarInfoPageController extends Controller
         if (!$carInfoPage) {
             return abort(404);
         }
-        $metaTagConfig = [
-            'BRAND' => $carInfoPage->getBrand(),
-            'MODELS' => $carInfoPage->getModels()
-        ];
+        $metaTagConfig = $this->getMetaTagConfig($carInfoPage);
         $metaTagContent = $this->metaTagService->getCurrentMetaTags($request, $metaTagConfig);
         return view('dynamic_pages.car_info_page', [
             'carInfoPage' => $carInfoPage,
             'metaTagContent' => $metaTagContent
         ]);
+    }
+
+    private function getMetaTagConfig(CarInfoPage $carInfoPage)
+    {
+        return [
+            'BRAND' => $carInfoPage->getBrand(),
+            'ALT_BRAND' => $carInfoPage->getBrandAdditional(),
+            'ALIAS' => $carInfoPage->getPageAlias(),
+            'MODELS' => $carInfoPage->getModels(),
+            'MIN' => $carInfoPage->getMinPrice(),
+            'MAX' => $carInfoPage->getMaxPrice()
+        ];
     }
 }

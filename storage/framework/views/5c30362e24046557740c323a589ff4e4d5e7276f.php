@@ -98,7 +98,7 @@
         </div>
 
         <?php echo $__env->make('layouts.components.our_features', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-        <div class="container">
+        <div class="container mt40">
 
         <blockquote class="blockquote-default" style="font-size: 16px">
                         <b>Стоимость нового турбонагнетателя всегда выше, а стоимость восстановления составляет от 30

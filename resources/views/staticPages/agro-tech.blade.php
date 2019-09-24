@@ -157,32 +157,36 @@
                 <div class="col-md-12">
                     <div class="owl-carousel-3 ew-cursor">
                         <div class="text-center ">
-                            <img class="carousel-custom-item" src="{{ asset('uploads') }}/images/7ac64a_f0f50582bdf24d8182a54f4745872636_mv2.gif"
-                                 alt="Sample Image"/>
+                            <img class="carousel-custom-item" src="{{ asset('images') }}/agro-brands/aliedsignal.png"
+                                 alt="{{ $metaTagContent->getH1() }} | Allied Signal"/>
                         </div>
                         <div class="text-center ">
-                            <img class="carousel-custom-item" src="{{ asset('uploads') }}/images/c45fc6f7b23164cde2eb53f348225002.png"
-                                 alt="Sample Image"/>
+                            <img class="carousel-custom-item" src="{{ asset('images') }}/agro-brands/borgwarner.png"
+                                 alt="{{ $metaTagContent->getH1() }} | Borg Warner"/>
                         </div>
                         <div class="text-center ">
-                            <img class="carousel-custom-item" src="{{ asset('uploads') }}/images/deutz-1-282998.png"
-                                 alt="Sample Image"/>
+                            <img class="carousel-custom-item" src="{{ asset('images') }}/agro-brands/garett.png"
+                                 alt="{{ $metaTagContent->getH1() }} | Garrett"/>
                         </div>
                         <div class="text-center ">
-                            <img class="carousel-custom-item" src="{{ asset('uploads') }}/images/caterpillar-rologia-haritidis.png"
-                                 alt="Sample Image"/>
+                            <img class="carousel-custom-item" src="{{ asset('images') }}/agro-brands/holset.png"
+                                 alt="{{ $metaTagContent->getH1() }} | Holset"/>
                         </div>
                         <div class="text-center ">
-                            <img class="carousel-custom-item" src="{{ asset('uploads') }}/images/liebherr-logo-vector-61945.png"
-                                 alt="Sample Image"/>
+                            <img class="carousel-custom-item" src="{{ asset('images') }}/agro-brands/ihi.png"
+                                 alt="{{ $metaTagContent->getH1() }} | Ihi"/>
                         </div>
                         <div class="text-center ">
-                            <img class="carousel-custom-item" src="{{ asset('uploads') }}/images/john-deere-logo-black-and-white.png"
-                                 alt="Sample Image"/>
+                            <img class="carousel-custom-item" src="{{ asset('images') }}/agro-brands/kkk.png"
+                                 alt="{{ $metaTagContent->getH1() }} | KKK"/>
                         </div>
                         <div class="text-center ">
-                            <img class="carousel-custom-item" src="{{ asset('uploads') }}/images/new-holland-logo-vector-43938.png"
-                                 alt="Sample Image"/>
+                            <img class="carousel-custom-item" src="{{ asset('images') }}/agro-brands/mitsubishi.png"
+                                 alt="{{ $metaTagContent->getH1() }} | Mitsubishi"/>
+                        </div>
+                        <div class="text-center ">
+                            <img class="carousel-custom-item" src="{{ asset('images') }}/agro-brands/schwitzer.png"
+                                 alt="{{ $metaTagContent->getH1() }} | Schwitzer"/>
                         </div>
                     </div> <!-- end owl-carousel-3 -->
                 </div> <!-- end col-md-12 -->

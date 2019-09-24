@@ -48,13 +48,49 @@ class PostController extends Controller
         if (!$post) {
             return abort(404);
         }
-        $bannerImageConfig = [
-            'POST_IMAGE' => $post->getImagePath()
-        ];
+        $bannerImageConfig = $this->getBannerImageConfig($post);
         $bannerImage = $this->bannerImageService->getCurrentBannerImage($request, $bannerImageConfig);
+        $metaTagConfig = $this->getMetaTagConfig($post);
+        $metaTagContent = $this->metaTagService->getCurrentMetaTags($request, $metaTagConfig);
+        $randomPost = Post::query()->inRandomOrder()->first();
         return view('dynamic_pages.post', [
             'post' => $post,
-            'bannerImage' => $bannerImage
+            'bannerImage' => $bannerImage,
+            'randomPost' => $randomPost,
+            'metaTagContent' => $metaTagContent
         ]);
+    }
+
+    public function getPosts(Request $request)
+    {
+        $posts = Post::query()->where([])->paginate(6);
+        return view('dynamic_pages.posts', [
+            'posts' => $posts
+        ]);
+    }
+
+    /**
+     * @param Post $post
+     * @return array
+     */
+    private function getBannerImageConfig(Post $post)
+    {
+        return [
+            'POST_IMAGE' => $post->getImagePath()
+        ];
+    }
+
+    /**
+     * @param Post $post
+     * @return array
+     */
+    private function getMetaTagConfig(Post $post)
+    {
+        return [
+            'TITLE' => $post->getTitle(),
+            'ALIAS' => $post->getAlias(),
+            'DESCRIPTION' => $post->getDescription(),
+            'CREATED_AT' => $post->getCreatedAt()
+        ];
     }
 }

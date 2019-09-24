@@ -2,6 +2,7 @@
 
 use App\Admin\Controllers\BannerImageController;
 use App\Admin\Controllers\CarInfoPageController;
+use App\Admin\Controllers\HelpController;
 use App\Admin\Controllers\HomeController;
 use App\Admin\Controllers\ImageController;
 use App\Admin\Controllers\MetaTagController;
@@ -21,6 +22,7 @@ Route::group([
 
     $router->get('/dashboard', HomeController::class . '@index')->name('admin.home');
     $router->get('/', HomeController::class . '@home')->name('admin.home');
+    $router->get('/help', HelpController::class . '@getHelp');
     $router->resource('/meta-tags', MetaTagController::class);
     $router->resource('/orders', OrderController::class);
     $router->resource('/images', ImageController::class);

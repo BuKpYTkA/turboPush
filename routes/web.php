@@ -29,6 +29,7 @@ Route::middleware(['global.vars'])->group(function () {
     Route::get('/', function () {
         return view('welcome');
     });
+    Route::get('about', PostController::controller() . '@getPosts');
     Route::get('{pageAlias}', StaticPageController::controller());
     Route::get('brand/{alias}', CarInfoPageController::controller());
     Route::get('posts/{alias}', PostController::controller());

@@ -7,7 +7,7 @@
 ?>
 <div class="header menu-style-2">
     <div class="top-menu">
-        <div class="container-fluid">
+        <div class="container">
             <div class="right-div pull-right">
                 @foreach($phoneNumbers as $phoneNumber)
                     <a href="tel:{{ $phoneNumber->getPhone() }}">{{ $phoneNumber->getPhone() }}</a>
@@ -16,9 +16,6 @@
             </div>
         </div> <!-- end container-fluid -->
     </div> <!-- end top-menu -->
-
-    <div class="container-fluid">
-    </div>
     <div class="container">
         <div class="menu" id="menu">
 

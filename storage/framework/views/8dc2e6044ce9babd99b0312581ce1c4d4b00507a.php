@@ -7,7 +7,7 @@
 ?>
 <div class="header menu-style-2">
     <div class="top-menu">
-        <div class="container-fluid">
+        <div class="container">
             <div class="right-div pull-right">
                 <?php $__currentLoopData = $phoneNumbers; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $phoneNumber): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a href="tel:<?php echo e($phoneNumber->getPhone(), false); ?>"><?php echo e($phoneNumber->getPhone(), false); ?></a>
@@ -16,9 +16,6 @@
             </div>
         </div> <!-- end container-fluid -->
     </div> <!-- end top-menu -->
-
-    <div class="container-fluid">
-    </div>
     <div class="container">
         <div class="menu" id="menu">
 
@@ -26,7 +23,6 @@
             <div class="logo">
                 <a href="/"><img height="75px" width="150px" src="<?php echo e(asset('images'), false); ?>/main-logo.svg" alt="Salt" class="logo-img"></a>
             </div> <!-- end logo -->
-
             <!-- ========== main-menu ========== -->
 
             <ul class="main-menu">

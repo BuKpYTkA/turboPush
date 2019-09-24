@@ -14,6 +14,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property $content
  * @property $image_path
  * @property $created_at
+ * @property string $description
  */
 class Post extends Model
 {
@@ -115,6 +116,22 @@ class Post extends Model
     public function setCreatedAt($created_at): void
     {
         $this->created_at = $created_at;
+    }
+
+    /**
+     * @return string
+     */
+    public function getDescription(): string
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param string $description
+     */
+    public function setDescription(string $description): void
+    {
+        $this->description = $description;
     }
 
 }
