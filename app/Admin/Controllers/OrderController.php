@@ -43,10 +43,10 @@ class OrderController extends AdminController
     {
         $grid = new Grid(new Order);
 
-        $grid->model()->orderBy('is_moderated');
+        $grid->model()->orderBy('is_moderated')->orderBy('created_at', 'desc');
         $grid->column('id', __('Id'))->sortable();
         $grid->column('made_by', __(self::NAME))->sortable();
-        $grid->column('email', __(self::EMAIL));
+        $grid->column('phone', __(self::PHONE));
         $grid->column('created_at', __(self::CREATED_AT))->sortable();
         $states = [
             'on' => ['value' => 1, 'text' => 'да', 'color' => 'success'],
@@ -72,7 +72,6 @@ class OrderController extends AdminController
 
         $show->field('id', __('Id'));
         $show->field('made_by', __(self::NAME));
-        $show->field('email', __(self::EMAIL));
         $show->field('phone', __(self::PHONE));
         $show->field('created_at', __(self::CREATED_AT));
         $show->field('message', __(self::MESSAGE));
@@ -93,7 +92,6 @@ class OrderController extends AdminController
         $form = new Form(new Order);
 
         $form->textarea('made_by', __('Made by'));
-        $form->textarea('email', __('Email'));
         $form->textarea('phone', __('Phone'));
         $form->textarea('message', __('Message'));
         $form->switch('is_moderated', __('Is moderated'));

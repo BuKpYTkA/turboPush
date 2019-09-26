@@ -1,3 +1,9 @@
+<?php
+/**
+ * @var \App\Models\CarInfoPage\CarInfoPage[] $carInfoPages
+ */
+?>
+
 @extends('layouts.home')
 
 @section('content')
@@ -74,72 +80,91 @@
                 </div> <!-- end col-md-4 -->
 
             </div> <!-- end row -->
+            <div class="text-center">
+                @foreach($carInfoPages as $carInfoPage)
+                    <a class="a-flash" href="/brand/{{ $carInfoPage->getPageAlias() }}"><img class="mb10" width="100px" height="100px"
+                                src="/uploads/{{ $carInfoPage->getImagePath() }}" alt="{{ $carInfoPage->getBrand() }} | Twin Turbo"></a>
+                @endforeach
+            </div>
         </div> <!-- end container -->
         <div class="container">
-        <div class="row">
-            <div class="col-md-12 section-header text-center">
-                <h3 class="section-title underline">Default Panels</h3>
-                <p class="section-subtitle">После бесплатной диагностики мастера предложат подходящий вид ремонтных работ:</p>
-            </div> <!-- end section-header -->
+            <div class="row">
+                <div class="col-md-12 section-header text-center">
+                    <h3 class="section-title underline">Default Panels</h3>
+                    <p class="section-subtitle">После бесплатной диагностики мастера предложат подходящий вид ремонтных
+                        работ:</p>
+                </div> <!-- end section-header -->
 
-            <div class="col-md-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title capitalize">Panel Heading</h3>
-                    </div> <!-- end panel-heading -->
-                    <div class="panel-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-                    </div> <!-- end panel-body -->
-                    <div class="panel-footer">
-                        Panel Footer
-                    </div>
-                </div> <!-- end panel -->
-            </div> <!-- end col-md-3 -->
-            <div class="col-md-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title capitalize">Panel Heading</h3>
-                    </div> <!-- end panel-heading -->
-                    <div class="panel-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-                    </div> <!-- end panel-body -->
-                    <div class="panel-footer">
-                        Panel Footer
-                    </div>
-                </div> <!-- end panel -->
-            </div> <!-- end col-md-3 -->
-            <div class="col-md-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title capitalize"></h3>
-                    </div> <!-- end panel-heading -->
-                    <div class="panel-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-                    </div> <!-- end panel-body -->
-                    <div class="panel-footer">
-                        Panel Footer
-                    </div>
-                </div> <!-- end panel -->
-            </div> <!-- end col-md-3 -->
-            <div class="col-md-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title capitalize">Panel Heading</h3>
-                    </div> <!-- end panel-heading -->
-                    <div class="panel-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-                    </div> <!-- end panel-body -->
-                    <div class="panel-footer">
-                        Panel Footer
-                    </div>
-                </div> <!-- end panel -->
-            </div> <!-- end col-md-3 -->
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title capitalize">Panel Heading</h3>
+                        </div> <!-- end panel-heading -->
+                        <div class="panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident.
+                        </div> <!-- end panel-body -->
+                        <div class="panel-footer">
+                            Panel Footer
+                        </div>
+                    </div> <!-- end panel -->
+                </div> <!-- end col-md-3 -->
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title capitalize">Panel Heading</h3>
+                        </div> <!-- end panel-heading -->
+                        <div class="panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident.
+                        </div> <!-- end panel-body -->
+                        <div class="panel-footer">
+                            Panel Footer
+                        </div>
+                    </div> <!-- end panel -->
+                </div> <!-- end col-md-3 -->
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title capitalize"></h3>
+                        </div> <!-- end panel-heading -->
+                        <div class="panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident.
+                        </div> <!-- end panel-body -->
+                        <div class="panel-footer">
+                            Panel Footer
+                        </div>
+                    </div> <!-- end panel -->
+                </div> <!-- end col-md-3 -->
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title capitalize">Panel Heading</h3>
+                        </div> <!-- end panel-heading -->
+                        <div class="panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident.
+                        </div> <!-- end panel-body -->
+                        <div class="panel-footer">
+                            Panel Footer
+                        </div>
+                    </div> <!-- end panel -->
+                </div> <!-- end col-md-3 -->
 
-        </div> <!-- end row -->
+            </div> <!-- end row -->
         </div>
     </section>
 

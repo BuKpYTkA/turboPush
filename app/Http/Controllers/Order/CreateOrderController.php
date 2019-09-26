@@ -33,10 +33,9 @@ class CreateOrderController extends Controller
     public function __invoke(CreateOrderRequest $request)
     {
         $madeBy = $request->input('name');
-        $email = $request->input('email');
         $phone = $request->input('phone') ?? '';
         $message = $request->input('message');
-        $order = $this->orderFactory->create($madeBy, $email, $phone, $message);
+        $order = $this->orderFactory->create($madeBy, $phone, $message);
         $order->save();
         return back()->with('ok', 'Ваша заявка была успешно зарегестрирована');
     }

@@ -29,8 +29,7 @@ class CreateOrderRequest extends FormRequest
     {
         return [
             'name' => 'required|max:255',
-            'email' => 'required',
-            'phone' => 'digits:9|nullable',
+            'phone' => 'required|digits:9|nullable',
             'message' => 'required',
         ];
     }
@@ -41,7 +40,6 @@ class CreateOrderRequest extends FormRequest
     public function attributes()
     {
         return [
-            'email' => 'email address'
         ];
     }
 
@@ -52,9 +50,9 @@ class CreateOrderRequest extends FormRequest
     {
         return [
             'name.required' => 'Поле "Имя" обязятельно к заполнению',
-            'email.required' => 'Поле "email" обязятельно к заполнению',
             'message.required' => 'Поле "Текст сообщения" обязятельно к заполнению',
-            'phone.digits' => 'Неверный формат телефона'
+            'phone.digits' => 'Неверный формат телефона',
+            'phone.required' => 'Поле "Телефон" обязятельно к заполнению'
         ];
     }
 }

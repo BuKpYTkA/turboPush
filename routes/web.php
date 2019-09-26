@@ -13,6 +13,7 @@
 
 use App\Http\Controllers\AdminPanel\PageContent\PageContentController;
 use App\Http\Controllers\CarInfoPage\CarInfoPageController;
+use App\Http\Controllers\HomePage\HomePageController;
 use App\Http\Controllers\Order\CreateOrderController;
 use App\Http\Controllers\Post\PostController;
 use App\Http\Controllers\PriceList\PriceListController;
@@ -26,9 +27,7 @@ Route::middleware(['auth'])->group(function () {
 });
 
 Route::middleware(['global.vars'])->group(function () {
-    Route::get('/', function () {
-        return view('welcome');
-    });
+    Route::get('/', HomePageController::controller());
     Route::get('about', PostController::controller() . '@getPosts');
     Route::get('{pageAlias}', StaticPageController::controller());
     Route::get('brand/{alias}', CarInfoPageController::controller());

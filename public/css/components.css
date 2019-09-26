@@ -86,3 +86,7 @@ p {
         color: #fff;
     }
 }
+
+.a-flash:hover {
+    opacity: .6;
+}

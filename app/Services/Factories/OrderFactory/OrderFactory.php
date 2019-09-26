@@ -19,16 +19,14 @@ class OrderFactory
 
     /**
      * @param string $name
-     * @param string $email
      * @param string $phone
      * @param string $message
      * @return Order
      */
-    public function create(string $name, string $email, string $phone, string $message)
+    public function create(string $name, string $phone, string $message)
     {
         return new Order([
             'made_by' => $name,
-            'email' => $email,
             'phone' => $phone ? '+380' . $phone : '',
             'message' => $message
         ]);

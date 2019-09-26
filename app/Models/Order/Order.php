@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Model;
  * @package App\Models\Order
  * @property $id
  * @property $made_by
- * @property $email
  * @property $phone
  * @property $message
  * @property $is_moderated
@@ -20,7 +19,6 @@ class Order extends Model
 
     protected $fillable = [
         'made_by',
-        'email',
         'phone',
         'message'
     ];
@@ -47,22 +45,6 @@ class Order extends Model
     public function setMadeBy($made_by): void
     {
         $this->made_by = $made_by;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getEmail()
-    {
-        return $this->email;
-    }
-
-    /**
-     * @param mixed $email
-     */
-    public function setEmail($email): void
-    {
-        $this->email = $email;
     }
 
     /**

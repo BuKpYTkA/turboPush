@@ -3,7 +3,7 @@
     <div class="container footer-middle ptn">
         <div class="row">
             <div class="col-md-12 text-center">
-                <img src="<?php echo e(asset('images'), false); ?>/main-logo.svg" alt="Salt - HTML5 theme" class="img-responsive mb20" width="100" style="margin: auto;">
+                <img src="<?php echo e(asset('images'), false); ?>/main-logo.svg" alt="TwinTurbo" class="img-responsive mb20" width="100" style="margin: auto;">
             </div>
             <div class="col-md-6">
                 <h6 class="footer-title lowercase"><i class="fa fa-phone"></i> +1 (123) 456-7890 <span class="ml10 mr10">|</span> <i class="fa fa-envelope"></i> support@themesease.com</h6>
