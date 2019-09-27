@@ -12,7 +12,6 @@
                 <?php $__currentLoopData = $phoneNumbers; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $phoneNumber): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a href="tel:<?php echo e($phoneNumber->getPhone(), false); ?>"><?php echo e($phoneNumber->getPhone(), false); ?></a>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                <a href="#">support@themesease.com</a>
             </div>
         </div> <!-- end container-fluid -->
     </div> <!-- end top-menu -->

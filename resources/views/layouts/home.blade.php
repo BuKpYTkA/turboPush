@@ -27,7 +27,8 @@ nav-hidden - Open nav on icon click
 <!-- ========== MAIN ========== -->
 
 <!-- ========== HOME SECTION ========== -->
-<div id="section1" class="parallax-window pt60" data-parallax="scroll" data-image-src="{{ asset('frontEnd') }}/images/demo-img-2.jpg" data-speed="0.6">
+<div id="section1" class="parallax-window pt60" data-parallax="scroll" data-image-src="{{ asset('uploads') }}/{{config('app.defaultBannerImage')}}" data-speed="0.6">
+    <div style="background: rgba(212,212,212,0.65);">
     <div class="container">
         <div class="row mt60 pb80">
             <div class="col-md-6">
@@ -43,11 +44,10 @@ nav-hidden - Open nav on icon click
             </div> <!-- end col-md-6 -->
         </div> <!-- end row -->
     </div> <!-- end container -->
+    </div>
 </div>
 
-<section class="content-section">
     @yield('content')
-</section>
 
 <!-- ==================================================
 Footer: Classes

@@ -12,7 +12,6 @@
                 @foreach($phoneNumbers as $phoneNumber)
                     <a href="tel:{{ $phoneNumber->getPhone() }}">{{ $phoneNumber->getPhone() }}</a>
                 @endforeach
-                <a href="#">support@themesease.com</a>
             </div>
         </div> <!-- end container-fluid -->
     </div> <!-- end top-menu -->
