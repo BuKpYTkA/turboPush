@@ -2,6 +2,7 @@
 
 namespace App\Models\PhoneNumber;
 
+use App\Services\PhoneNumber\PhoneNumberService;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -38,6 +39,14 @@ class PhoneNumber extends Model
     public function setPhone(string $phone): void
     {
         $this->phone = $phone;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFormat()
+    {
+        return PhoneNumberService::format($this->phone);
     }
 
 }

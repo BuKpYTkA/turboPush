@@ -15,7 +15,7 @@
             {{--@endif--}}
             <p style="color:white; font-size: 20px">
                 @foreach($phoneNumbers as $phoneNumber)
-                    <a href="tel:{{ $phoneNumber->getPhone() }}"><span>{{ $phoneNumber->getPhone() }}</span></a>
+                    <a href="tel:{{ $phoneNumber->getPhone() }}"><span>{{ $phoneNumber->getFormat() }}</span></a>
                 @endforeach
             </p>
         @endif
@@ -26,6 +26,6 @@
         {{--<a href="#contact-us" class="st-btn primary-btn hvr-back hvr-sweep-to-right contact-modal">Свяжитесь--}}
             {{--с нами</a>--}}
         <div class="clearfix"></div>
-        <span class="fa fa-phone bg-icon"></span>
+        <span class="fa fa-phone bg-icon mr30"></span>
     </div> <!-- end cta-3 -->
 </div> <!-- end col-md-12 -->
