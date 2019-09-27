@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b550565-e093-4966-a370-257a1f9a43a5" name="Default Changelist" comment="HelpController created;&#10;MetaTag updated;&#10;PostController updated;&#10;CarInfoPageController updated;">
-      <change afterPath="$PROJECT_DIR$/app/Services/PhoneNumber/PhoneNumberService.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/frontEnd/ajax-portfolio/project1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/frontEnd/ajax-portfolio/project10.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/frontEnd/ajax-portfolio/project11.html" afterDir="false" />
@@ -539,14 +538,17 @@
       <change afterPath="$PROJECT_DIR$/public/frontEnd/team/7.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/frontEnd/team/8.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/frontEnd/team/9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/components/how-we-work.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f2a999d3-9680-4350-ad9d-bd4c675ef6e3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f2a999d3-9680-4350-ad9d-bd4c675ef6e3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/lagacy-pages/diagnostic.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/components/advantages.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/components/contact-us.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/PhoneNumber/PhoneNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/PhoneNumber/PhoneNumber.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/components/any_questions.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/components/any_questions.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/components/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/components/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/staticPages/agro-tech.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/staticPages/agro-tech.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/staticPages/diagnostic.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/staticPages/diagnostic.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/96d54d7e971d09d63e5f20cc57e5e6119358b63a.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/96d54d7e971d09d63e5f20cc57e5e6119358b63a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/dbf8b323f6ec6a674d2a05e115b81861de97404b.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/dbf8b323f6ec6a674d2a05e115b81861de97404b.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -599,7 +601,7 @@
           <entry key="jpg" value="8" />
           <entry key="js" value="1" />
           <entry key="orders" value="1" />
-          <entry key="php" value="50" />
+          <entry key="php" value="55" />
           <entry key="png" value="6" />
           <entry key="posts" value="1" />
         </counts>
@@ -607,7 +609,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
-          <entry key="Blade" value="17" />
+          <entry key="Blade" value="22" />
           <entry key="CSS" value="2" />
           <entry key="Database Element" value="5" />
           <entry key="Image" value="15" />
@@ -621,17 +623,17 @@
           <entry key="cell" value="212" />
           <entry key="css" value="26" />
           <entry key="js" value="3" />
-          <entry key="php" value="4546" />
-          <entry key="txt" value="191" />
+          <entry key="php" value="5347" />
+          <entry key="txt" value="219" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="3092" />
+          <entry key="Blade" value="3893" />
           <entry key="CSS" value="26" />
           <entry key="JavaScript" value="3" />
           <entry key="PHP" value="1436" />
-          <entry key="PLAIN_TEXT" value="191" />
+          <entry key="PLAIN_TEXT" value="219" />
           <entry key="Scratch" value="230" />
         </counts>
       </usages-collector>
@@ -647,17 +649,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="697">
+              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/car_info_pages">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/resources/views/staticPages/diagnostic.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="79" />
+              <folding>
+                <element signature="e#85#121#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -665,17 +673,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/footer.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="230" column="23" selection-start-line="230" selection-start-column="5" selection-end-line="230" selection-end-column="23" />
+            <state relative-caret-position="204">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -683,13 +682,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="226" column="48" selection-start-line="226" selection-start-column="48" selection-end-line="226" selection-end-column="48" />
+            <state relative-caret-position="289">
+              <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
               <folding>
                 <element signature="e#4294#4330#0#HTML" expanded="true" />
                 <element signature="e#16150#16155#0#HTML" expanded="true" />
                 <element signature="e#16825#16830#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/staticPages/agro-tech.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="710">
+              <caret line="236" column="50" selection-start-line="236" selection-start-column="50" selection-end-line="236" selection-end-column="50" />
+              <folding>
+                <element signature="e#64#100#0#HTML" expanded="true" />
+                <element signature="e#8022#8045#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/advantages.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -703,24 +724,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/any_questions.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-              <folding>
-                <element signature="e#6#73#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_17.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/contact-us.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="119">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -757,7 +765,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Merriweather</find>
       <find>Free</find>
       <find>до 2</find>
       <find>есть во</find>
@@ -787,6 +794,7 @@
       <find>default</find>
       <find>DATABASE_URL</find>
       <find>как мы</find>
+      <find>ремонт</find>
     </findStrings>
     <replaceStrings>
       <replace>textarea</replace>
@@ -806,9 +814,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Listeners/Post/PostCreatedListener.php" />
-        <option value="$PROJECT_DIR$/app/Services/BannerImageService/BannerImageService.php" />
-        <option value="$PROJECT_DIR$/app/Admin/Controllers/ImageController.php" />
         <option value="$PROJECT_DIR$/config/filesystems.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_09_22_113907_create_phone_numbers_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/RegisterGlobalVariables.php" />
@@ -822,7 +827,6 @@
         <option value="$PROJECT_DIR$/public/frontEnd/styles/main.css" />
         <option value="$PROJECT_DIR$/resources/views/dynamic_pages/car_info_page.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/staticPages/montage-demontage.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/staticPages/agro-tech.blade.php" />
         <option value="$PROJECT_DIR$/public/src/components.js" />
         <option value="$PROJECT_DIR$/database/migrations/2019_09_24_093340_add_short_description_to_posts_table.php" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/PostsController.php" />
@@ -848,15 +852,19 @@
         <option value="$PROJECT_DIR$/app/Models/Order/Order.php" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/OrderController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/components/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/how-we-work.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_17.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_09_27_113632_add_format_column_to_phone_numbers_table.php" />
         <option value="$PROJECT_DIR$/app/Services/PhoneNumber/PhoneNumberService.php" />
         <option value="$PROJECT_DIR$/app/Models/PhoneNumber/PhoneNumber.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/any_questions.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/components/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/components/contact-us.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/staticPages/diagnostic.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/components/advantages.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/staticPages/agro-tech.blade.php" />
       </list>
     </option>
   </component>
@@ -1064,6 +1072,13 @@
               <item name="turboPush" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="lagacy-pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1073,6 +1088,13 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="staticPages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1084,7 +1106,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Pho&#9;null&#9;null&#10;Ph&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Services/PhoneNumber/PhoneNumberService.php&#10;scratch&#9;ACTION&#9;NewScratchFile&#10;any&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/any_questions.blade.php&#10;app&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/config/app.php&#10;home&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/home.blade.php&#10;head&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/head.blade.php&#10;foo&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/footer.blade.php&#10;wel&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/welcome.blade.php&#10;OrderC&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/Controllers/OrderController.php&#10;OrderCo&#9;null&#9;null&#10;Req&#9;null&#9;null&#10;conta&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/contact-modal.blade.php&#10;drop_&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/database/migrations/2019_09_26_100730_drop_email_column_from_orders_table.php&#10;env&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/.env&#10;com&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/public/css/components.css&#10;welco&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/welcome.blade.php&#10;web&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/routes/web.php&#10;Car&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Controllers/CarInfoPage/CarInfoPageController.php&#10;MetaT&#9;null&#9;null&#10;Post&#9;null&#9;null&#10;PostC&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/Controllers/PostsController.php&#10;nav&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/navbar.blade.php&#10;agr&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/staticPages/agro-tech.blade.php&#10;post&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/dynamic_pages/post.blade.php&#10;main&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/public/frontEnd/styles/main.css&#10;compo&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/public/src/components.js&#10;loade&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/loader.blade.php&#10;contac&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/contact-modal.blade.php&#10;foot&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/footer.blade.php&#10;car_&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/dynamic_pages/car_info_page.blade.php&#10;ImageC&#9;null&#9;null&#10;PostsC&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/Controllers/PostsController.php&#10;sta&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/staticPage.blade.php&#10;Met&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Services/MetaTagService/MetaTagService.php&#10;Me&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/database/migrations/2019_09_10_104217_create_meta_tags_table.php&#10;Bann&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Services/BannerImageService/BannerImageService.php&#10;Eve&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Providers/EventServiceProvider.php&#10;we&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/routes/web.php&#10;MetTa&#9;null&#9;null&#10;MetTS&#9;null&#9;null&#10;Reg&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Middleware/RegisterGlobalVariables.php&#10;stati&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/staticPage.blade.php&#10;CaIPC&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/Controllers/CarInfoPageController.php&#10;Ev&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Providers/EventServiceProvider.php&#10;Ca&#9;null&#9;null&#10;CarI&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Models/CarInfoPage/CarInfoPage.php&#10;main.css&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/public/frontEnd/styles/main.css&#10;contact&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/staticPages/contact-us.blade.php&#10;Sta&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Controllers/StaticPage/StaticPageController.php" />
+    <property name="SearchEverywhereHistoryKey" value="agro&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/staticPages/agro-tech.blade.php&#10;home&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/home.blade.php&#10;foo&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/footer.blade.php&#10;Pho&#9;null&#9;null&#10;Ph&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Services/PhoneNumber/PhoneNumberService.php&#10;scratch&#9;ACTION&#9;NewScratchFile&#10;any&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/any_questions.blade.php&#10;app&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/config/app.php&#10;head&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/head.blade.php&#10;wel&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/welcome.blade.php&#10;OrderC&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/Controllers/OrderController.php&#10;OrderCo&#9;null&#9;null&#10;Req&#9;null&#9;null&#10;conta&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/contact-modal.blade.php&#10;drop_&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/database/migrations/2019_09_26_100730_drop_email_column_from_orders_table.php&#10;env&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/.env&#10;com&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/public/css/components.css&#10;welco&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/welcome.blade.php&#10;web&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/routes/web.php&#10;Car&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Controllers/CarInfoPage/CarInfoPageController.php&#10;MetaT&#9;null&#9;null&#10;Post&#9;null&#9;null&#10;PostC&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/Controllers/PostsController.php&#10;nav&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/navbar.blade.php&#10;agr&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/staticPages/agro-tech.blade.php&#10;post&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/dynamic_pages/post.blade.php&#10;main&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/public/frontEnd/styles/main.css&#10;compo&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/public/src/components.js&#10;loade&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/loader.blade.php&#10;contac&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/contact-modal.blade.php&#10;foot&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/components/footer.blade.php&#10;car_&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/dynamic_pages/car_info_page.blade.php&#10;ImageC&#9;null&#9;null&#10;PostsC&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/Controllers/PostsController.php&#10;sta&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/staticPage.blade.php&#10;Met&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Services/MetaTagService/MetaTagService.php&#10;Me&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/database/migrations/2019_09_10_104217_create_meta_tags_table.php&#10;Bann&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Services/BannerImageService/BannerImageService.php&#10;Eve&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Providers/EventServiceProvider.php&#10;we&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/routes/web.php&#10;MetTa&#9;null&#9;null&#10;MetTS&#9;null&#9;null&#10;Reg&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Http/Middleware/RegisterGlobalVariables.php&#10;stati&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/layouts/staticPage.blade.php&#10;CaIPC&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Admin/Controllers/CarInfoPageController.php&#10;Ev&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Providers/EventServiceProvider.php&#10;Ca&#9;null&#9;null&#10;CarI&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/app/Models/CarInfoPage/CarInfoPage.php&#10;main.css&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/public/frontEnd/styles/main.css&#10;contact&#9;FILE&#9;file://C:/OSPanel/domains/turboPush/resources/views/staticPages/contact-us.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -1103,6 +1125,7 @@
       <recent name="D:\programming\OSPanel\OSPanel\domains\turboPush" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\turboPush\resources\views\lagacy-pages" />
       <recent name="C:\OSPanel\domains\turboPush\public\images" />
       <recent name="D:\programming\OSPanel\OSPanel\domains\turboPush\public\images" />
       <recent name="C:\OSPanel\domains\turboPush\app\Admin\Modules" />
@@ -1382,11 +1405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569576010926</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="PhoneNumberService created;">
+      <created>1569592765471</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1569592765471</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228283000" />
+    <option name="totallyTimeSpent" value="233326000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1401,7 +1431,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -1416,12 +1446,12 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3264642" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3264642" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32995737" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -1463,7 +1493,8 @@
     <MESSAGE value="frontEnd assets added;" />
     <MESSAGE value="HomePageController created;&#10;ORDER FIXED;" />
     <MESSAGE value="home page was made;" />
-    <option name="LAST_COMMIT_MESSAGE" value="home page was made;" />
+    <MESSAGE value="PhoneNumberService created;" />
+    <option name="LAST_COMMIT_MESSAGE" value="PhoneNumberService created;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1601,53 +1632,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Models/Post/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-          <folding>
-            <element signature="e#35#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dynamic_pages/posts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-          <folding>
-            <element signature="e#6#52#0#PHP" expanded="true" />
-            <element signature="e#1376#1382#0#HTML" expanded="true" />
-            <element signature="e#1564#1570#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/posts">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dynamic_pages/post.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="139" selection-start-line="14" selection-start-column="139" selection-end-line="14" selection-end-column="139" />
-          <folding>
-            <element signature="e#6#49#0#PHP" expanded="true" />
-            <element signature="e#292#316#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/MetaTag/MetaTag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="159" column="30" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/PostsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-269">
@@ -1894,36 +1878,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/car_info_pages">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="226" column="48" selection-start-line="226" selection-start-column="48" selection-end-line="226" selection-end-column="48" />
-          <folding>
-            <element signature="e#4294#4330#0#HTML" expanded="true" />
-            <element signature="e#16150#16155#0#HTML" expanded="true" />
-            <element signature="e#16825#16830#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1958,6 +1916,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/any_questions.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#73#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/how-we-work.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -1965,13 +1934,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/any_questions.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/contact-us.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/lagacy-pages/diagnostic.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="48" selection-end-line="81" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
           <folding>
-            <element signature="e#6#73#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/advantages.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="e#4294#4330#0#HTML" expanded="true" />
+            <element signature="e#16150#16155#0#HTML" expanded="true" />
+            <element signature="e#16825#16830#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/staticPages/diagnostic.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="79" />
+          <folding>
+            <element signature="e#85#121#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/staticPages/agro-tech.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="236" column="50" selection-start-line="236" selection-start-column="50" selection-end-line="236" selection-end-column="50" />
+          <folding>
+            <element signature="e#64#100#0#HTML" expanded="true" />
+            <element signature="e#8022#8045#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

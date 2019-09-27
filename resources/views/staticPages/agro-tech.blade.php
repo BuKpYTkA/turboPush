@@ -1,6 +1,11 @@
 @extends('layouts.staticPage')
 @section('content')
-    <section style="padding-bottom: 0!important;">
+    <section class="content-section">
+        <div class="container">
+            @include('layouts.components.advantages')
+        </div>
+    </section>
+    <section class="content-section" style="padding-bottom: 0!important;">
         <div class="container">
             <div class="row mb-40">
                 <div class="col-md-4 pb20">
@@ -28,66 +33,19 @@
                     </p>
                 </div>
             </div>
-            <p class="underline p-main">Цены на услуги:</p>
-            <br>
-            <div class="row mb-40">
-                <div class="col-md-4">
-                    <div class="pricing-box">
-                        <div class="pricing-head">
-                            <span class="striked" style="color: #f2f2f2">привет)</span>
-                            <h2>Бесплатно</h2>
-                            <h6>Диагностика на стенде</h6>
-                            <i class="bg-icon fa fa-bar-chart"></i>
-                        </div>
-                        <!-- /.pricing-head -->
-                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
-                            <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
-                        </div>
-                        <!-- /.pricing-foot -->
-                    </div>
-                    <!-- /.pricing-box -->
-                </div>
-                <div class="col-md-4">
-                    <div class="pricing-box">
-                        <div class="pricing-head">
-                            <span>от</span>
-                            <h2>₴ 2000</h2>
-                            <h6>Стандартный ремонт</h6>
-                            <i class="bg-icon fa fa-cog"></i>
-                        </div>
-                        <!-- /.pricing-head -->
-                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
-                            <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
-                        </div>
-                        <!-- /.pricing-foot -->
-                    </div>
-                    <!-- /.pricing-box -->
-                </div>
-                <!-- /.col-sm-4 -->
-                <div class="col-md-4">
-                    <div class="pricing-box">
-                        <div class="pricing-head">
-                            <span>от</span>
-                            <h2>₴ 4000</h2>
-                            <h6>Капитальный ремонт</h6>
-                            <i class="bg-icon fa fa-gears"></i>
-                        </div>
-                        <!-- /.pricing-head -->
-                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
-                            <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
-                        </div>
-                        <!-- /.pricing-foot -->
-                    </div>
-                    <!-- /.pricing-box -->
-                </div>
-                <!-- /.col-sm-4 -->
-            </div>
         </div>
-        @include('layouts.components.our_features')
-        <div class="container mt40">
-            <p class="underline p-main">Наш сервис обслуживает турбонагнетатели сельскохозяйственной и спецтехники
-                как:</p>
-            <br>
+        <div class="mb40">
+            @include('layouts.components.any_questions')
+        </div>
+        @include('layouts.components.how-we-work')
+    </section>
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="section-title underline">Наш сервис обслуживает</h3>
+                </div>
+            </div>
             <p class="p-main" style="font-size: 18px"><b>Техника:</b></p>
             <div class="row">
                 <div class="col-md-2">
@@ -149,8 +107,15 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="content-section">
+        <div class="container">
             <div class="row">
-                <div class="col-md-12 mb30 mt60">
+                <div class="col-md-12 text-center">
+                    <h3 class="section-title underline">Ремонт турбин для марок</h3>
+                </div>
+                <div class="col-md-12 mb30">
                     <p class="p-main" style="font-size: 18px"><b>Производители:</b></p>
                 </div>
 
@@ -192,7 +157,83 @@
                 </div> <!-- end col-md-12 -->
 
             </div> <!-- end row -->
-            @include('layouts.components.any_questions')
         </div>
+    </section>
+    <section class="content-section">
+        <div class="container">
+            <div class="row mb-40">
+                <div class="col-md-12 text-center">
+                    <h3 class="section-title underline">Стоимости услуг</h3>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="pricing-box">
+                        <div class="pricing-head">
+                            <span class="striked" style="color: #f2f2f2">привет)</span>
+                            <h2>Бесплатно</h2>
+                            <h6>Диагностика на стенде</h6>
+                            <i class="bg-icon fa fa-bar-chart"></i>
+                        </div>
+                        <!-- /.pricing-head -->
+                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
+                            <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
+                        </div>
+                        <!-- /.pricing-foot -->
+                    </div>
+                    <!-- /.pricing-box -->
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="pricing-box">
+                        <div class="pricing-head">
+                            <span>от</span>
+                            <h2>₴ 2000</h2>
+                            <h6>Стандартный ремонт</h6>
+                            <i class="bg-icon fa fa-cog"></i>
+                        </div>
+                        <!-- /.pricing-head -->
+                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
+                            <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
+                        </div>
+                        <!-- /.pricing-foot -->
+                    </div>
+                    <!-- /.pricing-box -->
+                </div>
+                <!-- /.col-sm-4 -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="pricing-box">
+                        <div class="pricing-head">
+                            <span>от</span>
+                            <h2>₴ 4000</h2>
+                            <h6>Капитальный ремонт</h6>
+                            <i class="bg-icon fa fa-gears"></i>
+                        </div>
+                        <!-- /.pricing-head -->
+                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
+                            <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
+                        </div>
+                        <!-- /.pricing-foot -->
+                    </div>
+                    <!-- /.pricing-box -->
+                </div>
+                <!-- /.col-sm-4 -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="pricing-box">
+                        <div class="pricing-head">
+                            <span>от</span>
+                            <h2>₴ 4000</h2>
+                            <h6>Капитальный ремонт</h6>
+                            <i class="bg-icon fa fa-gears"></i>
+                        </div>
+                        <!-- /.pricing-head -->
+                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
+                            <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
+                        </div>
+                        <!-- /.pricing-foot -->
+                    </div>
+                    <!-- /.pricing-box -->
+                </div>
+                <!-- /.col-sm-4 -->
+            </div>
+        </div>
+        @include('layouts.components.any_questions')
     </section>
 @endsection

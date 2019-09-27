@@ -6,10 +6,10 @@
                 <img src="<?php echo e(asset('images'), false); ?>/main-logo.svg" alt="TwinTurbo" class="img-responsive mb20" width="100" style="margin: auto;">
             </div>
             <div class="col-md-6">
-                <p class="footer-title"><b>режим роботы:</b></p>
-                <p class="footer-title"><span><i class="fa fa-calendar-check-o"></i></span><b> 9:00 - 18:00 с понедельника по субботу</b></p>
-                <p class="footer-title"><b>телефон:</b></p>
-                <h6 class="footer-title lowercase"><i class="fa fa-phone"></i><a href="tel:+380930000000"> +1 (123) 456-7890 </a><span class="ml10 mr10"></span></h6>
+                <p class="footer-title"><span><i class="fa fa-calendar-check-o"></i></span><b> режим роботы: 9:00 - 18:00 с понедельника по субботу</b></p>
+                <p class="footer-title"></p>
+                <p class="footer-title"><span><i class="fa fa-phone"></i></span><b> телефон: <a href="tel:+380930000000"> +1 (123) 456-7890 </a></b></p>
+                
             </div>
             <div class="col-md-6 text-right">
                 <a href="#" class="trans pr10 pl10"><i class="fa fa-facebook"></i></a>
