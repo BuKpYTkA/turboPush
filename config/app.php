@@ -228,6 +228,6 @@ return [
 
     ],
 
-    'defaultBannerImage' => 'images/nature1.jpg',
+    'defaultBannerImage' => 'images/twin-turbo.jpg',
 
 ];

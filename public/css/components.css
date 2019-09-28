@@ -8,6 +8,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
     letter-spacing: 0;
+    text-transform: unset!important;
 }
 
 section {
@@ -93,4 +94,19 @@ p {
 
 .a-flash:hover {
     opacity: .6;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-page-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+.advantage-tel:hover {
+    color: #fff!important;
+}
+
+.section-title {
+    font-weight: bold!important;
 }

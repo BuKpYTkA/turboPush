@@ -33,7 +33,7 @@ nav-hidden - Open nav on icon click
     <div class="container">
         <div class="row page-title-row text-center" style="padding-bottom: 40px!important; margin-top: 80px!important;">
             <div class="col-md-12">
-                <h1 style="color: #fff!important;" class="page-title black-color"><b>{{ $metaTagContent->getH1() }}</b></h1>
+                <h1 style="word-break: break-word" class="page-title header-page-title"><b>{{ $metaTagContent->getH1() }}</b></h1>
             </div> <!-- end col-md-6 -->
         </div> <!-- end page-title-row -->
         <div class="container text-center">

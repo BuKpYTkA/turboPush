@@ -158,38 +158,14 @@
             <div class="row">
                 <div class="col-md-12 section-header text-center">
                     <h3 class="section-title underline">О нас</h3>
-                    <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod.</p>
                 </div> <!-- end section-header -->
 
-                <div class="col-md-12 mb60">
-                    <h4 class="underline">Full Width</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum.</p>
+                <div class="col-md-12 mb60 text-center">
+                    <p>Наша компания успешно осваивает рынок по всей Украине.
+                        Сильные стороны сервиса Твин Турбо – надежность и скорость работы благодаря большому опыту мастеров и ремонту большого количество турбин! В практике ремонта разнообразные турбокомпрессоры, начиная от легковых заканчивая грузовыми и сельскохозяйственной техникой.
+                        Благодаря наличия  современного оборудования включая в себе стенды по регулировки и балансировке происходит контроль качества произведенного ремонта. Гарантия на реставрированные турбины до 2 лет.  Работаем с мелкими и крупными предприятиями
+                    </p>
                 </div> <!-- end col-md-12 -->
-
-                <div class="col-md-6 mb60">
-                    <h4 class="underline">Half Width on large &amp; medium screens</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum.</p>
-                </div> <!-- end col-md-6 -->
-                <div class="col-md-6 mb60">
-                    <h4 class="underline">Half Width on large &amp; medium screens</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum.</p>
-                </div> <!-- end col-md-6 -->
 
             </div> <!-- end row -->
         </div> <!-- end container -->

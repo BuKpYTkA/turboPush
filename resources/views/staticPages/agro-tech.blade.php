@@ -34,9 +34,11 @@
                 </div>
             </div>
         </div>
-        <div class="mb40">
+        <div>
             @include('layouts.components.any_questions')
         </div>
+    </section>
+    <section class="content-section">
         @include('layouts.components.how-we-work')
     </section>
     <section class="content-section">
