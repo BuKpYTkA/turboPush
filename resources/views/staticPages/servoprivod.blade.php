@@ -62,7 +62,7 @@
                 </div>
                 <div class="col-md-4 pb20">
                     <img style="width: 100%"
-                         src="{{ asset('images/system/servoprivod') }}/photo_2019-09-29_00-39-44.jpg"
+                         src="{{ asset('images/system/servoprivod') }}/IMG_0894.jpg"
                          alt="{{ $metaTagContent->getTitle() }}">
                 </div>
                 <div class="col-md-8">
