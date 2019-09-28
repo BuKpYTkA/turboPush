@@ -2,7 +2,11 @@
 @section('content')
     <section style="padding-bottom: 0!important;">
         <div class="container">
-            <p class="underline p-main">Стоимость услуг:</p>
+            <div class="row">
+                <div class="col-md-12 section-header text-center" style="margin-bottom: 20px">
+                    <h3 class="section-title underline">Стоимость услуг</h3>
+                </div> <!-- end section-header -->
+            </div>
             <table class="table table-hover" style="margin-bottom: 30px">
                 <thead>
                 <tr>
@@ -97,15 +101,18 @@
                 </p>
             </div>
         </div>
-
-        @include('layouts.components.our_features')
+    </section>
+    <section class="content-section">
+        @include('layouts.components.advantages')
+    </section>
+    <section class="content-section">
         <div class="container mt40">
 
         <blockquote class="blockquote-default" style="font-size: 16px">
                         <b>Стоимость нового турбонагнетателя всегда выше, а стоимость восстановления составляет от 30
                         до 50% цены новой турбины.</b> Так же мы говорим полную стоимость восстановления сразу после (бесплатной) диагностики, без скрытых платежей. Если же у вас проблема с турбонагнетателем, вы можете набрать нас по телефону или оставить заявку на сайте, и мы вам перезвоним.
                     </blockquote>
-            @include('layouts.components.any_questions')
-</div>
+        </div>
+        @include('layouts.components.any_questions')
     </section>
 @endsection
