@@ -8,7 +8,7 @@
                 </div> <!-- end section-header -->
                 <div class="col-md-4 pb20">
                     <img style="width: 100%"
-                         src="https://via.placeholder.com/350x200"
+                         src="{{ asset('images/system/servoprivod') }}/photo_2019-09-29_00-39-44.jpg"
                          alt="{{ $metaTagContent->getTitle() }}">
                 </div>
                 <div class="col-md-8">
@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-md-4 pb20">
                     <img style="width: 100%"
-                         src="https://via.placeholder.com/350x200"
+                         src="{{ asset('images/system/servoprivod') }}/photo_2019-09-29_00-39-47.jpg"
                          alt="{{ $metaTagContent->getTitle() }}">
                 </div>
                 <div class="col-md-12 text-center">
@@ -62,7 +62,7 @@
                 </div>
                 <div class="col-md-4 pb20">
                     <img style="width: 100%"
-                         src="https://via.placeholder.com/350x200"
+                         src="{{ asset('images/system/servoprivod') }}/photo_2019-09-29_00-39-44.jpg"
                          alt="{{ $metaTagContent->getTitle() }}">
                 </div>
                 <div class="col-md-8">
