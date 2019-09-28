@@ -154,9 +154,6 @@
         @include('layouts.components.any_questions')
     </section>
     <section class="content-section">
-        @include('layouts.components.how-we-work')
-    </section>
-    <section class="content-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 section-header text-center">
@@ -197,7 +194,7 @@
             </div> <!-- end row -->
         </div> <!-- end container -->
     </section>
-    <section class="content-section">
+    <section class="content-section" style="padding-bottom: 0!important;">
         <div class="container text-center">
             <h3 class="section-title underline">Марки авто и транспорта</h3>
             <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -212,6 +209,22 @@
             </div>
         </div>
         @include('layouts.components.contact-us')
+    </section>
+    <section class="content-section">
+        @include('layouts.components.how-we-work')
+    </section>
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="section-title underline">Заказать бесплатный просчет на ремонт турбины</h3>
+
+                </div>
+                <div class="col-md-6 col-md-offset-3">
+                    @include('layouts.components.contact-form')
+                </div>
+            </div>
+        </div>
     </section>
 
 

@@ -1,4 +1,4 @@
-<div>
+<div id="contact-form">
     <form class="" id="form" method="post" action="{{ route('order.create') }}">
         @csrf
         <div class="form-group">
