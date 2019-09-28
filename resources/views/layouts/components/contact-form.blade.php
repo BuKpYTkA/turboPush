@@ -12,19 +12,21 @@
                    placeholder="Введите имя" required="" value="{{ old('name') }}">
         </div>
         <div class="form-group">
-            <div class="row" style="display: flex; align-items: center;">
-                <div class="col-md-1 col-xs-2 col-sm-1" style="margin-top: 15px">
-                    <label for="" style="font-size: 16px;">+380</label>
-                </div>
-                <div class="col-md-11 col-xs-10 col-sm-11">
-                    <label for="subject">Телефон<strong>*</strong></label>
-                    @if ($errors->has('phone'))
-                        <span role="alert">
+            <label for="subject">Телефон<strong>*</strong></label>
+            @if ($errors->has('phone'))
+                <span role="alert">
                                         <strong>{{ $errors->first('phone') }}</strong>
                                     </span>
-                    @endif
-                    <input type="text" class="form-control input-style-2" id="phone" name="phone"
-                           placeholder="Введите номер телефона" required="" value="{{ old('phone') }}">
+            @endif
+            <div style="display: flex">
+                <div style="padding-right: 0!important; width: 13%">
+                    <input type="text" disabled="disabled" value="+380" class="form-control input-style-2">
+                </div>
+                <div style="padding-left: 0!important; width: 85%; margin-left: 15px">
+                    <input type="text" class="form-control input-style-2"
+                           id="phone"
+                           name="phone"
+                           placeholder="0661112233" required="" value="{{ old('phone') }}">
                 </div>
             </div>
         </div>
