@@ -29,7 +29,7 @@ nav-hidden - Open nav on icon click
 <!-- ========== MAIN ========== -->
 <!-- ========== HOME SECTION ========== -->
 <!-- ========== ANIMATED PAGE TITLE ========== -->
-<section class="parallax-window" data-parallax="scroll" data-image-src="{{ $bannerImage->getImageUrl() }}" data-speed="0.6" style="background: rgba(0, 0, 0, 0.35); padding-bottom: 40px">
+<section class="parallax-window" data-parallax="scroll" data-image-src="{{ $bannerImage->getImageUrl() }}" data-speed="0.6" style="padding-bottom: 40px; width: 100%">
     <div class="container">
         <div class="row page-title-row text-center" style="padding-bottom: 40px!important; margin-top: 80px!important;">
             <div class="col-md-12">
