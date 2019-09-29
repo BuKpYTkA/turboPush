@@ -36,7 +36,7 @@ class CarInfoPageController extends Controller
      * @param string $alias
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function __invoke(Request $request, string $alias)
+    public function buy(Request $request, string $alias)
     {
         /**
          * @var CarInfoPage $carInfoPage
@@ -47,9 +47,30 @@ class CarInfoPageController extends Controller
         }
         $metaTagConfig = $this->getMetaTagConfig($carInfoPage);
         $metaTagContent = $this->metaTagService->getCurrentMetaTags($request, $metaTagConfig);
-        return view('dynamic_pages.car_info_page', [
+        $models = $this->getModelsArray($carInfoPage);
+        return view('dynamic_pages.car_info_page_buy', [
             'carInfoPage' => $carInfoPage,
-            'metaTagContent' => $metaTagContent
+            'metaTagContent' => $metaTagContent,
+            'models' => $models
+        ]);
+    }
+
+    public function repair(Request $request, string $alias)
+    {
+        /**
+         * @var CarInfoPage $carInfoPage
+         */
+        $carInfoPage = CarInfoPage::query()->where('page_alias', $alias)->first();
+        if (!$carInfoPage) {
+            return abort(404);
+        }
+        $metaTagConfig = $this->getMetaTagConfig($carInfoPage);
+        $metaTagContent = $this->metaTagService->getCurrentMetaTags($request, $metaTagConfig);
+        $models = $this->getModelsArray($carInfoPage);
+        return view('dynamic_pages.car_info_page_repair', [
+            'carInfoPage' => $carInfoPage,
+            'metaTagContent' => $metaTagContent,
+            'models' => $models
         ]);
     }
 
@@ -63,5 +84,15 @@ class CarInfoPageController extends Controller
             'MIN' => $carInfoPage->getMinPrice(),
             'MAX' => $carInfoPage->getMaxPrice()
         ];
+    }
+
+    private function getModelsArray(CarInfoPage $carInfoPage)
+    {
+        $modelsString = $carInfoPage->getModels();
+        $modelsArray = [];
+        if ($modelsString) {
+            $modelsArray = explode(',', $modelsString);
+        }
+        return $modelsArray;
     }
 }

@@ -1,6 +1,7 @@
 <?php
 /**
  * @var \App\Models\CarInfoPage\CarInfoPage $carInfoPage
+ * @var array $models
  */
 ?>
 
@@ -17,24 +18,32 @@
 
                 </div>
                 <div class="col-md-9">
-                    <h2 style="margin-left: 20px">Приобретение
-                        турбонагнетателя {{ $carInfoPage->getBrand() }} {{ '(' . $carInfoPage->getBrandAdditional() . ')' }}</h2>
+                    <h2 style="margin-left: 20px">Ремонт турбин по заводским параметрам {{ $carInfoPage->getBrand() }} {{ '(' . $carInfoPage->getBrandAdditional() . ')' }}</h2>
                     <br>
-                    <p class="underline" style="font-size: 25px; margin-bottom: 15px; margin-left: 20px"> Почему стоит
-                        приобрести турбину на
-                        ваш {{ $carInfoPage->getBrandAdditional() ? $carInfoPage->getBrandAdditional() : $carInfoPage->getBrand() }}
-                        у нас?</p>
+                    <p class="underline" style="font-size: 25px; margin-bottom: 15px; margin-left: 20px">Почему стоит доверится "TwinTurbo"?</p>
                     <br>
                     <ul class="ul-style-2">
                         <li>
-                            <i class="fa fa-circle list-icon li-icon"></i><p class="li-p">Турбосервис "TwinTurbo" подставляет большой выбор восстановленных и новых турбонагнетателей.</p>
+                            <i class="fa fa-circle list-icon li-icon"></i><p class="li-p">Гарантия на ремонт до 2-ух лет</p>
                         </li>
                         <li>
-                            <i class="fa fa-circle list-icon li-icon"></i><p class="li-p">В процессе ремонта мы используем качественные запчасти от проверенных производителей.</p>
+                            <i class="fa fa-circle list-icon li-icon"></i><p class="li-p">Современное оборудования</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-circle list-icon li-icon"></i><p class="li-p">Свое СТО</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-circle list-icon li-icon"></i><p class="li-p">Опытные мастера</p>
                         </li>
                         @if($carInfoPage->getModels())
                             <li>
-                                <i class="fa fa-circle list-icon li-icon"></i><p class="li-p">У нас в распоряжение турбины для таких моделей {{ $carInfoPage->getBrand() }}: {{ $carInfoPage->getModels() }}.</p>
+                                <i class="fa fa-circle list-icon li-icon"></i><p class="li-p">Сервис "TwinTurbo" производить ремонт следующих моделей {{ $carInfoPage->getBrand() }}:</p>
+                                <ul class="ul-style-2">
+
+                                @foreach($models as $model)
+                                        <li><i class="fa fa-check list-icon"></i>{{ $model }}</li>
+                                @endforeach
+                                </ul>
                             </li>
                         @endif
                         <li>
@@ -72,7 +81,7 @@
             </p>
             <br>
             <div class="container">
-                <div class="row">
+                <div class="row mb40">
                     <div class="col-md-3 col-sm-6">
                         <div class="pricing-box">
                             <div class="pricing-head">
@@ -128,8 +137,8 @@
                             <div class="pricing-head">
                                 <span>от</span>
                                 <h2>₴ {{ $carInfoPage->getMinPrice() }}</h2>
-                                <h6>Купить турбину</h6>
-                                <i class="bg-icon fa fa-shopping-cart"></i>
+                                <h6>Ремонт Сервопривода</h6>
+                                <i class="bg-icon fa fa-plug"></i>
                             </div>
                             <!-- /.pricing-head -->
                             <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
@@ -141,27 +150,8 @@
                     </div>
                     <!-- /.col-sm-4 -->
                 </div>
-                @include('layouts.components.any_questions')
-                <div class="row">
-                    <div class="col-md-6">
-                        <p style="text-align: justify" class="dropcap">
-                            Мастера <b style="font-style: italic">"TwinTurbo"</b> специализируются на реставрации турбокомпрессора и актуторов. Мы
-                            восстановим
-                            турбину и выдадим вам гарантию до 2-х лет.
-                            Реставрируем все типы турбокомпрессоров, любого производителя, любой сложности, в кротчайшие
-                            сроки.
-                            Оставьте заявку либо, позвоните нам для консультации, скажите нашему оператору какой у вас
-                            автомобиль, модель, год выпуска, объем двигателя, и мы подберем для вас турбонагнетателя,
-                            или
-                            отремонтируем ваш турбонагнетателя, мы работаем по всей Украине.
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="{{ asset('uploads') }}/images/auto-mechanic.jpg" style="width: 100%" alt="">
-                    </div>
-                </div>
             </div>
         </div>
-        @include('layouts.components.our_features')
+        @include('layouts.components.any_questions')
     </section>
 @endsection

@@ -173,11 +173,9 @@
     <section class="content-section" style="padding-bottom: 0!important;">
         <div class="container text-center">
             <h3 class="section-title underline">Марки авто и транспорта</h3>
-            <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod.</p>
             <div class="mt40">
                 @foreach($carInfoPages as $carInfoPage)
-                    <a class="a-flash" href="/brand/{{ $carInfoPage->getPageAlias() }}"><img class="mb10" width="130px"
+                    <a class="a-flash" href="/repair/{{ $carInfoPage->getPageAlias() }}"><img class="mb10" width="130px"
                                                                                              src="/uploads/{{ $carInfoPage->getImagePath() }}"
                                                                                              alt="{{ $carInfoPage->getBrand() }} | Twin Turbo"></a>
                 @endforeach

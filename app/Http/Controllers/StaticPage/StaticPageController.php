@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\StaticPage;
 
 use App\Models\BannerImage\BannerImage;
+use App\Models\CarInfoPage\CarInfoPage;
 use App\Models\MetaTagPage\MetaTagPage;
 use App\Services\MetaTagService\MetaTagService;
 use Illuminate\Http\Request;
@@ -43,8 +44,13 @@ class StaticPageController extends Controller
             return abort(404);
 
         }
+        $carInfoPages = [];
+        if ($pageAlias === 'sale') {
+            $carInfoPages = CarInfoPage::query()->where([])->orderBy('page_alias')->get();
+        }
         $viewPath = 'staticPages.' . $pageAlias;
         return view($viewPath, [
+            'carInfoPages' => $carInfoPages
         ]);
     }
 

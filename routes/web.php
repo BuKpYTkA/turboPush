@@ -30,7 +30,8 @@ Route::middleware(['global.vars'])->group(function () {
     Route::get('/', HomePageController::controller());
     Route::get('about', PostController::controller() . '@getPosts');
     Route::get('{pageAlias}', StaticPageController::controller());
-    Route::get('brand/{alias}', CarInfoPageController::controller());
+    Route::get('buy/{alias}', CarInfoPageController::controller() . '@buy');
+    Route::get('repair/{alias}', CarInfoPageController::controller() . '@repair');
     Route::get('posts/{alias}', PostController::controller());
 });
 
