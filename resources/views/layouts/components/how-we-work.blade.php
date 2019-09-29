@@ -8,9 +8,9 @@
         <div class="col-md-3 col-sm-6 mb40">
             <div class="feature-box-2">
                 <div class="icon">
-                    <i class="ion-ios-analytics"></i>
+                    <i class="fa fa-edit"></i>
                 </div>
-                <h5 class="feature-title capitalize">User friendly</h5>
+                <h5 class="feature-title capitalize"><b>Оставте заявку</b></h5>
                 <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p>
             </div> <!-- end feature-box-2 -->
@@ -18,9 +18,9 @@
         <div class="col-md-3 col-sm-6 mb40">
             <div class="feature-box-2">
                 <div class="icon">
-                    <i class="ion-ios-checkmark-outline"></i>
+                    <i class="fa fa-cube"></i>
                 </div>
-                <h5 class="feature-title capitalize">Fully Responsive</h5>
+                <h5 class="feature-title capitalize"><b>Отправте нам турбину</b></h5>
                 <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p>
             </div> <!-- end feature-box-2 -->
@@ -28,9 +28,9 @@
         <div class="col-md-3 col-sm-6 mb40">
             <div class="feature-box-2">
                 <div class="icon">
-                    <i class="ion-ios-speedometer-outline"></i>
+                    <i class="fa fa-wrench"></i>
                 </div>
-                <h5 class="feature-title capitalize">Retina ready</h5>
+                <h5 class="feature-title capitalize"><b>Ремонт</b></h5>
                 <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p>
             </div> <!-- end feature-box-2 -->
@@ -38,9 +38,9 @@
         <div class="col-md-3 col-sm-6 mb40">
             <div class="feature-box-2">
                 <div class="icon">
-                    <i class="ion-ios-football-outline"></i>
+                    <i class="fa fa-thumbs-up"></i>
                 </div>
-                <h5 class="feature-title capitalize">Easy to use</h5>
+                <h5 class="feature-title capitalize"><b>Отремонтировання турбина</b></h5>
                 <p class="feature-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p>
             </div> <!-- end feature-box-2 -->

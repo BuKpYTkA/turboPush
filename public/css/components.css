@@ -57,7 +57,8 @@ p {
 .p-main {
     font-size: 25px;
     margin-bottom: 15px;
-    margin-left: 20px
+    margin-left: 20px;
+    line-height: 30px;
 }
 
 .p-abzac {
