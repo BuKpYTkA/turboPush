@@ -39,7 +39,7 @@
                                 <ul class="ul-style-2">
 
                                 @foreach($models as $model)
-                                        <li><i class="fa fa-check list-icon"></i>{{ $model }}</li>
+                                        <li><i class="fa fa-check list-icon"></i>{{ trim($model) }}</li>
                                 @endforeach
                                 </ul>
                             </li>
