@@ -18,7 +18,7 @@ class HomePageController extends Controller
      */
     public function __invoke()
     {
-        $carInfoPages = CarInfoPage::query()->where([])->get();
+        $carInfoPages = CarInfoPage::query()->where([])->orderBy('page_alias')->get();
         return view('welcome', [
             'carInfoPages' => $carInfoPages
         ]);
