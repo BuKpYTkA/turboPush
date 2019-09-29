@@ -116,7 +116,7 @@ class CarInfoPage extends Model
      */
     public function getModels(): string
     {
-        return $this->models;
+        return $this->models ?? '';
     }
 
     /**
