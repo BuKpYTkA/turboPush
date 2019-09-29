@@ -13,19 +13,11 @@
                 </div>
                 <div class="col-md-8">
                     <p class="dropcap" style="text-align: justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit
-                        anim id est laborum.
+                        Большая часть современных автомобилей выпускается с турбированными двигателями, а тем временем турбины все чаще стали оснащать электронным актуатором "Сервоприводом".
+                        Самая популярная поломка — уже не механического типа, а поломка сервопривода "электроного актуатора турбины".
+
+                        Что бы про диагностировать и отремонтировать сервопривод мы используем тестер-программатор нового поколения от Английского производителя TurboTechnics ATP-100, с его помощу, мы можем произвести диагностику сервопривода прям на автомобиле, не снимая турбины. Так же ATP100 имеет функцию программирования, с его помощью при необходимости мы сбрасываем настройки и выставляем базовые заводские.
+
                     </p>
                 </div>
             </div>
@@ -37,50 +29,17 @@
             <div class="row">
                 <div class="col-md-8">
                     <p class="dropcap" style="text-align: justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit
-                        anim id est laborum.
+                        Мы производим качественный ремонт акуаторов турбины "Сервопривода" - Hella, Siemens VDO, Mahle и т.д.
+
+                        После ремонта турбонагнетателя, мы производим отсройку саплового апарата "Геометрии" на спец.стенде.
+                        У нас имеется все необходимые элементы для восстановления вашего Сервопривода — червячный механизм, Сектора позиций, двигатель актуатора, электро платы(верхняя крышка), практически на все виды актуаторов, и большой список новых оригинальных Сервоприводов в сборе.
+
                     </p>
-                </div>
-                <div class="col-md-4 pb20">
-                    <img style="width: 100%"
-                         src="{{ asset('images/system/servoprivod') }}/IMG_0978.jpg"
-                         alt="{{ $metaTagContent->getTitle() }}">
-                </div>
-                <div class="col-md-12 text-center">
-                    <h4 class="underline">Причины поломки сервопривода</h4>
                 </div>
                 <div class="col-md-4 pb20">
                     <img style="width: 100%"
                          src="{{ asset('images/system/servoprivod') }}/IMG_0894.jpg"
                          alt="{{ $metaTagContent->getTitle() }}">
-                </div>
-                <div class="col-md-8">
-                    <p class="dropcap" style="text-align: justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit
-                        anim id est laborum.
-                    </p>
                 </div>
             </div>
         </div>
