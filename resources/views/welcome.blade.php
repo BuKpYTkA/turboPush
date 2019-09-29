@@ -177,8 +177,7 @@
                 eiusmod.</p>
             <div class="mt40">
                 @foreach($carInfoPages as $carInfoPage)
-                    <a class="a-flash" href="/brand/{{ $carInfoPage->getPageAlias() }}"><img class="mb10" width="100px"
-                                                                                             height="100px"
+                    <a class="a-flash" href="/brand/{{ $carInfoPage->getPageAlias() }}"><img class="mb10" width="130px"
                                                                                              src="/uploads/{{ $carInfoPage->getImagePath() }}"
                                                                                              alt="{{ $carInfoPage->getBrand() }} | Twin Turbo"></a>
                 @endforeach
