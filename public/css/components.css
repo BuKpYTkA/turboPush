@@ -110,3 +110,7 @@ p {
 .section-title {
     font-weight: bold!important;
 }
+
+.section-text {
+    text-align: justify
+}
