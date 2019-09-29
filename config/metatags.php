@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'default title from config',
-    'description' => 'default description from config',
-    'keywords' => 'default keywords from config',
-    'ogTitle' => 'default ogTitle from config',
-    'ogDescription' => 'default ogDescription from config',
-    'h1' => 'default h1 from config',
+    'title' => 'Twin Turbo | Ремонт и продажа турбин',
+    'description' => 'TwinTurbo.com.ua | ремонт и продажа турбин, сервоприводов, актуаторов в Киеве. Бесплатная диагностика',
+    'keywords' => 'Турбины, ремонт, ремонт турбин, Киев, сервопривод, актутаор, диагностика',
+    'ogTitle' => 'Twin Turbo | Ремонт и продажа турбин',
+    'ogDescription' => 'TwinTurbo.com.ua | ремонт и продажа турбин, сервоприводов, актуаторов в Киеве. Бесплатная диагностика',
+    'h1' => 'Twin Turbo | Ремонт и продажа турбин',
 ];
