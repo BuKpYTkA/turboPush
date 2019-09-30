@@ -38,7 +38,7 @@
                     <input type="text" class="form-control input-style-2"
                            id="phone"
                            name="phone"
-                           placeholder="0661112233" required="" value="{{ old('phone') }}">
+                           placeholder="661112233" required="" value="{{ old('phone') }}">
                 </div>
             </div>
         </div>

@@ -17,8 +17,6 @@ nav-hidden - Open nav on icon click
 ================================================== -->
 <body class="header-shadow dark-header">
 
-<!-- ========== LOADER ========== -->
-@include('layouts.components.loader')
 
 <!-- ========== HEADER ========== -->
 @include('layouts.components.navbar')
@@ -68,7 +66,7 @@ sticky-footer - Reveal footer on scroll
 ================================================== -->
 @include('layouts.components.footer')
 @include('layouts.components.scripts')
-
+@include('layouts.components.helpers')
 
 </body>
 
