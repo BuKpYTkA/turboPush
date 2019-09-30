@@ -27,27 +27,38 @@ nav-hidden - Open nav on icon click
 <!-- ========== MAIN ========== -->
 
 <!-- ========== HOME SECTION ========== -->
-<div id="section1" class="parallax-window pt60" data-parallax="scroll" data-image-src="{{ asset('uploads') }}/{{config('app.defaultBannerImage')}}" data-speed="0.6">
+<div id="section1" class="parallax-window pt60" data-parallax="scroll"
+     data-image-src="{{ asset('uploads') }}/{{config('app.defaultBannerImage')}}" data-speed="0.6">
     <div style="background: rgba(0, 0, 0, 0.35);">
-    <div class="container">
-        <div class="row mt60 pb80">
-            <div class="col-md-6">
-                <h1 class="headline white-color">Impress Every Visitor!</h1>
-                <ul class="ul-style-3 white-color">
-                    <li><i class="fa fa-send list-icon"></i>Responsive Template</li>
-                    <li><i class="fa fa-hand-o-right list-icon"></i>Retina Ready</li>
-                    <li><i class="fa fa-thumbs-up list-icon"></i>155+ HTML Pages</li>
-                    <li><i class="fa fa-gear list-icon"></i>Mailchimp Integrated</li>
-                </ul>
-                <h4 class="mt40 mb20 white-color">Свяжитесь с нами</h4>
-                <a href="#contact-us" class="contact-modal"><button type="submit" class="st-btn primary-btn hvr-back hvr-sweep-to-right">Кнопка связи</button></a>
-            </div> <!-- end col-md-6 -->
-        </div> <!-- end row -->
-    </div> <!-- end container -->
+        <div class="container">
+            <div class="row mt60 pb80">
+                <div class="col-md-6">
+                    <h1 class="headline white-color">Ремонт турбин на все марки автомобилей</h1>
+                    <h3 class="white-color mb40">Восстанавливаем турбины на грузовые автомобили,
+                        сельскохозяйственную и спец технику
+                    </h3>
+                    <ul class="ul-style-3 white-color">
+                        <li><i class="fa fa-thumbs-up list-icon"></i>Гарантия на ремонт до 2 лет.</li>
+                        <li><i class="fa fa-money list-icon"></i>Экономия от стоимости новой турбины 70%</li>
+                        <li><i class="fa fa-gift list-icon"></i>Монтажный комплект прокладок в подарок!</li>
+                    </ul>
+                </div> <!-- end col-md-6 -->
+                <div class="col-md-12 text-center">
+                    <h4 class="mt40 mb20 white-color">Оставить заявку на бесплатный просчет
+                        стоимости ремонта вашей турбины
+                    </h4>
+                    <a href="#contact-us" class="contact-modal">
+                        <button type="submit" class="st-btn primary-btn hvr-back hvr-sweep-to-right">Оставить
+                            заявку
+                        </button>
+                    </a>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
     </div>
 </div>
 
-    @yield('content')
+@yield('content')
 
 <!-- ==================================================
 Footer: Classes

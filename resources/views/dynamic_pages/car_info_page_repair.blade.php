@@ -92,7 +92,7 @@
                             </div>
                             <!-- /.pricing-head -->
                             <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
-                                <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
+                                <a class="contact-modal" href="#contact-us"><b>Оставить заявку</b></a>
                             </div>
                             <!-- /.pricing-foot -->
                         </div>
@@ -108,7 +108,7 @@
                             </div>
                             <!-- /.pricing-head -->
                             <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
-                                <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
+                                <a class="contact-modal" href="#contact-us"><b>Оставить заявку</b></a>
                             </div>
                             <!-- /.pricing-foot -->
                         </div>
@@ -125,7 +125,7 @@
                             </div>
                             <!-- /.pricing-head -->
                             <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
-                                <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
+                                <a class="contact-modal" href="#contact-us"><b>Оставить заявку</b></a>
                             </div>
                             <!-- /.pricing-foot -->
                         </div>
@@ -142,7 +142,7 @@
                             </div>
                             <!-- /.pricing-head -->
                             <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">
-                                <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>
+                                <a class="contact-modal" href="#contact-us"><b>Оставить заявку</b></a>
                             </div>
                             <!-- /.pricing-foot -->
                         </div>

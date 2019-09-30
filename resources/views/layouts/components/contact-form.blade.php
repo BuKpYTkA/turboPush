@@ -12,6 +12,18 @@
                    placeholder="Введите имя" required="" value="{{ old('name') }}">
         </div>
         <div class="form-group">
+            <label for="message">Марка машины<strong>*</strong></label>
+            @if ($errors->has('message'))
+                <span role="alert">
+                                <strong>{{ $errors->first('message') }}</strong>
+                            </span>
+            @endif
+            <input type="text" class="form-control input-style-2"
+                   id="message"
+                   name="message"
+                   placeholder="Введите марку автомобиля" required="" value="{{ old('message') }}">
+        </div>
+        <div class="form-group">
             <label for="subject">Телефон<strong>*</strong></label>
             @if ($errors->has('phone'))
                 <span role="alert">
@@ -29,16 +41,6 @@
                            placeholder="0661112233" required="" value="{{ old('phone') }}">
                 </div>
             </div>
-        </div>
-        <div class="form-group">
-            <label for="message">Текст Сообщения<strong>*</strong></label>
-            @if ($errors->has('message'))
-                <span role="alert">
-                                <strong>{{ $errors->first('message') }}</strong>
-                            </span>
-            @endif
-            <textarea class="form-control input-style-2" id="message" name="message"
-                      placeholder="Текст сообщения.." required="" rows="3">{{ old('message') }}</textarea>
         </div>
 
         <button type="submit" class="st-btn primary-btn hvr-back hvr-sweep-to-right">Отправить

@@ -47,6 +47,7 @@ class OrderController extends AdminController
         $grid->column('id', __('Id'))->sortable();
         $grid->column('made_by', __(self::NAME))->sortable();
         $grid->column('phone', __(self::PHONE));
+        $grid->column('message', 'Марка машины');
         $grid->column('created_at', __(self::CREATED_AT))->sortable();
         $states = [
             'on' => ['value' => 1, 'text' => 'да', 'color' => 'success'],
