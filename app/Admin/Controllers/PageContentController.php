@@ -75,10 +75,9 @@ class PageContentController extends AdminController
         $form->footer(function ($footer) {
             $footer->disableReset();
             $footer->disableViewCheck();
-            $footer->disableEditingCheck();
             $footer->disableCreatingCheck();
         });
-        $form->submitted(function ($form) {
+        $form->saved(function ($form) {
             return redirect('admin-panel/pages/' . $form->model()->page_id);
         });
         return $form;
