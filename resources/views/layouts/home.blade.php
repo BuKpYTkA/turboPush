@@ -40,7 +40,7 @@ nav-hidden - Open nav on icon click
                     <li><i class="fa fa-gear list-icon"></i>Mailchimp Integrated</li>
                 </ul>
                 <h4 class="mt40 mb20 white-color">Свяжитесь с нами</h4>
-                <a href="#contact-us" class="contact-modal"><button type="submit" class="st-btn primary-btn hvr-back hvr-sweep-to-right">Submit</button></a>
+                <a href="#contact-us" class="contact-modal"><button type="submit" class="st-btn primary-btn hvr-back hvr-sweep-to-right">Кнопка связи</button></a>
             </div> <!-- end col-md-6 -->
         </div> <!-- end row -->
     </div> <!-- end container -->

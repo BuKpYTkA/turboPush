@@ -6,6 +6,7 @@ use App\Models\NavBarElement\NavBarElement;
 use App\Models\PhoneNumber\PhoneNumber;
 use App\Services\BannerImageService\BannerImageService;
 use App\Services\MetaTagService\MetaTagService;
+use App\Services\PageContent\PageContentService;
 use Closure;
 use Illuminate\Support\Facades\View;
 
@@ -27,14 +28,21 @@ class RegisterGlobalVariables
     private $bannerImageService;
 
     /**
+     * @var PageContentService
+     */
+    private $pageContentService;
+
+    /**
      * RegisterGlobalVariables constructor.
      * @param MetaTagService $metaTagService
      * @param BannerImageService $bannerImageService
+     * @param PageContentService $pageContentService
      */
-    public function __construct(MetaTagService $metaTagService, BannerImageService $bannerImageService)
+    public function __construct(MetaTagService $metaTagService, BannerImageService $bannerImageService, PageContentService $pageContentService)
     {
         $this->metaTagService = $metaTagService;
         $this->bannerImageService = $bannerImageService;
+        $this->pageContentService = $pageContentService;
     }
 
     /**
@@ -50,6 +58,7 @@ class RegisterGlobalVariables
         View::share('navBarElements', NavBarElement::query()->where([])->orderBy('order')->get());
         View::share('bannerImage', $this->bannerImageService->getCurrentBannerImage($request));
         View::share('phoneNumbers', PhoneNumber::query()->where([])->get());
+        View::share('content', $this->pageContentService->get($request));
         return $next($request);
     }
 }

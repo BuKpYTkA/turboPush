@@ -19,10 +19,10 @@
                                     </span>
             @endif
             <div style="display: flex">
-                <div style="padding-right: 0!important; width: 13%">
+                <div class="form-local-number-input" style="padding-right: 0!important">
                     <input type="text" disabled="disabled" value="+380" class="form-control input-style-2">
                 </div>
-                <div style="padding-left: 0!important; width: 85%; margin-left: 15px">
+                <div style="padding-left: 0!important; margin-left: 15px; flex: 13">
                     <input type="text" class="form-control input-style-2"
                            id="phone"
                            name="phone"

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\HomePage;
 
 use App\Models\CarInfoPage\CarInfoPage;
+use App\Models\Page\Page;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -20,7 +21,7 @@ class HomePageController extends Controller
     {
         $carInfoPages = CarInfoPage::query()->where([])->orderBy('page_alias')->get();
         return view('welcome', [
-            'carInfoPages' => $carInfoPages
+            'carInfoPages' => $carInfoPages,
         ]);
     }
 }

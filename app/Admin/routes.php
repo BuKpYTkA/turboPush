@@ -8,6 +8,8 @@ use App\Admin\Controllers\ImageController;
 use App\Admin\Controllers\MetaTagController;
 use App\Admin\Controllers\NavBarElementController;
 use App\Admin\Controllers\OrderController;
+use App\Admin\Controllers\PageContentController;
+use App\Admin\Controllers\PageController;
 use App\Admin\Controllers\PhoneNumberController;
 use App\Admin\Controllers\PostsController;
 use Illuminate\Routing\Router;
@@ -31,4 +33,6 @@ Route::group([
     $router->resource('/car-info-pages', CarInfoPageController::class);
     $router->resource('/posts', PostsController::class);
     $router->resource('/phone-numbers', PhoneNumberController::class);
+    $router->resource('/pages', PageController::class);
+    $router->resource('/page-contents', PageContentController::class);
 });

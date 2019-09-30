@@ -14,160 +14,13 @@
     </section>
     <section class="content-section" style="padding-bottom: 0!important;">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 section-header text-center">
-                    <h3 class="section-title underline">Стоимость услуг</h3>
-                    <p class="section-subtitle">One stop solution for a perfect business website!</p>
-                </div> <!-- end section-header -->
-
-                <div class="col-sm-3">
-                    <div class="pricing-box">
-                        <div class="pricing-head">
-                            <span class="striked">$ 10.0</span>
-                            <h2>Free</h2>
-                            <h6>Get the feel</h6>
-                            <i class="bg-icon ion-lock-combination"></i>
-                        </div>
-                        <!-- /.pricing-head -->
-                        <div class="pricing-body">
-                            <ul>
-                                <li>Basic Features <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                      data-placement="left" title="Something more about this"></i></li>
-                                <li>One User <i class="icon ion-ios-help" data-toggle="tooltip" data-placement="left"
-                                                title="Something more about this"></i></li>
-                                <li>10 Records <i class="icon ion-ios-help" data-toggle="tooltip" data-placement="left"
-                                                  title="Something more about this"></i></li>
-                                <li>Basic Feature</li>
-                                <li>Only One User</li>
-                                <li>Only 10 Records</li>
-                            </ul>
-                        </div>
-                        <!-- /.pricing-body -->
-                        <div class="pricing-foot">
-                            <a href="#">Start Now</a>
-                        </div>
-                        <!-- /.pricing-foot -->
-                    </div>
-                    <!-- /.pricing-box -->
-                </div>
-                <!-- /.col-sm-4 -->
-
-                <div class="col-sm-3">
-                    <div class="pricing-box popular">
-                        <div class="pricing-head">
-                            <span class="striked">$ 100.0</span>
-                            <h2>$ 50.0</h2>
-                            <h6>Try & buy</h6>
-                            <i class="bg-icon ion-ribbon-b"></i>
-                        </div>
-                        <!-- /.pricing-head -->
-                        <div class="pricing-body">
-                            <ul>
-                                <li>Basic Features <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                      data-placement="left" title="Something more about this"></i></li>
-                                <li>Five Users <i class="icon ion-ios-help" data-toggle="tooltip" data-placement="left"
-                                                  title="Something more about this"></i></li>
-                                <li>100 Records <i class="icon ion-ios-help" data-toggle="tooltip" data-placement="left"
-                                                   title="Something more about this"></i></li>
-                                <li>Some Advanced Features</li>
-                                <li>Only Five Users</li>
-                                <li>Up-to 100 Records</li>
-                            </ul>
-                        </div>
-                        <!-- /.pricing-body -->
-                        <div class="pricing-foot">
-                            <a href="#">Buy Now</a>
-                        </div>
-                        <!-- /.pricing-foot -->
-                    </div>
-                    <!-- /.pricing-box -->
-                </div>
-                <!-- /.col-sm-4 -->
-
-                <div class="col-sm-3">
-                    <div class="pricing-box">
-                        <div class="pricing-head">
-                            <span class="striked">$ 1000.0</span>
-                            <h2>$ 500.0</h2>
-                            <h6>More & Cheap</h6>
-                            <i class="bg-icon ion-bowtie"></i>
-                        </div>
-                        <!-- /.pricing-head -->
-                        <div class="pricing-body">
-                            <ul>
-                                <li>Basic Features <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                      data-placement="left" title="Something more about this"></i></li>
-                                <li>Unlimited Users <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                       data-placement="left" title="Something more about this"></i></li>
-                                <li>Unlimited Records <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                         data-placement="left" title="Something more about this"></i>
-                                </li>
-                                <li>All Features</li>
-                                <li>Create Unlimited Users</li>
-                                <li>Create Unlimited Records</li>
-                            </ul>
-                        </div>
-                        <!-- /.pricing-body -->
-                        <div class="pricing-foot">
-                            <a href="#">Buy Now</a>
-                        </div>
-                        <!-- /.pricing-foot -->
-                    </div>
-                    <!-- /.pricing-box -->
-                </div>
-                <!-- /.col-sm-4 -->
-                <div class="col-sm-3">
-                    <div class="pricing-box">
-                        <div class="pricing-head">
-                            <span class="striked">$ 1000.0</span>
-                            <h2>$ 500.0</h2>
-                            <h6>More & Cheap</h6>
-                            <i class="bg-icon ion-bowtie"></i>
-                        </div>
-                        <!-- /.pricing-head -->
-                        <div class="pricing-body">
-                            <ul>
-                                <li>Basic Features <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                      data-placement="left" title="Something more about this"></i></li>
-                                <li>Unlimited Users <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                       data-placement="left" title="Something more about this"></i></li>
-                                <li>Unlimited Records <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                         data-placement="left" title="Something more about this"></i>
-                                </li>
-                                <li>All Features</li>
-                                <li>Create Unlimited Users</li>
-                                <li>Create Unlimited Records</li>
-                            </ul>
-                        </div>
-                        <!-- /.pricing-body -->
-                        <div class="pricing-foot">
-                            <a href="#">Buy Now</a>
-                        </div>
-                        <!-- /.pricing-foot -->
-                    </div>
-                    <!-- /.pricing-box -->
-                </div>
-                <!-- /.col-sm-4 -->
-
-            </div> <!-- end row -->
+            {!! $content->where('section', 'services')->first()->getText() !!}
         </div> <!-- end container -->
         @include('layouts.components.any_questions')
     </section>
     <section class="content-section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 section-header text-center">
-                    <h3 class="section-title underline">О нас</h3>
-                </div> <!-- end section-header -->
-
-                <div class="col-md-12 mb60 text-center">
-                    <p>Наша компания успешно осваивает рынок по всей Украине.
-                        Сильные стороны сервиса Твин Турбо – надежность и скорость работы благодаря большому опыту мастеров и ремонту большого количество турбин! В практике ремонта разнообразные турбокомпрессоры, начиная от легковых заканчивая грузовыми и сельскохозяйственной техникой.
-                        Благодаря наличия  современного оборудования включая в себе стенды по регулировки и балансировке происходит контроль качества произведенного ремонта. Гарантия на реставрированные турбины до 2 лет.  Работаем с мелкими и крупными предприятиями
-                    </p>
-                </div> <!-- end col-md-12 -->
-
-            </div> <!-- end row -->
+            {!! $content->where('section', 'about_us')->first()->getText() !!}
         </div> <!-- end container -->
     </section>
     <section class="content-section" style="padding-bottom: 0!important;">
@@ -188,54 +41,7 @@
     </section>
     <section style="padding-top: 50px">
         <div class="container">
-            <div class="row">
-
-                <div class="col-md-4">
-
-                    <!-- ========== SECTION HEADER ========== -->
-                    <div class="section-header">
-                        <h3 class="section-title underline">Мы тут</h3>
-                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod.</p>
-                    </div> <!-- end section-header -->
-
-                    <div class="mb50 col-sm-6 col-md-12">
-                        <h6 class="underline"><b>Наш адрес</b></h6>
-                        <p>A203, Ishwarya Residency, <br>
-                            Kaspate Wasti, Wakad Road, <br>
-                            Pune, India - 411 057</p>
-                    </div>
-
-                    <div class="mb50 col-sm-6 col-md-12">
-                        <h6 class="underline"><b>Позвоните нам</b></h6>
-                        @foreach($phoneNumbers as $phoneNumber)
-                            <p><a href="{{ $phoneNumber->getPhone() }}">{{ $phoneNumber->getFormat() }}</a></p>
-                        @endforeach
-                    </div>
-
-                    <div class="">
-                        <h6 class="underline">Follow Us</h6>
-                        <p>
-                            <a href="https://www.facebook.com/ThemesEase" class="si-style-2" target="_blank"><i
-                                        class="fa fa-facebook"></i></a>
-                            <a href="https://twitter.com/ThemesEase" class="si-style-2" target="_blank"><i
-                                        class="fa fa-twitter"></i></a>
-                            <a href="#" class="si-style-2"><i class="fa fa-google-plus"></i></a>
-                        </p>
-                    </div>
-                </div> <!-- end col-md-4 -->
-
-                <div class="col-md-8">
-
-                    <!-- ========== SECTION HEADER ========== -->
-                    <div class="section-header">
-                        <h3 class="section-title underline">Заказать бесплатный просчет на ремонт турбины</h3>
-                        <p class="section-subtitle">Оставте свою заявку и наши операторы свяжуться с вами в ближайшее время</p>
-                    </div> <!-- end section-header -->
-                    @include('layouts.components.contact-form')
-                </div> <!-- end col-md-8 -->
-
-            </div> <!-- end row -->
+            @include('layouts.components.full-contact-form')
         </div> <!-- end container -->
     </section>
 

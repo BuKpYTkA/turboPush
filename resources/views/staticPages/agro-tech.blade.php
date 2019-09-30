@@ -7,32 +7,7 @@
     </section>
     <section class="content-section" style="padding-bottom: 0!important;">
         <div class="container">
-            <div class="row mb-40">
-                <div class="col-md-4 pb20">
-                    <img style="width: 100%"
-                         src="{{ asset('uploads') }}/images/wseries_r2b005797_large_6a149b199d0cee0f1852763cc89b501b76b32cb8.jpg"
-                         alt="{{ $metaTagContent->getTitle() }}">
-                </div>
-                <div class="col-md-8">
-                    <p class="dropcap" style="text-align: justify">
-                        Турбосервис <b style="font-style: italic">"TwinTurbo"</b> производит востоновление, профилактику
-                        турбонагнетателей всех видов —
-                        спецтехники и сельскохозяйственной техники любого производителя.
-                        Когда турбонагнетатель выходит из строя, его почти всегда возможно отремонтировать, не прибегая
-                        к
-                        покупкам Б\У или новой турбины.
-                        Наши мастера произведут точную диагностику вашей турбины, а так же работы по восстановлению,
-                        произведут замену неремонтопригодных элементов, соберут, отстроят, так же мы предоставляем
-                        большой
-                        выбор оригинального комплектующего.
-
-                        У нас есть филиалы в разных регионах, мы работаем по всей Украине, принимаем посылки по новой
-                        почте,
-                        авто люкс, ин тайм, а так же принимаем посылки передачи водителем рейсовым транспортом, для
-                        постоянных клиентов и партнеров действует система скидок.
-                    </p>
-                </div>
-            </div>
+            {!! $content->where('section', 'section_1')->first()->getText() !!}
         </div>
         <div>
             @include('layouts.components.any_questions')
@@ -43,72 +18,7 @@
     </section>
     <section class="content-section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3 class="section-title underline">Наш сервис обслуживает</h3>
-                </div>
-            </div>
-            <p class="p-main" style="font-size: 18px"><b>Техника:</b></p>
-            <div class="row">
-                <div class="col-md-2">
-                    <ul class="ul-style-2" style="margin-bottom: 10px">
-                        <li>
-                            <i class="fa fa-check list-icon li-icon"></i>
-                            <p class="li-p">Трактора</p>
-                        </li>
-                        <li>
-                            <i class="fa fa-check list-icon li-icon"></i>
-                            <p class="li-p">Сеялки</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <ul class="ul-style-2" style="margin-bottom: 10px">
-                        <li>
-                            <i class="fa fa-check list-icon li-icon"></i>
-                            <p class="li-p">Комбайны</p>
-                        </li>
-                        <li>
-                            <i class="fa fa-check list-icon li-icon"></i>
-                            <p class="li-p">Погрузчики</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <ul class="ul-style-2" style="margin-bottom: 10px">
-                        <li>
-                            <i class="fa fa-check list-icon li-icon"></i>
-                            <p class="li-p">Подъёмники</p>
-                        </li>
-                        <li>
-                            <i class="fa fa-check list-icon li-icon"></i>
-                            <p class="li-p">Катки</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <ul class="ul-style-2" style="margin-bottom: 10px">
-
-                        <li>
-                            <i class="fa fa-check list-icon li-icon"></i>
-                            <p class="li-p">Тягачи</p>
-                        </li>
-                        <li>
-                            <i class="fa fa-check list-icon li-icon"></i>
-                            <p class="li-p">Бульдозеры</p>
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <ul class="ul-style-2" style="margin-bottom: 10px">
-                        <li>
-                            <i class="fa fa-check list-icon li-icon"></i>
-                            <p class="li-p">И другие</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            {!! $content->where('section', 'we_serve')->first()->getText() !!}
         </div>
     </section>
     <section class="content-section">
@@ -163,15 +73,7 @@
     </section>
     <section class="content-section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3 class="section-title underline">Заказать бесплатный просчет на ремонт турбины</h3>
-
-                </div>
-                <div class="col-md-6 col-md-offset-3">
-                    @include('layouts.components.contact-form')
-                </div>
-            </div>
+            @include('layouts.components.full-contact-form')
         </div>
     </section>
 

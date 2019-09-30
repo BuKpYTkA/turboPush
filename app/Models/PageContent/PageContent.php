@@ -2,22 +2,24 @@
 
 namespace App\Models\PageContent;
 
+use App\Models\Page\Page;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class PageContent
  * @package App\Models\PageContent
  * @property int $id
- * @property string $page_alias
- * @property string $content
- * @property string $banner
+ * @property int $page_id
+ * @property string $section
+ * @property string $text
  */
 class PageContent extends Model
 {
 
     protected $fillable = [
-        'content',
-        'banner'
+        'page_id',
+        'section',
+        'text'
     ];
 
     /**
@@ -29,51 +31,59 @@ class PageContent extends Model
     }
 
     /**
-     * @return string
+     * @return int
      */
-    public function getPageAlias(): string
+    public function getPageId(): int
     {
-        return $this->page_alias;
+        return $this->page_id;
     }
 
     /**
-     * @param string $pageAlias
+     * @param int $page_id
      */
-    public function setPageAlias(string $pageAlias): void
+    public function setPageId(int $page_id): void
     {
-        $this->page_alias = $pageAlias;
-    }
-
-    /**
-     * @return string
-     */
-    public function getContent(): string
-    {
-        return $this->content;
-    }
-
-    /**
-     * @param string $content
-     */
-    public function setContent(string $content): void
-    {
-        $this->content = $content;
+        $this->page_id = $page_id;
     }
 
     /**
      * @return string
      */
-    public function getBanner(): string
+    public function getSection(): string
     {
-        return $this->banner;
+        return $this->section;
     }
 
     /**
-     * @param string $banner
+     * @param string $section
      */
-    public function setBanner(string $banner): void
+    public function setSection(string $section): void
     {
-        $this->banner = $banner;
+        $this->section = $section;
+    }
+
+    /**
+     * @return string
+     */
+    public function getText(): string
+    {
+        return $this->text;
+    }
+
+    /**
+     * @param string $text
+     */
+    public function setText(string $text): void
+    {
+        $this->text = $text;
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function page()
+    {
+        return $this->belongsTo(Page::class);
     }
 
 }
