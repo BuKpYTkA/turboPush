@@ -8,7 +8,7 @@
             <div class="col-md-6">
                 <p class="footer-title"><span><i class="fa fa-calendar-check-o"></i></span><b> режим роботы: 9:00 - 18:00 с понедельника по субботу</b></p>
                 <p class="footer-title"></p>
-                <p class="footer-title"><span><i class="fa fa-phone"></i></span><b> телефон: <a href="tel:+380930000000"> +1 (123) 456-7890 </a></b></p>
+                <p class="footer-title"><span><i class="fa fa-phone"></i></span><b> телефон: <a href="tel:+380935138448"> +38(093)513-84-48 </a></b></p>
                 {{--<h6 class="footer-title lowercase"><span class="ml10 mr10"></span></h6>--}}
             </div>
             <div class="col-md-6 text-right">

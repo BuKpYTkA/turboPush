@@ -14,7 +14,7 @@
             @foreach($phoneNumbers as $phoneNumber)
                     <span>
                         <a class="advantage-tel" href="tel:{{ $phoneNumber->getPhone() }}">
-                            {{ $phoneNumber->getFormat() }}
+                            <span><i class="fa fa-phone"></i></span>{{ $phoneNumber->getFormat() }}
                         </a>
                     </span>
             @endforeach

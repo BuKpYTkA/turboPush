@@ -12,8 +12,8 @@
             <div class="mt40">
                 @foreach($carInfoPages as $carInfoPage)
                     <a class="a-flash" href="/buy/{{ $carInfoPage->getPageAlias() }}"><img class="mb10" width="130px"
-                                                                                              src="/uploads/{{ $carInfoPage->getImagePath() }}"
-                                                                                              alt="{{ $carInfoPage->getBrand() }} | Twin Turbo"></a>
+                                                                                           src="/uploads/{{ $carInfoPage->getImagePath() }}"
+                                                                                           alt="{{ $carInfoPage->getBrand() }} | Twin Turbo"></a>
                 @endforeach
             </div>
         </div>
@@ -22,6 +22,7 @@
         <div class="container">
             {!! $content->where('section', 'price_examples')->first()->getText() !!}
             @include('layouts.components.any_questions_end')
+
         </div>
     </section>
 @endsection

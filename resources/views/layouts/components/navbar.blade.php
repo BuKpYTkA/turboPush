@@ -10,7 +10,7 @@
         <div class="container">
             <div class="right-div pull-left">
                 @foreach($phoneNumbers as $phoneNumber)
-                    <a style="font-size: 14px; color: black" href="tel:{{ $phoneNumber->getPhone() }}"><b>{{ $phoneNumber->getFormat() }}</b></a>
+                    <a style="font-size: 14px; color: black" href="tel:{{ $phoneNumber->getPhone() }}"><span><i class="fa fa-phone"></i></span> <b>{{ $phoneNumber->getFormat() }}</b></a>
                 @endforeach
             </div>
         </div> <!-- end container-fluid -->
@@ -28,7 +28,7 @@
             <ul class="main-menu">
                 @foreach($navBarElements as $navBarElement)
                     @if(!$navBarElement->hasParent())
-                        <li class="menu-item"><a href="{{ $navBarElement->getLink() }}"><i class="menu-icon fa {{ $navBarElement->getIcon() }}"></i> {{ $navBarElement->getText() }}</a>
+                        <li class="menu-item"><a href="{{ $navBarElement->getLink() === '/' ? '#' : $navBarElement->getLink()}}"><i class="menu-icon fa {{ $navBarElement->getIcon() }}"></i> {{ $navBarElement->getText() }}</a>
                         @if($navBarElement->hasChildren())
                             <ul class="mega-submenu normal-sub">
                                 @foreach($navBarElement->getChild()->get() as $childElement)
