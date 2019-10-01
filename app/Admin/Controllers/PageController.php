@@ -15,7 +15,7 @@ class PageController extends AdminController
      *
      * @var string
      */
-    protected $title = 'App\Models\Page\Page';
+    protected $title = 'Редактирование контента страниц';
 
     /**
      * Make a grid builder.
