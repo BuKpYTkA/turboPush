@@ -13,6 +13,7 @@
 
 use App\Http\Controllers\CarInfoPage\CarInfoPageController;
 use App\Http\Controllers\HomePage\HomePageController;
+use App\Http\Controllers\Order\ConfirmOrderController;
 use App\Http\Controllers\Order\CreateOrderController;
 use App\Http\Controllers\Post\PostController;
 use App\Http\Controllers\StaticPage\StaticPageController;
@@ -33,7 +34,7 @@ Route::middleware(['global.vars'])->group(function () {
 });
 
 Route::post('/order/create', CreateOrderController::controller())->name('order.create');
-
+Route::post('/order/confirm/{order}', ConfirmOrderController::controller())->name('order.confirm');
 
 
 Auth::routes();

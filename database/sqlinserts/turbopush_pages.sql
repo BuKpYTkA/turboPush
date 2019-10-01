@@ -8,3 +8,4 @@ INSERT INTO turbo.pages (id, alias, created_at, updated_at) VALUES (7, '/price-l
 INSERT INTO turbo.pages (id, alias, created_at, updated_at) VALUES (8, '/installation-rules', null, null);
 INSERT INTO turbo.pages (id, alias, created_at, updated_at) VALUES (9, '/signs-of-malfunction', null, null);
 INSERT INTO turbo.pages (id, alias, created_at, updated_at) VALUES (10, '/causes-of-malfunction', null, null);
+INSERT INTO turbo.pages (id, alias, created_at, updated_at) VALUES (11, '/types-of-actuators', null, null);

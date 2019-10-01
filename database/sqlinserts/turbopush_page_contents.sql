@@ -1,75 +1,5 @@
-INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (1, 1, 'services', '<div class="row mb40">
-<div class="col-md-12 section-header text-center">
-<h3 class="section-title underline">Стоимость услуг</h3>
-</div>
-<div class="col-md-3 col-sm-6">
-<div class="pricing-box">
-<div class="pricing-head"><span class="striked" style="color: #f2f2f2">привет)</span>
-<h2>Бесплатно</h2>
-
-<h6>Диагностика</h6>
-<i class="bg-icon fa fa-bar-chart"></i></div>
-<!-- /.pricing-head -->
-
-<div class="pricing-foot" style="border-top: #ff4b22 solid 3px"><a class="contact-modal" href="#contact-us"><b>Заказать</b></a></div>
-<!-- /.pricing-foot --></div>
-<!-- /.pricing-box --></div>
-
-<div class="col-md-3 col-sm-6">
-<div class="pricing-box">
-<div class="pricing-head"><span>от</span>
-
-<h2>₴ 1800</h2>
-
-<h6 class="inline-main">Стандартный ремонт</h6>
-<i class="bg-icon fa fa-cog"></i></div>
-<!-- /.pricing-head -->
-
-<div class="pricing-foot" style="border-top: #ff4b22 solid 3px"><a class="contact-modal" href="#contact-us"><b>Заказать</b></a></div>
-<!-- /.pricing-foot --></div>
-<!-- /.pricing-box --></div>
-<!-- /.col-sm-4 -->
-
-<div class="col-md-3 col-sm-6">
-<div class="pricing-box">
-<div class="pricing-head"><span>от</span>
-
-<h2>₴ 2500</h2>
-
-<h6 class="inline-main">Капитальное восстановление</h6>
-<i class="bg-icon fa fa-gears"></i></div>
-<!-- /.pricing-head -->
-
-<div class="pricing-foot" style="border-top: #ff4b22 solid 3px"><a class="contact-modal" href="#contact-us"><b>Заказать</b></a></div>
-<!-- /.pricing-foot --></div>
-<!-- /.pricing-box --></div>
-<!-- /.col-sm-4 -->
-
-<div class="col-md-3 col-sm-6">
-<div class="pricing-box">
-<div class="pricing-head"><span>от</span>
-
-<h2>₴ 700</h2>
-
-<h6>Ремонт сервопривода</h6>
-<i class="bg-icon fa fa-plug"></i></div>
-<!-- /.pricing-head -->
-
-<div class="pricing-foot" style="border-top: #ff4b22 solid 3px"><a class="contact-modal" href="#contact-us"><b>Заказать</b></a></div>
-<!-- /.pricing-foot --></div>
-<!-- /.pricing-box --></div>
-<!-- /.col-sm-4 --></div>', null, '2019-10-01 10:16:42');
-INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (2, 1, 'about_us', '<div class="row">
-<div class="col-md-12 section-header text-center">
-<h3 class="section-title underline">О нас</h3>
-</div>
-<!-- end section-header -->
-
-<div class="col-md-12 mb60 text-center">
-<p>Наша компания успешно осваивает рынок по всей Украине. Сильные стороны сервиса Твин Турбо &ndash; надежность и скорость работы благодаря большому опыту мастеров и ремонту большого количество турбин! В практике ремонта разнообразные турбокомпрессоры, начиная от легковых заканчивая грузовыми и сельскохозяйственной техникой. Благодаря наличия современного оборудования включая в себе стенды по регулировки и балансировке происходит контроль качества произведенного ремонта. Гарантия на реставрированные турбины до 2 лет. Работаем с мелкими и крупными предприятиями</p>
-</div>
-<!-- end col-md-12 --></div>
-<!-- end row -->', null, '2019-09-30 09:27:04');
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (1, 1, 'services', '<p>хелло23222</p>', null, '2019-09-30 19:31:09');
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (2, 1, 'about_us', '1', null, null);
 INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (3, 2, 'section_1', '            <div class="row">
                 <div class="col-md-12 section-header text-center" style="margin-bottom: 20px">
                     <h3 class="section-title underline">Сервопривод турбины</h3>
@@ -84,7 +14,7 @@ INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated
                         Большая часть современных автомобилей выпускается с турбированными двигателями, а тем временем турбины все чаще стали оснащать электронным актуатором "Сервоприводом".
                         Самая популярная поломка — уже не механического типа, а поломка сервопривода "электроного актуатора турбины".
 
-                        Что бы про диагностировать и отремонтировать сервопривод мы используем тестер-программатор нового поколения от Английского производителя TurboTechnics ATP-100, с его помощу, мы можем произвести диагностику сервопривода прям на автомобиле, не снимая турбины. Так же ATP100 имеет функцию программирования, с его помощью при необходимости мы сбрасываем настройки и выставляем базовые заводские.
+                        Что бы про диагностировать и отремонтировать сервопривод мы используем тестер-программатор нового поколения от Английского производителя turboTechnics ATP-100, с его помощу, мы можем произвести диагностику сервопривода прям на автомобиле, не снимая турбины. Так же ATP100 имеет функцию программирования, с его помощью при необходимости мы сбрасываем настройки и выставляем базовые заводские.
 
                     </p>
                 </div>
@@ -105,7 +35,6 @@ INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated
                          alt="Ремонт Сервопривода Киев">
                 </div>
             </div>', null, null);
-INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (5, 3, 'catalog_title', '<h3 class="section-title underline">Каталог турбин по маркам автомобилей</h3>', null, null);
 INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (6, 3, 'price_examples', '            <div class="row">
                 <div class="col-md-12 section-header text-center" style="margin-bottom: 20px">
                     <h3 class="section-title underline">Пример цен</h3>
@@ -127,7 +56,7 @@ INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated
 INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (7, 4, 'section_1', '            <div class="row">
                 <div class="col-md-12">
                     <div class="col-md-12 section-header text-center">
-                        <h3 class="section-title underline">Диагностика турбонагнетателя в Киеве TwinTurbo</h3>
+                        <h3 class="section-title underline">Диагностика турбонагнетателя в Киеве Twinturbo</h3>
                     </div> <!-- end section-header -->
                 </div>
                 <div class="col-md-12">
@@ -253,7 +182,7 @@ INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated
                 </div>
                 <div class="col-md-8">
                     <p class="dropcap" style="text-align: justify">
-                        Турбосервис <b style="font-style: italic">"TwinTurbo"</b> производит востоновление, профилактику
+                        Турбосервис <b style="font-style: italic">"Twinturbo"</b> производит востоновление, профилактику
                         турбонагнетателей всех видов —
                         спецтехники и сельскохозяйственной техники любого производителя.
                         Когда турбонагнетатель выходит из строя, его почти всегда возможно отремонтировать, не прибегая
@@ -340,7 +269,7 @@ INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated
 INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (11, 6, 'section_1', '            <div class="row">
                 <div class="col-md-12">
                     <p class="dropcap section-text" style="text-align: justify">
-                        Наши мастера <b style="font-style: italic">"TwinTurbo"</b> смогу произвести демонтаж — монтаж
+                        Наши мастера <b style="font-style: italic">"Twinturbo"</b> смогу произвести демонтаж — монтаж
                         турбонагнетателя с вашего автомобиля.
                         При обнаружении выхода из строя турбокомпрессора, возникает вопрос о его снятие, это может бить
                         для проведения осмотра, профилактики, либо же ремонта, в редких случаях приходится покупать
@@ -693,4 +622,76 @@ INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated
                     </li>
 
                 </ul>
+            </div>', null, null);
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (17, 11, 'section_1', '            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-12 section-header text-center">
+                        <h3 class="section-title underline">Актуатор турбины он же клапан Вестгейта - один из элементов турбины который контролирует давление нагнетаемого воздуха.</h3>
+                    </div> <!-- end section-header -->
+                </div>
+                <p><strong style="color: black">Существует 3 вида актуаторов:
+                    </strong></p>
+                <ul class="ul-style-2">
+                    <li><i class="fa fa-check list-icon"></i>Вакуумный
+                    </li>
+                    <li><i class="fa fa-check list-icon"></i>Электровакуумный
+                    </li>
+                    <li><i class="fa fa-check list-icon"></i>Электронный (Сервопривод)
+                    </li>
+                </ul>
+                <p class="dropcap">
+                    Но в данной статье мы поговорим про Вакуумный.
+                    В 80% случаев актуатор - выходит из строя из-за не корректной работы турбокомпрессора, а 20% попросту исчерпания своего ресурса, определить что сломан актуатор вы самостоятельно не сможете, для этого нужно специальное оборудование, но поскольку турбина уже будет  работать не корректно, вы сможете понять это по нескольким факторам, ухудшение динамики автомобиля, либо будут мигать индикаторы на приборной панели.
+                    А еще Вакуумный и Электровакуумный актуатор есть в двух исполнениях (Нажимной и Всасывающийся).
+
+                </p>
+                <div class="col-md-12 col-md-offset-5">
+                    <h4 class="underline">Принцип его работы</h4>
+                </div>
+                <div class="col-sm-5">
+                    <img class="mb10" width="100%" src="https://via.placeholder.com/600x300" alt="типы актуаторов">
+                </div>
+                <div class="col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ol class="ol-style-3">
+                                <li>Выхлопные газы, выходят с выпускного коллектора проходя через чугунную часть турбины(горячую), создавая нужный поток газов приводя раскручивая при это крыльчатку и она начинает вращаться.</li>
+                                <li>С параллельной стороны находится холодная часть турбины, и там установлено компрессорное колесо, когда крыльчатка горячей части начинает раскручиваться тем самым приводят в действие компрессорное колесо, а оно производит так называемый турбонаддув по системе наддува, проходя через патрубки и радиатор интеркулера попадает во впускной коллектор и далее в камеру сгорания создавая в нем необходимое давление.</li>
+                                <li>Вейсгейт в нужный момент обеспечивает открытия и сброса избыточного давления выхлопных газов, эта функция позволяет выполнить сброс мимо колеса турбины.</li>
+                            </ol>
+                        </div> <!-- end col-md-3 -->
+                    </div>
+                </div>
+                <p class="p-main text-center mb20">За частую у актуаторов с вакуумной системой происходит разрыв мембраны, из-за того что заклинила геометрия(сопловой аппарат) или передувная калитка.</p>
+                <div class="col-md-12">
+                    <p><strong style="color: black">Если вейсгейт вышел из строя этому будет свидетельствовать ряд признаков:</strong></p>
+                    <ul class="ul-style-2">
+                        <li><i class="fa fa-times list-icon"></i>Дребезжания в турбокомпрессоре во время перегазовки и в момент снижения оборотов.
+                            (Происходит это потому что шток клапана не зафиксирован, а самое дребезжание издает "калитка" сброса лишнего давления.
+                        </li>
+                        <li><i class="fa fa-times list-icon"></i>Так же если при потере динамики это признак не достаточного наддува.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p><strong style="color: black">Естественный износ, и большой пробег и как следствие служит причиной разрыва иногда растягивание мембраны.</strong></p>
+                            <p><strong style="color: black">В этой ситуации выполняем такие работы:</strong></p>
+                            <ol class="ol-style-3">
+                                <li>Актуатор  снимаем,  разбираем, извлекаем поврежденный манжет(мембрану).</li>
+                                <li>Обезжириваем поверхность, в клееваем в корпус новую мембрану.</li>
+                                <li>Делаем за вальцовку корпуса.</li>
+                                <li>Далее делаем отстройку.</li>
+                            </ol>
+                        </div> <!-- end col-md-3 -->
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <img class="mb10" width="100%" src="https://via.placeholder.com/600x300" alt="типы актуаторов">
+                </div>
+                <div class="col-md-12">
+                    <p class="text-center">
+                        Данные работы должный выполнять специалисты, для этого потребуется обладать спец.инструментом и нужными навыки. Турбосервис | TwinTurbo | производит ремонт турбонагнетателей любого производителя и любой сложности.
+                    </p>
+                </div>
             </div>', null, null);
