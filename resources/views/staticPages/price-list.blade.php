@@ -13,7 +13,7 @@
     <section class="content-section">
         <div class="container mt40">
             {!! $content->where('section', 'section_2')->first()->getText() !!}
+            @include('layouts.components.any_questions_end')
         </div>
-        @include('layouts.components.any_questions')
     </section>
 @endsection

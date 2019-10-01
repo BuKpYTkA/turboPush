@@ -39,9 +39,9 @@
     <section class="content-section">
         @include('layouts.components.how-we-work')
     </section>
-    <section style="padding-top: 50px">
+    <section style="padding-top: 0!important;">
         <div class="container">
-            @include('layouts.components.full-contact-form')
+            @include('layouts.components.any_questions_end')
         </div> <!-- end container -->
     </section>
 

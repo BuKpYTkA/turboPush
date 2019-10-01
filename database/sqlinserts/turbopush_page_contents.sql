@@ -1,130 +1,65 @@
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (1, 1, 'services', '<div class="row">
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (1, 1, 'services', '<div class="row mb40">
 <div class="col-md-12 section-header text-center">
-<h3 class="section-title underline">Услуги</h3>
+<h3 class="section-title underline">Стоимость услуг</h3>
 </div>
-<!-- end section-header -->
-
-<div class="col-sm-3">
+<div class="col-md-3 col-sm-6">
 <div class="pricing-box">
-<div class="pricing-head"><span class="striked">$ 10.0</span>
+<div class="pricing-head"><span class="striked" style="color: #f2f2f2">привет)</span>
+<h2>Бесплатно</h2>
 
-<h2>Free</h2>
-
-<h6>Get the feel</h6>
-<i class="bg-icon ion-lock-combination"></i></div>
+<h6>Диагностика</h6>
+<i class="bg-icon fa fa-bar-chart"></i></div>
 <!-- /.pricing-head -->
 
-<div class="pricing-body">
-<ul>
-	<li>Basic Features <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                      data-placement="left" title="Something more about this"></i></li>
-	<li>One User <i class="icon ion-ios-help" data-toggle="tooltip" data-placement="left"
-                                                title="Something more about this"></i></li>
-	<li>10 Records <i class="icon ion-ios-help" data-toggle="tooltip" data-placement="left"
-                                                  title="Something more about this"></i></li>
-	<li>Basic Feature</li>
-	<li>Only One User</li>
-	<li>Only 10 Records</li>
-</ul>
-</div>
-<!-- /.pricing-body -->
+<div class="pricing-foot" style="border-top: #ff4b22 solid 3px"><a class="contact-modal" href="#contact-us"><b>Заказать</b></a></div>
+<!-- /.pricing-foot --></div>
+<!-- /.pricing-box --></div>
 
-<div class="pricing-foot"><a href="#">Start Now</a></div>
+<div class="col-md-3 col-sm-6">
+<div class="pricing-box">
+<div class="pricing-head"><span>от</span>
+
+<h2>₴ 1800</h2>
+
+<h6 class="inline-main">Стандартный ремонт</h6>
+<i class="bg-icon fa fa-cog"></i></div>
+<!-- /.pricing-head -->
+
+<div class="pricing-foot" style="border-top: #ff4b22 solid 3px"><a class="contact-modal" href="#contact-us"><b>Заказать</b></a></div>
 <!-- /.pricing-foot --></div>
 <!-- /.pricing-box --></div>
 <!-- /.col-sm-4 -->
 
-<div class="col-sm-3">
-<div class="pricing-box popular">
-<div class="pricing-head"><span class="striked">$ 100.0</span>
+<div class="col-md-3 col-sm-6">
+<div class="pricing-box">
+<div class="pricing-head"><span>от</span>
 
-<h2>$ 50.0</h2>
+<h2>₴ 2500</h2>
 
-<h6>Try &amp; buy</h6>
-<i class="bg-icon ion-ribbon-b"></i></div>
+<h6 class="inline-main">Капитальное восстановление</h6>
+<i class="bg-icon fa fa-gears"></i></div>
 <!-- /.pricing-head -->
 
-<div class="pricing-body">
-<ul>
-	<li>Basic Features <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                      data-placement="left" title="Something more about this"></i></li>
-	<li>Five Users <i class="icon ion-ios-help" data-toggle="tooltip" data-placement="left"
-                                                  title="Something more about this"></i></li>
-	<li>100 Records <i class="icon ion-ios-help" data-toggle="tooltip" data-placement="left"
-                                                   title="Something more about this"></i></li>
-	<li>Some Advanced Features</li>
-	<li>Only Five Users</li>
-	<li>Up-to 100 Records</li>
-</ul>
-</div>
-<!-- /.pricing-body -->
-
-<div class="pricing-foot"><a href="#">Buy Now</a></div>
+<div class="pricing-foot" style="border-top: #ff4b22 solid 3px"><a class="contact-modal" href="#contact-us"><b>Заказать</b></a></div>
 <!-- /.pricing-foot --></div>
 <!-- /.pricing-box --></div>
 <!-- /.col-sm-4 -->
 
-<div class="col-sm-3">
+<div class="col-md-3 col-sm-6">
 <div class="pricing-box">
-<div class="pricing-head"><span class="striked">$ 1000.0</span>
+<div class="pricing-head"><span>от</span>
 
-<h2>$ 500.0</h2>
+<h2>₴ 700</h2>
 
-<h6>More &amp; Cheap</h6>
-<i class="bg-icon ion-bowtie"></i></div>
+<h6>Ремонт сервопривода</h6>
+<i class="bg-icon fa fa-plug"></i></div>
 <!-- /.pricing-head -->
 
-<div class="pricing-body">
-<ul>
-	<li>Basic Features <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                      data-placement="left" title="Something more about this"></i></li>
-	<li>Unlimited Users <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                       data-placement="left" title="Something more about this"></i></li>
-	<li>Unlimited Records <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                         data-placement="left" title="Something more about this"></i></li>
-	<li>All Features</li>
-	<li>Create Unlimited Users</li>
-	<li>Create Unlimited Records</li>
-</ul>
-</div>
-<!-- /.pricing-body -->
-
-<div class="pricing-foot"><a href="#">Buy Now</a></div>
+<div class="pricing-foot" style="border-top: #ff4b22 solid 3px"><a class="contact-modal" href="#contact-us"><b>Заказать</b></a></div>
 <!-- /.pricing-foot --></div>
 <!-- /.pricing-box --></div>
-<!-- /.col-sm-4 -->
-
-<div class="col-sm-3">
-<div class="pricing-box">
-<div class="pricing-head"><span class="striked">$ 1000.0</span>
-
-<h2>$ 10000.0</h2>
-
-<h6>More &amp; Cheap</h6>
-<i class="bg-icon ion-bowtie"></i></div>
-<!-- /.pricing-head -->
-
-<div class="pricing-body">
-<ul>
-	<li>Basic Features <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                      data-placement="left" title="Something more about this"></i></li>
-	<li>Unlimited Users <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                       data-placement="left" title="Something more about this"></i></li>
-	<li>Unlimited Records <i class="icon ion-ios-help" data-toggle="tooltip"
-                                                         data-placement="left" title="Something more about this"></i></li>
-	<li>All Features</li>
-	<li>Create Unlimited Users</li>
-	<li>Create Unlimited Records</li>
-</ul>
-</div>
-<!-- /.pricing-body -->
-
-<div class="pricing-foot"><a href="#">Buy Now</a></div>
-<!-- /.pricing-foot --></div>
-<!-- /.pricing-box --></div>
-<!-- /.col-sm-4 --></div>
-<!-- end row -->', null, '2019-09-30 09:25:50');
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (2, 1, 'about_us', '<div class="row">
+<!-- /.col-sm-4 --></div>', null, '2019-10-01 10:16:42');
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (2, 1, 'about_us', '<div class="row">
 <div class="col-md-12 section-header text-center">
 <h3 class="section-title underline">О нас</h3>
 </div>
@@ -135,7 +70,7 @@ INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, upd
 </div>
 <!-- end col-md-12 --></div>
 <!-- end row -->', null, '2019-09-30 09:27:04');
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (3, 2, 'section_1', '            <div class="row">
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (3, 2, 'section_1', '            <div class="row">
                 <div class="col-md-12 section-header text-center" style="margin-bottom: 20px">
                     <h3 class="section-title underline">Сервопривод турбины</h3>
                 </div> <!-- end section-header -->
@@ -154,7 +89,7 @@ INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, upd
                     </p>
                 </div>
             </div>', null, null);
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (4, 2, 'section_2', '            <div class="row">
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (4, 2, 'section_2', '            <div class="row">
                 <div class="col-md-8">
                     <p class="dropcap" style="text-align: justify">
                         Мы производим качественный ремонт акуаторов турбины "Сервопривода" - Hella, Siemens VDO, Mahle и т.д.
@@ -170,8 +105,8 @@ INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, upd
                          alt="Ремонт Сервопривода Киев">
                 </div>
             </div>', null, null);
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (5, 3, 'catalog_title', '<h3 class="section-title underline">Каталог турбин по маркам автомобилей</h3>', null, null);
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (6, 3, 'price_examples', '            <div class="row">
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (5, 3, 'catalog_title', '<h3 class="section-title underline">Каталог турбин по маркам автомобилей</h3>', null, null);
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (6, 3, 'price_examples', '            <div class="row">
                 <div class="col-md-12 section-header text-center" style="margin-bottom: 20px">
                     <h3 class="section-title underline">Пример цен</h3>
                 </div> <!-- end section-header -->
@@ -189,7 +124,7 @@ INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, upd
                     </ol>
                 </div>
             </div>', null, null);
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (7, 4, 'section_1', '            <div class="row">
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (7, 4, 'section_1', '            <div class="row">
                 <div class="col-md-12">
                     <div class="col-md-12 section-header text-center">
                         <h3 class="section-title underline">Диагностика турбонагнетателя в Киеве TwinTurbo</h3>
@@ -245,7 +180,7 @@ INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, upd
                     </ul>
                 </div>
             </div>', null, null);
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (8, 4, 'section_2', '            <div class="row">
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (8, 4, 'section_2', '            <div class="row">
                 <div class="col-md-12">
                     <div class="col-md-12 section-header text-center">
                         <h3 class="section-title underline">Причины и признаки неисправности турбины</h3>
@@ -310,7 +245,7 @@ INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, upd
                     </p>
                 </div>
             </div>', null, null);
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (9, 5, 'section_1', '            <div class="row">
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (9, 5, 'section_1', '            <div class="row">
                 <div class="col-md-4 pb20">
                     <img style="width: 100%"
                          src="uploads/images/wseries_r2b005797_large_6a149b199d0cee0f1852763cc89b501b76b32cb8.jpg"
@@ -336,7 +271,7 @@ INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, upd
                     </p>
                 </div>
             </div>', null, null);
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (10, 5, 'we_serve', '            <div class="row">
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (10, 5, 'we_serve', '            <div class="row">
                 <div class="col-md-12 text-center">
                     <h3 class="section-title underline">Наш сервис обслуживает</h3>
                 </div>
@@ -402,7 +337,7 @@ INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, upd
                     </ul>
                 </div>
             </div>', null, null);
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (11, 6, 'section_1', '            <div class="row">
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (11, 6, 'section_1', '            <div class="row">
                 <div class="col-md-12">
                     <p class="dropcap section-text" style="text-align: justify">
                         Наши мастера <b style="font-style: italic">"TwinTurbo"</b> смогу произвести демонтаж — монтаж
@@ -563,7 +498,7 @@ INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, upd
 
                 </p>
             </div>', null, null);
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (12, 7, 'section_1', '            <div class="row">
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (12, 7, 'section_1', '            <div class="row">
                 <div class="col-md-12 section-header text-center" style="margin-bottom: 20px">
                     <h3 class="section-title underline">Стоимость услуг</h3>
                 </div> <!-- end section-header -->
@@ -673,13 +608,13 @@ INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, upd
                     турбонагнетателем и проверяем на стенде.
                 </p>
             </div>', null, null);
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (13, 7, 'section_2', '            <blockquote class="blockquote-default" style="font-size: 16px">
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (13, 7, 'section_2', '            <blockquote class="blockquote-default" style="font-size: 16px">
                 <b>Стоимость нового турбонагнетателя всегда выше, а стоимость восстановления составляет от 30
                     до 50% цены новой турбины.</b> Так же мы говорим полную стоимость восстановления сразу после
                 (бесплатной) диагностики, без скрытых платежей. Если же у вас проблема с турбонагнетателем, вы можете
                 набрать нас по телефону или оставить заявку на сайте, и мы вам перезвоним.
             </blockquote>', null, null);
-INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (14, 8, 'section_1', '            <div class="row">
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (14, 8, 'section_1', '            <div class="row">
                 <div class="col-md-12 text-center">
                     <h3 class="section-title underline">Неправильная установка турбины</h3>
                 </div>
@@ -704,5 +639,58 @@ INSERT INTO turbopush.page_contents (id, page_id, section, text, created_at, upd
                     <li><i class="fa fa-times list-icon"></i>Использование герметика во время монтажа турбокомпрессора.</li>
                     <li><i class="fa fa-times list-icon"></i>Не исправность сапуна (дыхательный клапан) - с  его помощью сбрасывается избыточное давление, которое образуется в внутри двигателя, (превышение - 4.5кгс|см2 или ниже 1.2 кгс|см2)</li>
                     <li><i class="fa fa-times list-icon"></i>Установка турбокомпрессора на авто который глохнет на холостых оборотах.</li>
+                </ul>
+            </div>', null, null);
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (15, 9, 'section_1', '            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="section-title underline">Признаки неисправности турбины</h3>
+                </div>
+                <p><strong style="color: black">Есть ряд признаков о не правильной работе турбонагнетателя,
+                        7 основных симптомов - например:
+                    </strong></p>
+                <ul class="ul-style-2">
+                    <li><i class="fa fa-times list-icon"></i>Повышеное потребления масла в двигателя
+                    </li>
+                    <li><i class="fa fa-times list-icon"></i>Появления масляных потёков, по системе наддува,
+                        либо на самой турбине
+                    </li>
+                    <li><i class="fa fa-times list-icon"></i>Увеличелся расход топлива
+                    </li>
+                    <li><i class="fa fa-times list-icon"></i>Резкий провал мощности мотора</li>
+                    <li><i class="fa fa-times list-icon"></i>Появления дыма с выхлопной системы - белого, чёрного, сизого.</li>
+                    <li><i class="fa fa-times list-icon"></i>Изменение в динамике набора скорости.</li>
+                    <li><i class="fa fa-times list-icon"></i>Появление шума, похож на свист, скрежет, при повышение оборотов.</li>
+                </ul>
+            </div>
+            <p>Тогда вам нужно подъехать в автомобильный сервис, для диагностики, в процессе вам следуем проверить двигатель, систему наддува, все патрубки, и сам турбокомпрессор, если же диагностирование покажет что турбина вышла их стоя, вы можете снять её у нас, либо на любом другом сервисе, и привезти её к нам на диагностику для проявления причин выхода из строя, после мы произведем подходящий ремонт вашего турбокомпрессора после всех выполненных робот вы получите уже работающий турбонагнетатель и гарантию до 2х лет.
+                Так же если вы делаете капитальный ремонт двигателя, вам следует произвести проверку вашей турбины.
+            </p>
+            <p><strong style="color: black">Мы производи диагностику в 3 этапа:
+                </strong></p>
+            <ol class="ol-style-4">
+                <li class="margin-list">1 визуальный осмотр
+                </li>
+                <li class="margin-list">при необходимости проверка на стенде
+                </li>
+                <li class="margin-list">полная разборка и осмотр всех внутренних элементов турбокомпрессора
+                </li>
+            </ol>
+            <p><strong style="color: black">У нас в команде мастера с опытом более 10 лет ремонта турбонагнетателей.
+                </strong></p>', null, null);
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (16, 10, 'section_1', '<div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="section-title underline">Принцип роботы, причины из-за которых может произойти поломка вашей турбины.</h3>
+                </div>
+                <p>Ни одна деталь в  Турбокомпрессоре не трется друг об друга, они скользят под давление, из-за этого турбина не имеет практически выработки, и её срок службы может достигать 10-15 лет, конечно же при правильном обслуживание автомобиля.</p>
+                <p><strong style="color: black">Есть всего 3 главных фактора поломки турбокомпрессора:
+                    </strong></p>
+                <ul class="ul-style-2">
+                    <li><i class="fa fa-times list-icon"></i>Загрязненный поток воздуха в системе наддува (плохо фильтрованный), из-за происходит выработка по компрессорному колесу, турбина уходит в дисбаланс - происходит повышение вибрации в процессе оборотов  и ломается ротор.
+                    </li>
+                    <li><i class="fa fa-times list-icon"></i>Оригинальное масло в двигатель должно быть очень хорошего качества, топовых производителей, и соответствовать допускам под ваш автомобиль - которые устанавливает завод изготовитель, очень часто люди сталкиваются с поделками, по этому важно покупать масло в проверенном место, так же использование разных присадок пагубно влияет на работоспособность турбокомпрессор.
+                    </li>
+                    <li><i class="fa fa-times list-icon"></i>Еще не мало важную роль отыгрывает дизельное топливо, но конечно же с комплексе с правильной работы топливного оборудование на авто, чрезмерный перелив топлива в цилиндры, несгоревшее топливо догорает в выпускном коллекторе, крыльчатке вала - тем самым оплавляя её, так же без внимание не остается сопловой аппарат (геометрия турбокомпрессора) от сгорания топлива в турбине, перегревается геометрия и она начинает клинить.
+                    </li>
+
                 </ul>
             </div>', null, null);

@@ -10,7 +10,7 @@
         <div class="container">
             <div class="right-div pull-left">
                 @foreach($phoneNumbers as $phoneNumber)
-                    <a href="tel:{{ $phoneNumber->getPhone() }}">{{ $phoneNumber->getFormat() }}</a>
+                    <a style="font-size: 14px; color: black" href="tel:{{ $phoneNumber->getPhone() }}"><b>{{ $phoneNumber->getFormat() }}</b></a>
                 @endforeach
             </div>
         </div> <!-- end container-fluid -->

@@ -6,23 +6,25 @@
         <div class="col-md-3 col-sm-6 mb40">
             <div class="feature-box-2">
                 <div class="icon">
-                    <i class="fa fa-edit"></i>
+                    <i class="fa fa-phone"></i>
                 </div>
-                <h5 class="feature-title capitalize"><b>Оставте заявку</b></h5>
-                <p class="feature-desc">Оставьте заявку на сайте или
-                    наберите менеджера для консультации
-                    по телефону.
+                <h5 class="feature-title capitalize"><b>Звонок</b></h5>
+                <p class="feature-desc pull-left">- Оставляете заявку
+                    или звоните
+                </p>
+                <p class="feature-desc">- Обговариваете
+                    детали с нашим менеджером
                 </p>
             </div> <!-- end feature-box-2 -->
         </div> <!-- end col-md-3 -->
         <div class="col-md-3 col-sm-6 mb40">
             <div class="feature-box-2">
                 <div class="icon">
-                    <i class="fa fa-cube"></i>
+                    <i class="fa fa-pencil-square-o"></i>
                 </div>
-                <h5 class="feature-title capitalize"><b>Отправте нам турбину</b></h5>
-                <p class="feature-desc">Приезжайте на авто на наше СТО или
-                    отправьте снятую турбину по Новой Почте.
+                <h5 class="feature-title capitalize"><b>Отправка турбины</b></h5>
+                <p class="feature-desc">- Клиент отправляет турбину
+                    Удобным ему способом.
                 </p>
             </div> <!-- end feature-box-2 -->
         </div> <!-- end col-md-3 -->
@@ -31,10 +33,11 @@
                 <div class="icon">
                     <i class="fa fa-wrench"></i>
                 </div>
-                <h5 class="feature-title capitalize"><b>Диагностика и ремонт</b></h5>
-                <p class="feature-desc">Турбина попадает в цех, происходит дефектовка
-                    после которой подбирается ремонт.
-                </p>
+                <h5 class="feature-title capitalize"><b>Доставка турбины</b></h5>
+                <p class="feature-desc">- Диагностируем</p>
+                <p class="feature-desc">- Согласование окончательной
+                    стоимость</p>
+                <p class="feature-desc">- Ремонтируем</p>
             </div> <!-- end feature-box-2 -->
         </div> <!-- end col-md-3 -->
         <div class="col-md-3 col-sm-6 mb40">

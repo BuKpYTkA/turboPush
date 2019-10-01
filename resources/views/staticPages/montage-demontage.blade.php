@@ -9,6 +9,7 @@
     <section class="content-section">
         <div class="container">
             @include('layouts.components.advantages')
+            @include('layouts.components.any_questions_end')
         </div>
     </section>
 @endsection

@@ -73,84 +73,9 @@
     </section>
     <section class="content-section">
         <div class="container">
-            @include('layouts.components.full-contact-form')
+            @include('layouts.components.any_questions_end')
         </div>
     </section>
 
-    {{--    <section class="content-section">--}}
-{{--        <div class="container">--}}
-{{--            <div class="row mb-40">--}}
-{{--                <div class="col-md-12 text-center">--}}
-{{--                    <h3 class="section-title underline">Стоимости услуг</h3>--}}
-{{--                </div>--}}
-{{--                <div class="col-sm-6 col-md-3">--}}
-{{--                    <div class="pricing-box">--}}
-{{--                        <div class="pricing-head">--}}
-{{--                            <span class="striked" style="color: #f2f2f2">привет)</span>--}}
-{{--                            <h2>Бесплатно</h2>--}}
-{{--                            <h6>Диагностика на стенде</h6>--}}
-{{--                            <i class="bg-icon fa fa-bar-chart"></i>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.pricing-head -->--}}
-{{--                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">--}}
-{{--                            <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.pricing-foot -->--}}
-{{--                    </div>--}}
-{{--                    <!-- /.pricing-box -->--}}
-{{--                </div>--}}
-{{--                <div class="col-sm-6 col-md-3">--}}
-{{--                    <div class="pricing-box">--}}
-{{--                        <div class="pricing-head">--}}
-{{--                            <span>от</span>--}}
-{{--                            <h2>₴ 2000</h2>--}}
-{{--                            <h6>Стандартный ремонт</h6>--}}
-{{--                            <i class="bg-icon fa fa-cog"></i>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.pricing-head -->--}}
-{{--                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">--}}
-{{--                            <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.pricing-foot -->--}}
-{{--                    </div>--}}
-{{--                    <!-- /.pricing-box -->--}}
-{{--                </div>--}}
-{{--                <!-- /.col-sm-4 -->--}}
-{{--                <div class="col-sm-6 col-md-3">--}}
-{{--                    <div class="pricing-box">--}}
-{{--                        <div class="pricing-head">--}}
-{{--                            <span>от</span>--}}
-{{--                            <h2>₴ 4000</h2>--}}
-{{--                            <h6>Капитальный ремонт</h6>--}}
-{{--                            <i class="bg-icon fa fa-gears"></i>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.pricing-head -->--}}
-{{--                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">--}}
-{{--                            <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.pricing-foot -->--}}
-{{--                    </div>--}}
-{{--                    <!-- /.pricing-box -->--}}
-{{--                </div>--}}
-{{--                <!-- /.col-sm-4 -->--}}
-{{--                <div class="col-sm-6 col-md-3">--}}
-{{--                    <div class="pricing-box">--}}
-{{--                        <div class="pricing-head">--}}
-{{--                            <span>от</span>--}}
-{{--                            <h2>₴ 4000</h2>--}}
-{{--                            <h6>Капитальный ремонт</h6>--}}
-{{--                            <i class="bg-icon fa fa-gears"></i>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.pricing-head -->--}}
-{{--                        <div class="pricing-foot" style="border-top: #ff4b22 solid 3px">--}}
-{{--                            <a class="contact-modal" href="#contact-us"><b>Заказать</b></a>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.pricing-foot -->--}}
-{{--                    </div>--}}
-{{--                    <!-- /.pricing-box -->--}}
-{{--                </div>--}}
-{{--                <!-- /.col-sm-4 -->--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </section>--}}
+
 @endsection

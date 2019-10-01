@@ -21,6 +21,7 @@
     <section class="content-section">
         <div class="container">
             {!! $content->where('section', 'price_examples')->first()->getText() !!}
+            @include('layouts.components.any_questions_end')
         </div>
     </section>
 @endsection

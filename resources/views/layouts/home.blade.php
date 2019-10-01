@@ -31,7 +31,7 @@ nav-hidden - Open nav on icon click
         <div class="container">
             <div class="row mt60 pb80">
                 <div class="col-md-6">
-                    <h1 class="headline white-color">Ремонт турбин на все марки автомобилей</h1>
+                    <h1 class="headline white-color" style="font-size: 45px">Ремонт турбин на все марки автомобилей</h1>
                     <h3 class="white-color mb40">Восстанавливаем турбины на грузовые автомобили,
                         сельскохозяйственную и спец технику
                     </h3>
