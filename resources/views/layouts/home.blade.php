@@ -17,7 +17,7 @@ nav-hidden - Open nav on icon click
 ================================================== -->
 <body class="header-shadow dark-header">
 
-
+@include('layouts.components.loader')
 <!-- ========== HEADER ========== -->
 @include('layouts.components.navbar')
 @include('layouts.components.contact-modal')
