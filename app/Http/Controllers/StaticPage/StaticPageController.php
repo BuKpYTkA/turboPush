@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers\StaticPage;
 
-use App\Models\BannerImage\BannerImage;
 use App\Models\CarInfoPage\CarInfoPage;
-use App\Models\MetaTagPage\MetaTagPage;
 use App\Services\MetaTagService\MetaTagService;
+use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 

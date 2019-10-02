@@ -31,7 +31,7 @@
                         <li class="menu-item"><a href="{{ $navBarElement->getLink() === '/' ? '#' : $navBarElement->getLink()}}"><i class="menu-icon fa {{ $navBarElement->getIcon() }}"></i> {{ $navBarElement->getText() }}</a>
                         @if($navBarElement->hasChildren())
                             <ul class="mega-submenu normal-sub">
-                                @foreach($navBarElement->getChild()->get() as $childElement)
+                                @foreach($navBarElement->getChild()->orderBy('order')->get() as $childElement)
                                     <li><a href="{{ $childElement->getLink() }}"><i class="fa {{ $childElement->getIcon() }}"></i> {{ $childElement->getText() }}</a></li>
                                 @endforeach
                             </ul>
