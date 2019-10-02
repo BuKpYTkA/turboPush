@@ -13,12 +13,15 @@ class ConfirmOrderController extends Controller
      *
      * @param \Illuminate\Http\Request $request
      * @param Order $order
-     * @return void
+     * @return string
      */
     public function __invoke(Request $request, Order $order)
     {
+        if ($order->is_moderated) {
+            return '<p>Заказ уже отмечен как "выполненный"</p>';
+        }
         $order->setIsModerated(true);
         $order->save();
-        echo '<p>Заказ был успешно отмечен, как "выполнен"</p>';
+        return '<p>Заказ был успешно отмечен, как "выполнен"</p>';
     }
 }
