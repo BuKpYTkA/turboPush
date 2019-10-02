@@ -136,7 +136,7 @@
                         <div class="pricing-box">
                             <div class="pricing-head">
                                 <span>от</span>
-                                <h2>₴ {{ $carInfoPage->getMinPrice() }}</h2>
+                                <h2>₴ 250</h2>
                                 <h6>Ремонт Сервопривода</h6>
                                 <i class="bg-icon fa fa-plug"></i>
                             </div>

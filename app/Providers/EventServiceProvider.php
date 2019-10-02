@@ -6,11 +6,13 @@ use App\Events\CarInfoPage\CarInfoPageDeleted;
 use App\Events\CarInfoPage\CarInfoPageUpdated;
 use App\Events\Image\ImageDeleted;
 use App\Events\NavBarElement\NavBarElementUpdated;
+use App\Events\Order\OrderCreated;
 use App\Events\Post\PostCreated;
 use App\Listeners\CarInfoPage\CarInfoPageDeletedListener;
 use App\Listeners\CarInfoPage\CarInfoPageUpdatedListener;
 use App\Listeners\Image\ImageDeletedListener;
 use App\Listeners\NavBarElement\NavBarElementUpdatedListener;
+use App\Listeners\Order\OrderCratedListener;
 use App\Listeners\Post\PostCreatedListener;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Auth\Events\Registered;
@@ -42,6 +44,9 @@ class EventServiceProvider extends ServiceProvider
         ],
         PostCreated::class => [
             PostCreatedListener::class
+        ],
+        OrderCreated::class => [
+            OrderCratedListener::class
         ]
     ];
 

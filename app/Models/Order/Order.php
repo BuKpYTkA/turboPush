@@ -2,6 +2,7 @@
 
 namespace App\Models\Order;
 
+use App\Events\Order\OrderCreated;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -16,6 +17,10 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Order extends Model
 {
+
+    protected $dispatchesEvents = [
+        'created' => OrderCreated::class
+    ];
 
     protected $fillable = [
         'made_by',

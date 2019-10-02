@@ -229,5 +229,7 @@ return [
     ],
 
     'defaultBannerImage' => 'images/twin-turbo.jpg',
+    'commonOrdersReceiver' => env('COMMON_ORDERS_RECEIVER', 'twinturbokiev@gmail.com'),
+    'commonOrdersSenderName' => env('COMMON_ORDERS_SENDER_NAME', 'TwinTurbo'),
 
 ];
