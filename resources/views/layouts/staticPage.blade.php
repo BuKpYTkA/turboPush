@@ -23,6 +23,7 @@ small-header - For lesser height
 nav-hidden - Open nav on icon click
 ================================================== -->
 <body class="header-shadow dark-header">
+@include('layouts.components.scripts.gtm-body')
 @include('layouts.components.loader')
 
 <!-- ========== LOADER ========== -->

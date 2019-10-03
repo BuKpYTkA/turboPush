@@ -22,4 +22,5 @@
     <link rel="stylesheet" href="{{ asset('css') }}/components.css">
 
     <script src="{{ asset('frontEnd') }}/scripts/vendor/modernizr.js"></script>
+    @include('layouts.components.scripts.gtm-head')
 </head>
