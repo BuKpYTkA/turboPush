@@ -26,7 +26,7 @@
                     <div class="icon underline longer-underline">
                         <img width="50px" src="{{ asset('images/system') }}/ukraine-ico.png" alt="">
                     </div>
-                    <h5 class="feature-title">Присылайте</h5>
+                    <h5 class="feature-title"><b>Присылайте</b></h5>
                     <p class="feature-desc">Мы работаем по всей Украине</p>
                 </div> <!-- end feature -->
             </div>
