@@ -28,7 +28,7 @@
             <ul class="main-menu">
                 @foreach($navBarElements as $navBarElement)
                     @if(!$navBarElement->hasParent())
-                        <li class="menu-item"><a href="{{ $navBarElement->getLink() === '/' ? '#' : $navBarElement->getLink()}}"><i class="menu-icon fa {{ $navBarElement->getIcon() }}"></i> {{ $navBarElement->getText() }}</a>
+                        <li class="menu-item"><a href="{{ $navBarElement->getLink() === 'blank' ? '#' : $navBarElement->getLink()}}"><i class="menu-icon fa {{ $navBarElement->getIcon() }}"></i> {{ $navBarElement->getText() }}</a>
                         @if($navBarElement->hasChildren())
                             <ul class="mega-submenu normal-sub">
                                 @foreach($navBarElement->getChild()->orderBy('order')->get() as $childElement)

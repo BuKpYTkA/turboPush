@@ -34,7 +34,7 @@ Route::middleware(['global.vars'])->group(function () {
 });
 
 Route::post('/order/create', CreateOrderController::controller())->name('order.create');
-Route::post('/order/confirm/{order}', ConfirmOrderController::controller())->name('order.confirm');
+Route::get('/35bbf12ad8417bb6eaebc2898db2861df48138de/{order}', ConfirmOrderController::controller())->name('order.confirm');
 
 
 Auth::routes();
