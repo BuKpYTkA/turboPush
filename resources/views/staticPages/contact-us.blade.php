@@ -102,8 +102,7 @@
             <p class="p-main mb40 mt40">
                 Главный офис в Киеве
             </p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d754.9980421717057!2d30.45789303852157!3d50.46902386435339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cdce44a3b3a3%3A0xf992df4d19b60228!2z0LLRg9C70LjRhtGPINCh0ZbQvCfRlyDQpdC-0YXQu9C-0LLQuNGFLCAxNywg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1570097158766!5m2!1sru!2sua"
-                    width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.73711179624!2d30.4611551159444!3d50.46461989422446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cdd3da590379%3A0xbe23bf1751e2cbda!2z0YPQuy4g0KHQtdC80YzQuCDQpdC-0YXQu9C-0LLRi9GFLCA4LCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1570109865305!5m2!1sru!2sua" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
         </div> <!-- end container -->
     </section>
