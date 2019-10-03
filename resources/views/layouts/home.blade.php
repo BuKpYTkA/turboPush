@@ -32,8 +32,7 @@ nav-hidden - Open nav on icon click
             <div class="row mt60 pb80">
                 <div class="col-md-6">
                     <h1 class="headline white-color" style="font-size: 45px">Ремонт турбин на все марки автомобилей</h1>
-                    <h3 class="white-color mb40">Восстанавливаем турбины на грузовые автомобили,
-                        сельскохозяйственную и спец технику
+                    <h3 class="white-color mb40">Востановление турбин на грузовых автомобилях, сельскохозяйственной и спецтехнике, реставрация турбин
                     </h3>
                     <ul class="ul-style-3 white-color">
                         <li><i class="fa fa-thumbs-up list-icon"></i>Гарантия на ремонт до 2 лет.</li>
