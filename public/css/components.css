@@ -147,3 +147,19 @@ p {
 .ul-style-2 li {
     margin-bottom: 5px;
 }
+
+.panel-primary {
+    border-color: #ff4a21!important;
+}
+
+.panel-primary .panel-heading {
+    border-color: #ff4a21!important;
+}
+
+.panel-body p {
+    font-size: 18px;
+}
+
+.panel-body .icon {
+    color: #ff4a21;
+}
