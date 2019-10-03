@@ -2,7 +2,7 @@
     <form class="" id="form" method="post" action="{{ route('order.create') }}">
         @csrf
         <div class="form-group">
-            <label for="name">Имя<strong>*</strong></label>
+            <label for="name">Имя<strong style="color: red">*</strong></label>
             @if ($errors->has('name'))
                 <span role="alert">
                                 <strong>{{ $errors->first('name') }}</strong>
@@ -12,7 +12,7 @@
                    placeholder="Введите имя" required="" value="{{ old('name') }}">
         </div>
         <div class="form-group">
-            <label for="message">Марка машины<strong>*</strong></label>
+            <label for="message">Марка машины<strong style="color: red">*</strong></label>
             @if ($errors->has('message'))
                 <span role="alert">
                                 <strong>{{ $errors->first('message') }}</strong>
@@ -24,7 +24,7 @@
                    placeholder="Введите марку автомобиля" required="" value="{{ old('message') }}">
         </div>
         <div class="form-group">
-            <label for="subject">Телефон<strong>*</strong></label>
+            <label for="subject">Телефон<strong style="color: red">*</strong></label>
             @if ($errors->has('phone'))
                 <span role="alert">
                                         <strong>{{ $errors->first('phone') }}</strong>
