@@ -2,8 +2,3 @@
     <h3 class="title">Бесплатная диагностика</h3>
     @include('layouts.components.contact-form')
 </div>
-<style>
-    strong {
-        color: red;
-    }
-</style>
