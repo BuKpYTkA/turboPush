@@ -7,7 +7,7 @@
 ?>
 <div class="header menu-style-2">
     <div class="top-menu">
-        <div class="container">
+        <div class="container-fluid">
             <div class="right-div pull-left">
                 @foreach($phoneNumbers as $phoneNumber)
                     <a style="font-size: 14px; color: black" href="tel:{{ $phoneNumber->getPhone() }}"><span><i class="fa fa-phone"></i></span> <b>{{ $phoneNumber->getFormat() }}</b></a>
@@ -15,7 +15,7 @@
             </div>
         </div> <!-- end container-fluid -->
     </div> <!-- end top-menu -->
-    <div class="container" style="position: relative">
+    <div class="container-fluid" style="position: relative">
         <div class="menu" id="menu">
             <!-- ========== Logo ========== -->
             <div class="logo">
