@@ -817,3 +817,51 @@ INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated
                         </button>
                     </a>
                 </div>', null, null);
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (21, 3, 'catalog_title', '<h3 class="section-title underline">Каталог турбин по маркам автомобилей</h3>
+', null, null);
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (22, 3, 'section_1', '            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="section-title underline">У нас вы можете приобрести новую либо восстановленную турбину, на все марки легковых, грузовых автомобилей, а так же сельскохозяйственной и спец.техники.</h3>
+                </div>
+                <p>У вас произошла поломка турбонагнетателя? Вы хотите купить новый? У турбосервис |<b>TwinTurbo</b>| самый большой выбор, с гарантией 2 года. Вы можете оставить заявку и мы вас наберем в течение 5 минут, для дальнейшей консультации, так же наши мастера могут произвести проффесиональнный демонтаж монтаж вашей турбины.</p>
+            </div>', null, null);
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (23, 3, 'section_2', '            <div class="row">
+                <div class="col-md-8">
+                    <h4 class="underline">Какая стоимость турбокомпрессора?</h4>
+                    <p class="dropcap" style="text-align: justify">
+                        Стоимость непосредственно зависит от марки и модели автомобиля.
+                        У нас вы можете приобрести подходящий для вас турбокомпрессор.                КАРТИНКА
+                        Цена нового сильно колебаеться, от 6200 до 23500.
+                        Если вы не нашли свой автомобиль в нашем каталоге, не стоит
+                        огорчаться, оставьте заявку либо набери нас, и мы вам его подберем.
+                        Ведь у нас действительно очень большой выбор.
+
+                    </p>
+                </div>
+                <div class="col-md-4 pb20"><img alt="Ремонт Сервопривода Киев" src="uploads/images/ремонт-сервопривода-червяки.jpg" style="width: 100%" /></div>
+            </div>', null, null);
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (24, 3, 'why_us', '            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="section-title underline">Почему стоит обраться именно к нам? </h3>
+                    <p>Наш турбосервис существует уже более шести лет, за этот период времени
+                        мы зарекомендовали себя, своим качеством выполненных работ и надежностью.
+                        За это время мы успели отремонтировать и произвести замену на различной
+                        техники более 10 тысяч единиц.
+                        У нас в наличии турбины таких производителей как:
+                        <b>BorgWarner, Garrett, Holset, Mitsubishi, 3K, Schwitzer, IHI </b>и еще много разных.
+
+                        Производит быструю отправку по всей Украине, любым удобным вам способом.
+                        К каждой турбине в подарок монтажный комплект прокладок.
+                    </p>
+                </div>
+            </div>', null, null);
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (25, 3, 'section_3', '            <div class="row text-center">
+                <div class="col-md-12">
+                    <h3 class="section-title underline">Прочитайте прежде чем купить новую.</h3>
+                </div>
+                <p>Не стоит спешить с покупкой новой турбины, ведь большая часть подлежит
+                    реставрации, учитывайте что ремонт на порядок дешевле обойдется вам
+                    нежели покупка новой.
+                    Так же на отремонтированую у нас турбину вы получите официальную гарантию 2 года.
+                </p>
+            </div>', null, null);

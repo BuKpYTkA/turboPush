@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b550565-e093-4966-a370-257a1f9a43a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/PageInfoBlockController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/PageInfoBlock/PageInfoBlock.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_06_072555_create_page_info_blocks_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_06_074808_add_name_column_to_page_info_blocks_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/sqlinserts/turbopush_page_info_blocks.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f2a999d3-9680-4350-ad9d-bd4c675ef6e3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f2a999d3-9680-4350-ad9d-bd4c675ef6e3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RegisterGlobalVariables.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RegisterGlobalVariables.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sqlinserts/turbopush_page_contents.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/sqlinserts/turbopush_page_contents.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sqlinserts/turbopush_pages.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/sqlinserts/turbopush_pages.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/components/advantages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/components/advantages.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/components/any_questions.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/components/any_questions.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/components/any_questions_end.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/components/any_questions_end.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/components/contact-us.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/components/contact-us.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/components/how-we-work.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/components/how-we-work.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/staticPages/contact-us.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/staticPages/contact-us.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/staticPages/sale.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/staticPages/sale.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,19 +48,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/contact-us.blade.php">
+        <entry file="file://$PROJECT_DIR$/config/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="54" selection-end-column="80" />
+            <state relative-caret-position="341">
+              <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/staticPages/sale.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+              <folding>
+                <element signature="e#3877#3913#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/any_questions_end.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/staticPages/agro-tech.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="25" selection-start-line="25" selection-end-line="70" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/page_contents">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
-              <caret column="60" lean-forward="true" selection-start-column="60" selection-end-column="60" />
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/pages">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -84,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/sqlinserts/turbopush_page_contents.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13331">
-              <caret line="799" column="22" selection-start-line="799" selection-start-column="22" selection-end-line="799" selection-end-column="22" />
+            <state relative-caret-position="17">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -93,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/sqlinserts/turbopush_page_info_blocks.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2846">
-              <caret line="168" column="22" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
+            <state relative-caret-position="51">
+              <caret line="3" column="6" lean-forward="true" selection-end-line="177" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -103,25 +117,16 @@
         <entry file="file://$PROJECT_DIR$/database/sqlinserts/turbopush_pages.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <caret line="11" column="99" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="99" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/PageInfoBlockController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="112">
+              <caret line="67" column="134" selection-start-line="67" selection-start-column="134" selection-end-line="67" selection-end-column="134" />
             </state>
           </provider>
         </entry>
@@ -131,24 +136,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="69" selection-start-line="69" selection-end-line="78" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Services/PageContent/PageContentService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RegisterGlobalVariables.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="61" column="28" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -164,7 +151,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>гара</find>
       <find>text-transform: upp</find>
       <find>text-tran</find>
       <find>о нас</find>
@@ -194,6 +180,7 @@
       <find>.panel{</find>
       <find>хелло23222</find>
       <find>turbopush.</find>
+      <find>$content-&gt;where</find>
     </findStrings>
     <replaceStrings>
       <replace>textarea</replace>
@@ -226,7 +213,6 @@
         <option value="$PROJECT_DIR$/resources/views/staticPages/signs-of-malfunction.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/staticPages/diagnostic.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/staticPages/causes-of-malfunction.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/staticPages/sale.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/footer.blade.php" />
         <option value="$PROJECT_DIR$/app/Events/Order/OrderCreated.php" />
         <option value="$PROJECT_DIR$/app/Models/Order/Order.php" />
@@ -250,7 +236,6 @@
         <option value="$PROJECT_DIR$/resources/views/staticPages/servoprivod.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/contact-modal.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/contact-form.blade.php" />
-        <option value="$PROJECT_DIR$/config/admin.php" />
         <option value="$PROJECT_DIR$/public/css/components.css" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/full-contact-form.blade.php" />
         <option value="$PROJECT_DIR$/public/frontEnd/styles/vendor.css" />
@@ -266,12 +251,14 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/components/contact-us.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/any_questions.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/any_questions_end.blade.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
         <option value="$PROJECT_DIR$/database/sqlinserts/turbopush_page_contents.sql" />
         <option value="$PROJECT_DIR$/database/sqlinserts/turbopush_page_info_blocks.sql" />
         <option value="$PROJECT_DIR$/database/sqlinserts/turbopush_pages.sql" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/PageInfoBlockController.php" />
+        <option value="$PROJECT_DIR$/config/admin.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/resources/views/staticPages/sale.blade.php" />
       </list>
     </option>
   </component>
@@ -846,11 +833,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570109786344</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="HelpController created;&#10;MetaTag updated;&#10;PostController updated;&#10;CarInfoPageController updated;">
+      <created>1570349844544</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1570349844545</updated>
+    </task>
+    <task id="LOCAL-00044" summary="HelpController created;&#10;MetaTag updated;&#10;PostController updated;&#10;CarInfoPageController updated;">
+      <created>1570350039934</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1570350039934</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329933000" />
+    <option name="totallyTimeSpent" value="332307000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -865,7 +866,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33154362" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33154362" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -887,7 +888,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.16040269" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.16040269" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33154362" />
@@ -1102,20 +1103,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Order/ConfirmOrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/mail/order-created.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1220,13 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1747">
           <caret line="232" column="27" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1367,13 +1347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/page_contents">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Services/PageContent/PageContentService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -1388,38 +1361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/pages">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/any_questions_end.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="60" lean-forward="true" selection-start-column="60" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/sqlinserts/turbopush_page_contents.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13331">
-          <caret line="799" column="22" selection-start-line="799" selection-start-column="22" selection-end-line="799" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/sqlinserts/turbopush_page_info_blocks.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2846">
-          <caret line="168" column="22" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/sqlinserts/turbopush_pages.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1439,8 +1384,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/PageInfoBlockController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="112">
+          <caret line="67" column="134" selection-start-line="67" selection-start-column="134" selection-end-line="67" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/sqlinserts/turbopush_page_info_blocks.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="true" selection-end-line="177" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/sqlinserts/turbopush_pages.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="99" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/sqlinserts/turbopush_page_contents.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/pages">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/staticPages/agro-tech.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="25" selection-start-line="25" selection-end-line="70" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f2a999d3-9680-4350-ad9d-bd4c675ef6e3/schema/turbopush/table/page_contents">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/staticPages/sale.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <element signature="e#3877#3913#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
