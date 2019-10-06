@@ -9,3 +9,4 @@ INSERT INTO turbo.pages (id, alias, created_at, updated_at) VALUES (8, '/install
 INSERT INTO turbo.pages (id, alias, created_at, updated_at) VALUES (9, '/signs-of-malfunction', null, null);
 INSERT INTO turbo.pages (id, alias, created_at, updated_at) VALUES (10, '/causes-of-malfunction', null, null);
 INSERT INTO turbo.pages (id, alias, created_at, updated_at) VALUES (11, '/types-of-actuators', null, null);
+INSERT INTO turbo.pages (id, alias, created_at, updated_at) VALUES (12, '/contact-us', null, null);

@@ -10,6 +10,7 @@ use App\Admin\Controllers\NavBarElementController;
 use App\Admin\Controllers\OrderController;
 use App\Admin\Controllers\PageContentController;
 use App\Admin\Controllers\PageController;
+use App\Admin\Controllers\PageInfoBlockController;
 use App\Admin\Controllers\PhoneNumberController;
 use App\Admin\Controllers\PostsController;
 use Illuminate\Routing\Router;
@@ -35,4 +36,5 @@ Route::group([
     $router->resource('/phone-numbers', PhoneNumberController::class);
     $router->resource('/pages', PageController::class);
     $router->resource('/page-contents', PageContentController::class);
+    $router->resource('/page-info-blocks', PageInfoBlockController::class);
 });

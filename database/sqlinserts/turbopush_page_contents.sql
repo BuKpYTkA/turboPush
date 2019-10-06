@@ -14,7 +14,7 @@ INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated
                         Большая часть современных автомобилей выпускается с турбированными двигателями, а тем временем турбины все чаще стали оснащать электронным актуатором "Сервоприводом".
                         Самая популярная поломка — уже не механического типа, а поломка сервопривода "электроного актуатора турбины".
 
-                        Что бы про диагностировать и отремонтировать сервопривод мы используем тестер-программатор нового поколения от Английского производителя turboTechnics ATP-100, с его помощу, мы можем произвести диагностику сервопривода прям на автомобиле, не снимая турбины. Так же ATP100 имеет функцию программирования, с его помощью при необходимости мы сбрасываем настройки и выставляем базовые заводские.
+                        Что бы про диагностировать и отремонтировать сервопривод мы используем тестер-программатор нового поколения от Английского производителя turbopushTechnics ATP-100, с его помощу, мы можем произвести диагностику сервопривода прям на автомобиле, не снимая турбины. Так же ATP100 имеет функцию программирования, с его помощью при необходимости мы сбрасываем настройки и выставляем базовые заводские.
 
                     </p>
                 </div>
@@ -56,7 +56,7 @@ INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated
 INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (7, 4, 'section_1', '            <div class="row">
                 <div class="col-md-12">
                     <div class="col-md-12 section-header text-center">
-                        <h3 class="section-title underline">Диагностика турбонагнетателя в Киеве Twinturbo</h3>
+                        <h3 class="section-title underline">Диагностика турбонагнетателя в Киеве Twinturbopush</h3>
                     </div> <!-- end section-header -->
                 </div>
                 <div class="col-md-12">
@@ -182,7 +182,7 @@ INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated
                 </div>
                 <div class="col-md-8">
                     <p class="dropcap" style="text-align: justify">
-                        Турбосервис <b style="font-style: italic">"Twinturbo"</b> производит востоновление, профилактику
+                        Турбосервис <b style="font-style: italic">"Twinturbopush"</b> производит востоновление, профилактику
                         турбонагнетателей всех видов —
                         спецтехники и сельскохозяйственной техники любого производителя.
                         Когда турбонагнетатель выходит из строя, его почти всегда возможно отремонтировать, не прибегая
@@ -269,7 +269,7 @@ INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated
 INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (11, 6, 'section_1', '            <div class="row">
                 <div class="col-md-12">
                     <p class="dropcap section-text" style="text-align: justify">
-                        Наши мастера <b style="font-style: italic">"Twinturbo"</b> смогу произвести демонтаж — монтаж
+                        Наши мастера <b style="font-style: italic">"Twinturbopush"</b> смогу произвести демонтаж — монтаж
                         турбонагнетателя с вашего автомобиля.
                         При обнаружении выхода из строя турбокомпрессора, возникает вопрос о его снятие, это может бить
                         для проведения осмотра, профилактики, либо же ремонта, в редких случаях приходится покупать
@@ -695,3 +695,125 @@ INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated
                     </p>
                 </div>
             </div>', null, null);
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (18, 12, 'section_1', '<div class="row mb60 mt60">
+                <div class="col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
+                    <div class="icon underline longer-underline">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <h5 class="feature-title"><b>Звоните</b></h5>
+                        <p class="feature-desc"><a style="color: black"
+                                                   href="tel:+380935138448">+38(093)513-84-48</a>
+                        </p>
+                    <p class="feature-desc"><a style="color: black"
+                                               href="tel:+380985138448">+38(098)513-84-48</a>
+                    </p>
+                </div> <!-- end feature -->
+                <div class="col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
+                    <div class="icon underline longer-underline">
+                        <i class="fa fa-calendar-check-o"></i>
+                    </div>
+                    <h5 class="feature-title"><b>Режим работы</b></h5>
+                    <p class="feature-desc">пн-сб: 9:00-18:00</p>
+                    <p class="feature-desc">вс: выходной</p>
+                </div> <!-- end feature -->
+                <div class="col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-2 feature text-center">
+                    <div class="icon underline longer-underline">
+                        <img width="50px" src="{{ asset(''images/system'') }}/ukraine-ico.png" alt="">
+                    </div>
+                    <h5 class="feature-title"><b>Присылайте</b></h5>
+                    <p class="feature-desc">Мы работаем по всей Украине</p>
+                </div> <!-- end feature -->
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading text-center">
+                            <h3 class="panel-title capitalize"><b>Оплата</b></h3>
+                        </div> <!-- end panel-heading -->
+                        <div class="panel-body">
+                            <p>Оплату за ремонт и замену турбины и ТНВД мы берем только по факту выполненных работ.
+                                Вы можете оплатить наши услуги любым удобным способом:</p>
+                            <ul class="ul-style-2">
+                                <li><i class="fa fa-check list-icon"></i>Безналичным платежом на текущий счет;</li>
+                                <li><i class="fa fa-check list-icon"></i>Наложенный платеж при получении турбины в
+                                    филиале
+                                    транспортной компании;
+                                </li>
+                                <li><i class="fa fa-check list-icon"></i>Наличными на месте, когда забираете турбину.
+                                </li>
+                            </ul>
+                            <div class="row text-center">
+                                <div class="icon col-md-3 col-xs-6">
+                                    <i class="fa fa-credit-card-alt fa-5x"></i>
+                                </div>
+                                <div class="icon col-md-3 col-xs-6">
+                                    <i class="fa fa-money fa-5x"></i>
+                                </div>
+                                <div class="icon col-md-3 col-xs-6">
+                                    <i class="fa fa-cc-visa fa-5x"></i>
+                                </div>
+                                <div class="icon col-md-3 col-xs-6">
+                                    <i class="fa fa-cc-mastercard fa-5x"></i>
+                                </div>
+                            </div>
+                        </div> <!-- end panel-body -->
+                    </div> <!-- end panel -->
+                </div> <!-- end col-md-4 -->
+                <div class="col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading text-center">
+                            <h3 class="panel-title capitalize"><b>Доставка</b></h3>
+                        </div> <!-- end panel-heading -->
+                        <div class="panel-body">
+                            <p>Мы ремонтируем и продаем турбины по всей Украине.
+
+                                Выбирайте подходящий вам способ доставки:
+                            </p>
+                            <p style="height: 19px; margin-bottom: 0!important;"></p>
+                            <ul class="ul-style-2">
+                                <li><i class="fa fa-check list-icon"></i>Новая почта;</li>
+                                <li><i class="fa fa-check list-icon"></i>Автолюкс;</li>
+                                <li><i class="fa fa-check list-icon"></i>Интайм;</li>
+                                <li><i class="fa fa-check list-icon"></i>Передача с водителем рейсового транспорта.</li>
+                            </ul>
+                            <div class="row text-center">
+                                <div class="icon col-md-3 col-xs-6">
+                                    <i class="fa fa-truck fa-5x"></i>
+                                </div>
+                                <div class="icon col-md-3 col-xs-6">
+                                    <i class="fa fa-dropbox fa-5x"></i>
+                                </div>
+                                <div class="icon col-md-3 col-xs-6">
+                                    <i class="fa fa-bus fa-5x"></i>
+                                </div>
+                                <div class="icon col-md-3 col-xs-6">
+                                    <i class="fa fa-cubes fa-5x"></i>
+                                </div>
+                            </div>
+                        </div> <!-- end panel-body -->
+                    </div> <!-- end panel -->
+                </div> <!-- end col-md-4 -->
+            </div>', null, null);
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (19, 12, 'map_title', '<p class="p-main mb40 mt40">
+                Главный офис в Киеве
+            </p>', null, null);
+INSERT INTO turbo.page_contents (id, page_id, section, text, created_at, updated_at) VALUES (20, 1, 'header', '                <div class="col-md-6">
+                    <h1 class="headline white-color" style="font-size: 45px">Ремонт турбин на все марки автомобилей</h1>
+                    <h3 class="white-color mb40">Востановление турбин на грузовых автомобилях, сельскохозяйственной и спецтехнике, реставрация турбин
+                    </h3>
+                    <ul class="ul-style-3 white-color">
+                        <li><i class="fa fa-thumbs-up list-icon"></i>Гарантия на ремонт до 2 лет.</li>
+                        <li><i class="fa fa-money list-icon"></i>Экономия от стоимости новой турбины 70%</li>
+                        <li><i class="fa fa-gift list-icon"></i>Монтажный комплект прокладок в подарок!</li>
+                    </ul>
+                </div> <!-- end col-md-6 -->
+                <div class="col-md-12 text-center">
+                    <h4 class="mt40 mb20 white-color">Оставить заявку на бесплатный просчет
+                        стоимости ремонта вашей турбины
+                    </h4>
+                    <a href="#contact-us" class="contact-modal">
+                        <button type="submit" class="st-btn primary-btn hvr-back hvr-sweep-to-right">Оставить
+                            заявку
+                        </button>
+                    </a>
+                </div>', null, null);

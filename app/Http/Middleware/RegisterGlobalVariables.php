@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use App\Models\NavBarElement\NavBarElement;
+use App\Models\PageInfoBlock\PageInfoBlock;
 use App\Models\PhoneNumber\PhoneNumber;
 use App\Services\BannerImageService\BannerImageService;
 use App\Services\MetaTagService\MetaTagService;
@@ -59,6 +60,7 @@ class RegisterGlobalVariables
         View::share('bannerImage', $this->bannerImageService->getCurrentBannerImage($request));
         View::share('phoneNumbers', PhoneNumber::query()->where([])->get());
         View::share('content', $this->pageContentService->get($request));
+        View::share('pageInfoBlocks', PageInfoBlock::query()->where([])->get());
         return $next($request);
     }
 }
