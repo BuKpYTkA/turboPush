@@ -26,7 +26,7 @@ nav-hidden - Open nav on icon click
 
 <!-- ========== HOME SECTION ========== -->
 <div id="section1" class="parallax-window pt60" data-parallax="scroll"
-     data-image-src="{{ asset('uploads') }}/{{config('app.defaultBannerImage')}}" data-speed="0.6">
+     data-image-src="{{ $bannerImage->getImageUrl() ??  asset('uploads').'/'.config('app.defaultBannerImage') }}" data-speed="0.6">
     <div style="background: rgba(0, 0, 0, 0.35);">
         <div class="container-fluid">
             <div class="row mt60 pb80">
