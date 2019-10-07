@@ -38,5 +38,14 @@ $(function($) {
         if (scroll > 10) {
             $('.navbar-phone').addClass('text-center')
         }
+    });
+
+    $('.fixed-contact-button').click(function () {
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.getElementsByClassName("contact-modal")[0].click();
+        } else {
+            window.location = "tel:+380935138448";
+        }
     })
 });

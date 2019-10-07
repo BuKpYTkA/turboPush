@@ -22,7 +22,7 @@
             </div> <!-- end col-md-6 -->
         </div> <!-- end row -->
     </div> <!-- end footer-middle -->
-
+    <div class="fixed-contact-button"><i class="fa fa-phone"></i></div>
     <!-- ========== Scroll to top button ========== -->
     <div class="scroll-to-top trans"><i class="fa fa-angle-up"></i></div>
 </footer>
