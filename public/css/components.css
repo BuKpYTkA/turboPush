@@ -81,7 +81,7 @@ p {
 }
 
 .footer {
-    background-color: #1a1c37;
+    background-color: #2b2c2d;
 }
 
 @media only screen and (max-width: 991px) {
@@ -149,11 +149,11 @@ p {
 }
 
 .panel-primary {
-    border-color: #ff4a21!important;
+    border-color: #398f5d!important;
 }
 
 .panel-primary .panel-heading {
-    border-color: #ff4a21!important;
+    border-color: #398f5d!important;
 }
 
 .panel-body p {
@@ -161,7 +161,7 @@ p {
 }
 
 .panel-body .icon {
-    color: #ff4a21;
+    color: #47b475;
 }
 
 .fixed-contact-button {
@@ -172,13 +172,13 @@ p {
     bottom: 20px;
     position: fixed;
     transform: translate(-50%, -50%);
-    background-color: #ff4a21;
+    background-color: #47b475;
     text-align: center;
     cursor: pointer;
     transform-origin: 50% 50%;
     transition: transform 0.4s;
     z-index: 300;
-    border: solid 1px #ff4a21;
+    border: solid 1px #47b475;
     animation: play 1.5s ease infinite;
 }
 
@@ -186,6 +186,20 @@ p {
     line-height: 60px;
     font-size: 30px;
     color: white;
+}
+
+.custom-container {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+hr {
+    margin-top: 0!important;
+    border-top: 1px solid #47b475
+}
+
+.pricing-foot {
+    border-top: #47b475 solid 3px!important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -209,6 +223,11 @@ p {
         right: 20px;
         bottom: 20px;
     }
+
+    .custom-container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 
 @keyframes shake {
@@ -226,13 +245,13 @@ p {
 @keyframes play {
 
     15% {
-        box-shadow: 0 0 0 5px rgba(255, 74, 33, 0.65);
+        box-shadow: 0 0 0 5px rgba(77, 195, 127, 0.65);
     }
     25% {
-        box-shadow: 0 0 0 10px rgb(255, 74, 33);
+        box-shadow: 0 0 0 10px rgba(77, 195, 127, 0.65);
     }
     25% {
-        box-shadow: 0 0 0 15px rgba(255, 74, 33, 0.26);
+        box-shadow: 0 0 0 15px rgba(74, 187, 121, 0.56);
     }
 
 }
