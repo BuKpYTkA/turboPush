@@ -39,6 +39,6 @@ Route::group([
     $router->resource('/page-info-blocks', PageInfoBlockController::class);
 
     Route::group(['prefix' => 'v2'], function () {
-        Route::get('/home', \App\Admin\Controllers\V2\HomeController::class);
+        Route::get('/login', \App\Admin\Controllers\V2\HomeController::class);
     });
 });

@@ -1,5 +1,6 @@
 @extends('layouts.adminV2')
 
 @section('content')
-    <example-component></example-component>
+    <loader-component></loader-component>
+    <login-component></login-component>
 @endsection
