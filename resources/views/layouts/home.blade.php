@@ -29,7 +29,7 @@ nav-hidden - Open nav on icon click
      data-image-src="{{ $bannerImage->getImageUrl() ??  asset('uploads').'/'.config('app.defaultBannerImage') }}" data-speed="0.6">
     <div style="background: rgba(0, 0, 0, 0.35);">
         <div class="container-fluid custom-container">
-            <div class="row mt60 pb80">
+            <div class="row mt60 pb80" style="margin-right: 0!important;">
                 {!! $content->where('section', 'header')->first()->getText() !!}
             </div> <!-- end row -->
         </div> <!-- end container -->
