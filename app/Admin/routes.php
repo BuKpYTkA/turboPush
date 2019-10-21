@@ -40,5 +40,11 @@ Route::group([
 
     Route::group(['prefix' => 'v2'], function () {
         Route::get('/login', \App\Admin\Controllers\V2\HomeController::class);
+//        Route::get('/', \App\Admin\Controllers\V2\Ajax\SideMenuController::class);
+        Route::get('/', \App\Admin\Controllers\V2\HomeController::class. '@getPanel');
     });
+});
+
+Route::group(['prefix' => 'ajax'], function () {
+    Route::post('side-menu', \App\Admin\Controllers\V2\Ajax\SideMenuController::class);
 });
