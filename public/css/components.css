@@ -161,7 +161,7 @@ p {
 }
 
 .panel-body .icon {
-    color: #47b475;
+    color: #f24c2a;
 }
 
 .fixed-contact-button {
@@ -172,13 +172,13 @@ p {
     bottom: 20px;
     position: fixed;
     transform: translate(-50%, -50%);
-    background-color: #47b475;
+    background-color: #f24c2a;
     text-align: center;
     cursor: pointer;
     transform-origin: 50% 50%;
     transition: transform 0.4s;
     z-index: 300;
-    border: solid 1px #47b475;
+    border: solid 1px #f24c2a;
     animation: play 1.5s ease infinite;
 }
 
@@ -193,13 +193,17 @@ p {
     padding-left: 40px;
 }
 
+.main-page-h1 {
+    font-size: 45px;
+}
+
 hr {
     margin-top: 0!important;
-    border-top: 1px solid #47b475!important;
+    border-top: 1px solid #f24c2a!important;
 }
 
 .pricing-foot {
-    border-top: #47b475 solid 3px!important;
+    border-top: #f24c2a solid 3px!important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -222,6 +226,10 @@ hr {
     .fixed-contact-button {
         right: 20px;
         bottom: 20px;
+    }
+
+    .main-page-h1 {
+        font-size: 35px;
     }
 
     .custom-container {

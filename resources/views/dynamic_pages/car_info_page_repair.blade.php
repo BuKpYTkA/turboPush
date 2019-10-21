@@ -61,11 +61,11 @@
                         </li>
                         <li class="margin-list">Цена на Турбину {{ $carInfoPage->getBrand() }} зависит от:
                             <div style="margin-left: 35px; margin-top: 10px">
-                                <p><span><i class="fa fa-check" style="color: #47b475"></i></span> Завода изготовителя
+                                <p><span><i class="fa fa-check" style="color: #f24c2a"></i></span> Завода изготовителя
                                 </p>
-                                <p><span><i class="fa fa-check" style="color: #47b475"></i></span> От модели автомобиля
+                                <p><span><i class="fa fa-check" style="color: #f24c2a"></i></span> От модели автомобиля
                                 </p>
-                                <p><span><i class="fa fa-check" style="color: #47b475"></i></span> Вида турбонагнетателя
+                                <p><span><i class="fa fa-check" style="color: #f24c2a"></i></span> Вида турбонагнетателя
                                 </p>
                             </div>
                         </li>
@@ -91,7 +91,7 @@
                                 <i class="bg-icon fa fa-bar-chart"></i>
                             </div>
                             <!-- /.pricing-head -->
-                            <div class="pricing-foot" style="border-top: #47b475 solid 3px">
+                            <div class="pricing-foot" style="border-top: #f24c2a solid 3px">
                                 <a class="contact-modal" href="#contact-us"><b>Оставить заявку</b></a>
                             </div>
                             <!-- /.pricing-foot -->
@@ -107,7 +107,7 @@
                                 <i class="bg-icon fa fa-cog"></i>
                             </div>
                             <!-- /.pricing-head -->
-                            <div class="pricing-foot" style="border-top: #47b475 solid 3px">
+                            <div class="pricing-foot" style="border-top: #f24c2a solid 3px">
                                 <a class="contact-modal" href="#contact-us"><b>Оставить заявку</b></a>
                             </div>
                             <!-- /.pricing-foot -->
@@ -124,7 +124,7 @@
                                 <i class="bg-icon fa fa-gears"></i>
                             </div>
                             <!-- /.pricing-head -->
-                            <div class="pricing-foot" style="border-top: #47b475 solid 3px">
+                            <div class="pricing-foot" style="border-top: #f24c2a solid 3px">
                                 <a class="contact-modal" href="#contact-us"><b>Оставить заявку</b></a>
                             </div>
                             <!-- /.pricing-foot -->
@@ -141,7 +141,7 @@
                                 <i class="bg-icon fa fa-plug"></i>
                             </div>
                             <!-- /.pricing-head -->
-                            <div class="pricing-foot" style="border-top: #47b475 solid 3px">
+                            <div class="pricing-foot" style="border-top: #f24c2a solid 3px">
                                 <a class="contact-modal" href="#contact-us"><b>Оставить заявку</b></a>
                             </div>
                             <!-- /.pricing-foot -->
