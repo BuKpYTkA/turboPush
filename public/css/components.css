@@ -253,13 +253,13 @@ hr {
 @keyframes play {
 
     15% {
-        box-shadow: 0 0 0 5px rgba(77, 195, 127, 0.65);
+        box-shadow: 0 0 0 5px rgba(242, 76, 42, 0.8);
     }
     25% {
-        box-shadow: 0 0 0 10px rgba(77, 195, 127, 0.65);
+        box-shadow: 0 0 0 10px rgba(242, 76, 42, 0.76);
     }
     25% {
-        box-shadow: 0 0 0 15px rgba(74, 187, 121, 0.56);
+        box-shadow: 0 0 0 15px rgba(242, 76, 42, 0.65);
     }
 
 }

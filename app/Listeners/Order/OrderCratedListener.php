@@ -29,6 +29,10 @@ class OrderCratedListener
     public function handle(OrderCreated $event)
     {
         $order = $event->order;
-        Mail::to([config('app.commonOrdersReceiver')])->send(new OrderCreatedMail($order));
+        try {
+            Mail::to([config('app.commonOrdersReceiver')])->send(new OrderCreatedMail($order));
+        } catch (\Exception $exception) {
+            return;
+        }
     }
 }
