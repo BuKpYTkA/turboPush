@@ -20,36 +20,39 @@
         </v-toolbar>
 
         <v-list>
-            <v-list-item>
-                <v-list-item-content>
-                    <v-list-item-title v-text="'lol'"></v-list-item-title>
-                </v-list-item-content>
-            </v-list-item>
-            <v-list-group
-                    v-for="item in items"
-                    :key="item.title"
-                    no-action
-            >
-                <template v-slot:activator>
-                    <v-list-item-content>
-                        <v-list-item-title v-text="item.title"></v-list-item-title>
-                    </v-list-item-content>
-                </template>
-                <v-list-item>
-                    <v-list-item-content>
-                        <v-list-item-title v-text="item.title"></v-list-item-title>
-                    </v-list-item-content>
-                </v-list-item>
-                <v-list-item
-                        v-for="subItem in item.subMenu"
-                        :key="subItem.title"
-                        @click=""
-                >
-                    <v-list-item-content class="sub-menu">
-                        <v-list-item-title v-text="subItem.title"></v-list-item-title>
-                    </v-list-item-content>
-                </v-list-item>
-            </v-list-group>
+            <div v-for="item in items">
+                <div v-if="item.subMenu.length">
+                    <v-list-group
+                            :key="item.title"
+                            no-action
+                    >
+                        <template v-slot:activator>
+                            <v-list-item-content>
+                                <v-list-item-title v-text="item.title"></v-list-item-title>
+                            </v-list-item-content>
+                        </template>
+                        <v-list-item
+                                v-for="subItem in item.subMenu"
+                                :key="subItem.title"
+                                @click=""
+                        >
+                            <v-list-item-content class="sub-menu">
+                                <v-list-item-title v-text="subItem.title"></v-list-item-title>
+                            </v-list-item-content>
+                        </v-list-item>
+                    </v-list-group>
+                </div>
+                <div v-else>
+                    <v-list-item
+                            :key="item.title"
+                            @click=""
+                    >
+                        <v-list-item-content>
+                            <v-list-item-title v-text="item.title"></v-list-item-title>
+                        </v-list-item-content>
+                    </v-list-item>
+                </div>
+            </div>
         </v-list>
     </v-card>
 </template>
