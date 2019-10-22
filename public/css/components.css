@@ -217,6 +217,14 @@ p {
     border-top: 3px solid #f24c2a;
 }
 
+.panel-primary {
+    border: 2px solid #f24c2a!important;
+}
+
+.panel-primary .panel-heading {
+    border-color: #f24c2a!important;
+}
+
 .image-box img {
     width: 100%;
 }
@@ -246,6 +254,24 @@ hr {
 }
 
 @media only screen and (max-width: 768px) {
+
+    .top-menu {
+        position: relative!important;
+    }
+
+    .top-header {
+        position: fixed!important;
+        top: 0!important;
+    }
+
+    .sticky-header {
+        position: absolute!important;
+    }
+
+    .mt90 {
+        margin-top: -95.8px;
+        transition-duration: 0s;
+    }
 
     .fixed-contact-button {
         right: 20px;
@@ -307,6 +333,10 @@ hr {
 
     .top-menu {
         display: block!important;
+    }
+
+    .invisible {
+        display: none!important;
     }
 
     .menu-mobile::after {

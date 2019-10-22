@@ -34,9 +34,17 @@ $(function($) {
         }
     });
     $(window).scroll(function () {
-        var scroll = $(window).scrollTop
-        if (scroll > 10) {
-            $('.navbar-phone').addClass('text-center')
+        var scroll = $(window).scrollTop();
+        var width = $(window).width();
+        if (width < 769) {
+            if (scroll > 95.7) {
+                $('.header').addClass("top-header").removeClass('sticky-header');
+                $('.top-menu').addClass('invisible');
+            } else {
+                $('.top-menu').removeClass('invisible');
+
+                $('.header').removeClass('top-header').addClass('sticky-header');
+            }
         }
     });
 
