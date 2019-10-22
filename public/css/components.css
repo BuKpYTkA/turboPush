@@ -262,6 +262,10 @@ hr {
         text-align: center;
     }
 
+    .logo img {
+        height: 45px!important;
+    }
+
     .header-phones {
         width: 100%;
         text-align: center!important;
