@@ -27,7 +27,7 @@
             <label for="subject">Телефон<strong style="color: red">*</strong></label>
             @if ($errors->has('phone'))
                 <span role="alert">
-                                        <strong>{{ $errors->first('phone') }}</strong>
+                                        <strong style="color: red">{{ $errors->first('phone') }}</strong>
                                     </span>
             @endif
             <div style="display: flex">
