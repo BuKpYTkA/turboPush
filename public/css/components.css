@@ -367,5 +367,10 @@ hr {
     25% {
         box-shadow: 0 0 0 15px rgba(242, 76, 42, 0.65);
     }
+}
 
+@media only screen and (max-width: 378px) {
+    .header-phones a {
+        font-size: 11px!important;
+    }
 }
