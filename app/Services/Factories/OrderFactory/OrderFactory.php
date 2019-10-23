@@ -27,7 +27,7 @@ class OrderFactory
     {
         return new Order([
             'made_by' => $name,
-            'phone' => $phone ? '+380' . $phone : '',
+            'phone' => $phone ? '+38' . $phone : '',
             'message' => $message
         ]);
     }

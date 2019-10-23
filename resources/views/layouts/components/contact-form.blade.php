@@ -32,15 +32,16 @@
             @endif
             <div style="display: flex">
                 <div class="form-local-number-input" style="padding-right: 0!important">
-                    <input type="text" disabled="disabled" value="+380" class="form-control input-style-2">
+                    <input type="text" disabled="disabled" value="+38" class="form-control input-style-2">
                 </div>
                 <div style="padding-left: 0!important; margin-left: 15px; flex: 13">
                     <input type="text" class="form-control input-style-2"
                            id="phone"
                            name="phone"
-                           placeholder="661112233" required="" value="{{ old('phone') }}">
+                           placeholder="0631112233" required="" value="{{ old('phone') }}">
                 </div>
             </div>
+            <input type="text" style="display: none" id="consumer" name="consumer">
         </div>
 
         <button type="submit" class="st-btn primary-btn hvr-back hvr-sweep-to-right">Отправить

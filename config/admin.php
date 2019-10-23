@@ -64,7 +64,7 @@ return [
 
         'namespace' => '',
 
-        'middleware' => ['web', 'admin'],
+        'middleware' => ['web', 'admin', 'blacklist'],
     ],
 
     /*

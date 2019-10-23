@@ -1,6 +1,7 @@
 <?php
 
 use App\Admin\Controllers\BannerImageController;
+use App\Admin\Controllers\BlackListController;
 use App\Admin\Controllers\CarInfoPageController;
 use App\Admin\Controllers\HelpController;
 use App\Admin\Controllers\HomeController;
@@ -37,4 +38,5 @@ Route::group([
     $router->resource('/pages', PageController::class);
     $router->resource('/page-contents', PageContentController::class);
     $router->resource('/page-info-blocks', PageInfoBlockController::class);
+    $router->resource('black-list-items', BlackListController::class);
 });

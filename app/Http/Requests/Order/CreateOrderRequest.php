@@ -29,7 +29,7 @@ class CreateOrderRequest extends FormRequest
     {
         return [
             'name' => 'required|max:255',
-            'phone' => 'required|digits:9|nullable',
+            'phone' => 'required|digits:10',
             'message' => 'required',
         ];
     }
