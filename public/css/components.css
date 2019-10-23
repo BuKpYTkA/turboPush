@@ -369,7 +369,7 @@ hr {
     }
 }
 
-@media only screen and (max-width: 378px) {
+@media only screen and (max-width: 350px) {
     .header-phones a {
         font-size: 11px!important;
     }
