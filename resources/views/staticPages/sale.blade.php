@@ -2,8 +2,13 @@
 @section('content')
 
     <section class="content-section">
-        <div class="container">
+        <div class="container text-center">
             {!! $content->where('section', 'section_1')->first()->getText() !!}
+        </div>
+    </section>
+    <section class="content-section">
+        <div class="container">
+            {!! $content->where('section', 'price_examples')->first()->getText() !!}
         </div>
     </section>
     <section class="content-section">
@@ -27,14 +32,9 @@
             </div>
         </div>
     </section>
-    <section class="content-section">
-        <div class="container">
-            {!! $content->where('section', 'why_us')->first()->getText() !!}
-        </div>
-    </section>
     <section class="content-section" style="padding-bottom: 0!important;">
         <div class="container">
-            {!! $content->where('section', 'price_examples')->first()->getText() !!}
+            {!! $content->where('section', 'why_us')->first()->getText() !!}
         </div>
         @include('layouts.components.any_questions')
     </section>

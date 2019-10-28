@@ -19,9 +19,7 @@
         @include('layouts.components.any_questions')
     </section>
     <section class="content-section">
-        <div class="container">
-            {!! $content->where('section', 'about_us')->first()->getText() !!}
-        </div> <!-- end container -->
+        @include('layouts.components.how-we-work')
     </section>
     <section class="content-section" style="padding-bottom: 0!important;">
         <div class="container text-center">
@@ -36,8 +34,10 @@
         </div>
         @include('layouts.components.contact-us')
     </section>
-    <section class="content-section">
-        @include('layouts.components.how-we-work')
+    <section class="content-section" style="padding-bottom: 0!important;">
+        <div class="container">
+            {!! $content->where('section', 'about_us')->first()->getText() !!}
+        </div> <!-- end container -->
     </section>
     <section style="padding-top: 0!important;">
         <div class="container">
