@@ -1,5 +1,8 @@
 <template>
-    <side-bar-component></side-bar-component>
+    <div class="application">
+        <side-bar-component></side-bar-component>
+        <orders-component></orders-component>
+    </div>
 </template>
 
 <script>
