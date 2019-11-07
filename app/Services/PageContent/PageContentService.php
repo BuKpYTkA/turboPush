@@ -27,7 +27,8 @@ class PageContentService
         /**
          * @var Page $page
          */
-        $page = Page::query()->where('alias', '/' . $request->path() === '/' ? '' : '/' . $request->path())->first();
+        $pageAlias = '/' . $request->path() === '/' ? '' : '/';
+        $page = Page::query()->where('alias', $pageAlias)->first();
         $content = [];
         if ($page) {
             $content = $page->content()->get();
