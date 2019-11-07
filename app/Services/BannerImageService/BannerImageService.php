@@ -44,7 +44,7 @@ class BannerImageService
      */
     public function getCurrentBannerImage(Request $request, array $config = [])
     {
-        $path = '/' . $request->path();
+        $path = $request->path() === '/' ? '/' : '/' . $request->path();
         /**
          * @var $bannerImage BannerImage
          */
