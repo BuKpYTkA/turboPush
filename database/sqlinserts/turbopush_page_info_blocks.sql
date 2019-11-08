@@ -176,3 +176,44 @@ INSERT INTO turbo.page_info_blocks (id, alias, text, created_at, updated_at, nam
         <span class="ion-ios-cog-outline bg-icon icon-rotate"></span>
     </div> <!-- end cta-3 -->
 </div> <!-- end col-md-12 -->', '2019-10-06 08:05:26', '2019-10-06 08:05:26', 'Свяжитесь с нами возле футера');
+INSERT INTO turbo.page_info_blocks (id, alias, text, created_at, updated_at, name) VALUES (6, 'advantages_sale', '<div class="row">
+    <div class="col-md-12 section-header text-center" style="margin-bottom: 20px">
+        <h3 class="section-title underline">О преимуществах нашего сервиса</h3>
+    </div>
+    <!-- end section-header --></div>
+
+    <div class="col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-2 feature text-center">
+        <div class="icon underline longer-underline"><i class="fa fa-users"></i></div>
+
+        <h5 class="feature-title">Опытная команда</h5>
+
+        <p class="feature-desc">Наши мастера с большим опытом работы через руки которых проходит ежедневно большое количество турбин.</p>
+    </div>
+    <!-- end feature -->
+
+    <div class="col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-2 feature text-center">
+        <div class="icon underline longer-underline"><i class="fa fa-cogs"></i></div>
+
+        <h5 class="feature-title">Современное оборудование</h5>
+
+        <p class="feature-desc">В Твин Турбо иметься современное и все необходимое оборудование для ремонта и проверки проделанной работы.</p>
+    </div>
+    <!-- end feature -->
+
+    <div class="col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-2 feature text-center">
+        <div class="icon underline longer-underline"><i class="fa fa-clock-o"></i></div>
+
+        <h5 class="feature-title">Быстрый ремонт</h5>
+
+        <p class="feature-desc">Благодаря опыту наших мастеров и современному оборудованию, производим ремонт быстро - от 4 часов</p>
+    </div>
+    <!-- end feature -->
+
+    <div class="col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-2 feature text-center">
+        <div class="icon underline longer-underline"><i class="fa fa-check-circle"></i></div>
+
+        <h5 class="feature-title">Гарантия до 2-ух лет</h5>
+
+        <p class="feature-desc">В силу всех преимуществ нашего сервиса, предоставляем гарантию на ремонт турбин до 2 лет.</p>
+    </div>
+', '2019-11-08 21:43:22', '2019-11-08 21:43:25', 'Наши преимущества продажа');
