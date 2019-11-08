@@ -1,1 +1,1 @@
-{!! $pageInfoBlocks->where('alias', 'advantages_sales')->first()->getText() !!}
+{!! $pageInfoBlocks->where('alias', 'advantages_sale')->first()->getText() !!}
