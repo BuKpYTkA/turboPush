@@ -1,6 +1,6 @@
-<footer class="footer footer-style-4 dark-footer" id="footer">
+<footer class="footer dark-footer" id="footer">
 
-    <div class="container footer-middle ptn">
+    <div class="container footer-top">
         <div class="row">
             <div class="col-md-12 text-center">
                 <img src="{{ asset('images') }}/main-logo.svg" alt="TwinTurbo" class="img-responsive mb20" width="100" style="margin: auto;">
