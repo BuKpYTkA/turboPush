@@ -81,7 +81,7 @@ p {
 }
 
 .footer {
-    background-color: #2b2c2d;
+    background: url(/images/system/footer_lodyas.png) fixed #37393a;
 }
 
 @media only screen and (max-width: 991px) {
@@ -118,6 +118,10 @@ p {
 
 .section-title {
     font-weight: bold!important;
+}
+
+.header {
+    background-color: #2b2c2de8!important;
 }
 
 .section-text {
@@ -225,7 +229,7 @@ p {
 }
 
 .panel-primary {
-    border: 2px solid #f24c2a!important;
+    border: 3px solid #2b2c2d!important;
 }
 
 .panel-primary .panel-heading {

@@ -13,7 +13,7 @@
     </section>
     <section class="content-section">
         <div class="container">
-            @include('layouts.components.advantages')
+            @include('layouts.components.advantages-sale')
         </div>
     </section>
     <section class="content-section">

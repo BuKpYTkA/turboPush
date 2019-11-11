@@ -7,7 +7,7 @@
 ?>
 <div class="header menu-style-2">
     <div class="top-menu">
-        <div class="container-fluid custom-container">
+        <div class="container-fluid custom-container transparent">
             <div class="logo">
                 <a href="/"><img height="65px" width="150px" src="{{ asset('images') }}/main-logo.svg" alt="Salt"></a>
             </div>
