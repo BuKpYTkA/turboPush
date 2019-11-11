@@ -31,7 +31,8 @@ class CarInfoPage extends Model
         'min_price',
         'max_price',
         'standard',
-        'capital'
+        'capital',
+        'image_path'
     ];
 
     protected $dispatchesEvents = [
