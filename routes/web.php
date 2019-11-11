@@ -23,7 +23,6 @@ use App\Http\Controllers\StaticPage\StaticPageController;
 Route::middleware(['auth'])->group(function () {
     Route::get('/home', 'HomeController@index')->name('home');
 });
-Route::get('/update-images-service', ImagePathController::controller());
 Route::middleware(['blacklist'])->group(function () {
     Route::middleware(['global.vars'])->group(function () {
         Route::get('/', HomePageController::controller());
