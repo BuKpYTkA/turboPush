@@ -37,6 +37,7 @@ class CarInfoPageUpdatedListener
      */
     public function handle(CarInfoPageUpdated $event)
     {
+        return;
         $carInfoPage = $event->carInfoPage;
         $originalImagePath = $carInfoPage->getOriginal('image_path');
         if ($carInfoPage->getImagePath() !== $originalImagePath) {
