@@ -14,7 +14,7 @@
                     <div class="col-md-6 col-sm-6 blog-box mb40">
                         <div class="blog-img-box">
                             <a href="posts/{{ $post->getAlias() }}"><img
-                                        src="{{ asset('uploads') . '/' . $post->getImagePath() }}"
+                                        src="/{{$post->getImagePath() }}"
                                         alt="{{ $post->getTitle() }} | TwinTurbo" class="img-responsive"></a>
                         </div>
                         <h5 class="mt20 blog-title"><a href="posts/{{ $post->getAlias() }}">{{ $post->getTitle() }}</a>

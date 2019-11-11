@@ -51,7 +51,7 @@ class BannerImage extends Model
     public function getImageUrl()
     {
         if ($this->image_url) {
-            return asset('uploads') . '/' . $this->image_url;
+            return $this->image_url;
         }
         return '';
     }

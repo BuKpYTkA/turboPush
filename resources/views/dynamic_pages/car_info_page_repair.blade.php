@@ -12,7 +12,7 @@
         <div class="container" style="margin-bottom: 40px!important;">
             <div class="row">
                 <div class="col-md-2 text-center">
-                    <img height="200px" src="{{asset('uploads') . '/' . $carInfoPage->getImagePath() }}" alt="{{ $metaTagContent->getTitle() }}">
+                    <img height="200px" src="/{{$carInfoPage->getImagePath() }}" alt="{{ $metaTagContent->getTitle() }}">
                 </div>
                 <div class="col-md-1">
 

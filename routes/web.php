@@ -12,6 +12,7 @@
 */
 
 use App\Http\Controllers\CarInfoPage\CarInfoPageController;
+use App\Http\Controllers\Console\ImagePathController;
 use App\Http\Controllers\HomePage\HomePageController;
 use App\Http\Controllers\Order\ConfirmOrderController;
 use App\Http\Controllers\Order\CreateOrderController;
@@ -22,6 +23,7 @@ use App\Http\Controllers\StaticPage\StaticPageController;
 Route::middleware(['auth'])->group(function () {
     Route::get('/home', 'HomeController@index')->name('home');
 });
+Route::get('/update-images-service', ImagePathController::controller());
 Route::middleware(['blacklist'])->group(function () {
     Route::middleware(['global.vars'])->group(function () {
         Route::get('/', HomePageController::controller());

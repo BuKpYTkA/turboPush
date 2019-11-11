@@ -27,7 +27,7 @@
             <div class="mt40">
                 @foreach($carInfoPages as $carInfoPage)
                     <a class="a-flash" href="/repair/{{ $carInfoPage->getPageAlias() }}"><img class="mb10" width="130px"
-                                                                                             src="/uploads/{{ $carInfoPage->getImagePath() }}"
+                                                                                             src="/{{ $carInfoPage->getImagePath() }}"
                                                                                              alt="{{ $carInfoPage->getBrand() }} | Twin Turbo"></a>
                 @endforeach
             </div>
