@@ -36,7 +36,6 @@ class CarInfoPage extends Model
     ];
 
     protected $dispatchesEvents = [
-//        'updated' => CarInfoPageUpdated::class,
         'deleted' => CarInfoPageDeleted::class
     ];
 
