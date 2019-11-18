@@ -52,7 +52,7 @@ class PostController extends Controller
         $bannerImage = $this->bannerImageService->getCurrentBannerImage($request, $bannerImageConfig);
         $metaTagConfig = $this->getMetaTagConfig($post);
         $metaTagContent = $this->metaTagService->getCurrentMetaTags($request, $metaTagConfig);
-        $randomPost = Post::query()->inRandomOrder()->first();
+        $randomPost = Post::query()->where('id', '<>', $post->getId())->inRandomOrder()->first();
         return view('dynamic_pages.post', [
             'post' => $post,
             'bannerImage' => $bannerImage,
