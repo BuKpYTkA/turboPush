@@ -30,7 +30,7 @@ Route::middleware(['blacklist'])->group(function () {
         Route::get('{pageAlias}', StaticPageController::controller());
         Route::get('buy/{alias}', CarInfoPageController::controller() . '@buy');
         Route::get('repair/{alias}', CarInfoPageController::controller() . '@repair');
-        Route::get('posts/{alias}', PostController::controller());
+        Route::get('about/{alias}', PostController::controller());
     });
     Route::post('/order/create', CreateOrderController::controller())->name('order.create');
     Route::get('/35bbf12ad8417bb6eaebc2898db2861df48138de/{order}', ConfirmOrderController::controller())->name('order.confirm');
