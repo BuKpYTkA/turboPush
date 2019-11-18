@@ -10,6 +10,7 @@
     <section>
         <div class="container">
             <div class="row">
+                {!! $content->where('section', 'posts_section_title')->first()->getText() !!}
                 @foreach($posts as $post)
                     <div class="col-md-6 col-sm-6 blog-box mb40">
                         <div class="blog-img-box">
