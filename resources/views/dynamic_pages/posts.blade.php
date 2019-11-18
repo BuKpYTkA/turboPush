@@ -14,7 +14,7 @@
                 @foreach($posts as $post)
                     <div class="col-md-6 col-sm-6 blog-box mb40">
                         <div class="blog-img-box">
-                            <a href="posts/{{ $post->getAlias() }}"><img
+                            <a href="about/{{ $post->getAlias() }}"><img
                                         src="/{{$post->getImagePath() }}"
                                         alt="{{ $post->getTitle() }} | TwinTurbo" class="img-responsive"></a>
                         </div>
@@ -22,7 +22,7 @@
                         </h5>
                         <small class="text-muted">{{ $post->getCreatedAt() }}</small>
                         <p class="mt10 lighter-text">{{ substr($post->getDescription(), 0, 100) }}... <a
-                                    href="/posts/{{ $post->getAlias() }}">Читать дальше</a></p>
+                                    href="/about/{{ $post->getAlias() }}">Читать дальше</a></p>
                     </div> <!-- end blog-box -->
                 @endforeach
             </div>
