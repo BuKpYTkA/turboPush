@@ -10,9 +10,12 @@
 @section('content')
     <section>
         <div class="container">
-            <p>{{ $post->getTitle() }}</p>
+            <div class="text-center">
+                <h2 class="section-title underline">{{ $post->getTitle() }}</h2>
+            </div>
             {!! $post->getContent() !!}
-            <p style="margin-top: 30px">Читайте также: <a href="/posts/{{ $randomPost->getAlias() }}">{{ $randomPost->getTitle() }}</a></p>
+            <p style="margin-top: 30px">Читайте также: <a
+                        href="/posts/{{ $randomPost->getAlias() }}">{{ $randomPost->getTitle() }}</a></p>
         </div>
     </section>
 @endsection
