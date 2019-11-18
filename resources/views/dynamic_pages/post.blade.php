@@ -14,6 +14,8 @@
                 <h2 class="section-title underline">{{ $post->getTitle() }}</h2>
             </div>
             {!! $post->getContent() !!}
+        </div>
+        <div class="container">
             <p style="margin-top: 30px">Читайте также: <a
                         href="/posts/{{ $randomPost->getAlias() }}">{{ $randomPost->getTitle() }}</a></p>
         </div>
