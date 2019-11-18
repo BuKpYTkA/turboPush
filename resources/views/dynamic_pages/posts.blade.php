@@ -14,7 +14,7 @@
                 @foreach($posts as $post)
                     <div class="col-md-6 col-sm-6 blog-box mb40">
                         <div class="blog-img-box">
-                            <a href="about/{{ $post->getAlias() }}"><img
+                            <a href="/about/{{ $post->getAlias() }}"><img
                                         src="/{{$post->getImagePath() }}"
                                         alt="{{ $post->getTitle() }} | TwinTurbo" class="img-responsive"></a>
                         </div>
