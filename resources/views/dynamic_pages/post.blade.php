@@ -17,7 +17,7 @@
         </div>
         <div class="container">
             <p style="margin-top: 30px">Читайте также: <a
-                        href="/posts/{{ $randomPost->getAlias() }}">{{ $randomPost->getTitle() }}</a></p>
+                        href="/about/{{ $randomPost->getAlias() }}">{{ $randomPost->getTitle() }}</a></p>
         </div>
     </section>
 @endsection
