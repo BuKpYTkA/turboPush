@@ -21,14 +21,19 @@ class OrderFactory
      * @param string $name
      * @param string $phone
      * @param string $message
+     * @param string $source
      * @return Order
      */
-    public function create(string $name, string $phone, string $message)
+    public function create(string $name, string $phone, string $message, string $source = null)
     {
+        if (!$source) {
+            $source = 'Twin Turbo';
+        }
         return new Order([
             'made_by' => $name,
             'phone' => $phone ? '+38' . $phone : '',
-            'message' => $message
+            'message' => $message,
+            'source' => $source
         ]);
     }
 }

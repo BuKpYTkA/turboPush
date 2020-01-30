@@ -54,6 +54,7 @@ class OrderController extends AdminController
             'off' => ['value' => 0, 'text' => 'нет', 'color' => 'danger'],
         ];
         $grid->column('is_moderated', __(self::IS_MODERATED))->switch($states)->sortable();
+        $grid->column('source', ('Источник'));
         $grid->actions(function ($actions) {
             $actions->disableEdit();
         });

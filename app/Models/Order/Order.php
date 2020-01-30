@@ -14,6 +14,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property $message
  * @property $is_moderated
  * @property $is_resolved
+ * @property string $source
  */
 class Order extends Model
 {
@@ -25,7 +26,8 @@ class Order extends Model
     protected $fillable = [
         'made_by',
         'phone',
-        'message'
+        'message',
+        'source'
     ];
 
     /**
