@@ -32,7 +32,7 @@ nav-hidden - Open nav on icon click
 <!-- ========== HOME SECTION ========== -->
 <!-- ========== ANIMATED PAGE TITLE ========== -->
 <section class="parallax-window" data-parallax="scroll" data-image-src="/{{ $bannerImage->getImageUrl() }}" data-speed="0.6" style="padding-bottom: 40px; width: 100%; background-color: rgba(0,0,0,0.55)">
-    <div class="container">
+    <div class="container" style="padding-top: 100px">
         <div class="row page-title-row text-center" style="padding-bottom: 40px!important; margin-top: 80px!important;">
             <div class="col-md-12">
                 <h1 style="word-break: break-word" class="page-title header-page-title"><b>{{ $metaTagContent->getH1() }}</b></h1>
