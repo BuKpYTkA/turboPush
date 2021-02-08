@@ -42,6 +42,10 @@
                                  alt="{{ $metaTagContent->getH1() }} | Borg Warner"/>
                         </div>
                         <div class="text-center ">
+                            <img class="carousel-custom-item" src="{{ asset('images') }}/agro-brands/john deere.png"
+                                 alt="{{ $metaTagContent->getH1() }} | Jogn Deere"/>
+                        </div>
+                        <div class="text-center ">
                             <img class="carousel-custom-item" src="{{ asset('images') }}/agro-brands/garett.png"
                                  alt="{{ $metaTagContent->getH1() }} | Garrett"/>
                         </div>
