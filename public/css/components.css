@@ -81,7 +81,7 @@ p {
 }
 
 .footer {
-    background: url(/images/system/footer_lodyas.png) fixed #37393a;
+    background-color: #0c3e5b;
 }
 
 @media only screen and (max-width: 991px) {
