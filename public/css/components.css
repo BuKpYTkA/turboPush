@@ -111,6 +111,12 @@ p {
 
 .a-flash:hover {
     opacity: .6;
+    transition: 0.3s;
+}
+
+.a-flash {
+    opacity: unset;
+    transition: 0.3s;
 }
 
 @media only screen and (max-width: 600px) {
