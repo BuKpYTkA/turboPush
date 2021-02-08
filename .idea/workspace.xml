@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b550565-e093-4966-a370-257a1f9a43a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +49,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/CheckBlackList.php">
+        <entry file="file://$PROJECT_DIR$/public/css/components.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="290">
+              <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -84,11 +84,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="268" column="79" lean-forward="true" selection-start-line="268" selection-start-column="79" selection-end-line="268" selection-end-column="79" />
+            <state relative-caret-position="270">
+              <caret line="270" column="44" lean-forward="true" selection-start-line="270" selection-start-column="44" selection-end-line="270" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -124,24 +142,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Services/BlackList/BlackListService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/BlackListItem/BlackListItem.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -153,9 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contact-modal</find>
-      <find>Cache-Control</find>
-      <find>$errors</find>
       <find>#ff4a21</find>
       <find>#ff4a22</find>
       <find>#ff4b22</find>
@@ -183,6 +180,9 @@
       <find>#2b2c2dborgwarner.png</find>
       <find>borgwarner.png</find>
       <find>.footer</find>
+      <find>a-flash</find>
+      <find>.a-fl</find>
+      <find>@foreach($carInfoPages</find>
     </findStrings>
     <replaceStrings>
       <replace>textarea</replace>
@@ -220,8 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/layouts/components/contact-us.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/components/any_questions.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/any_questions_end.blade.php" />
         <option value="$PROJECT_DIR$/database/sqlinserts/turbopush_page_info_blocks.sql" />
         <option value="$PROJECT_DIR$/database/sqlinserts/turbopush_pages.sql" />
@@ -262,7 +260,6 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php" />
         <option value="$PROJECT_DIR$/public/frontEnd/styles/main.css" />
         <option value="$PROJECT_DIR$/resources/views/staticPages/agro-tech.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/components.css" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.html" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
         <option value="$PROJECT_DIR$/resources/views/staticPages/trucks.blade.php" />
@@ -271,6 +268,9 @@
         <option value="$PROJECT_DIR$/database/seeds/NewPagesSeeder.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/config/admin.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/components.css" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php" />
       </list>
     </option>
   </component>
@@ -397,6 +397,32 @@
             <path>
               <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
               <item name="turboPush" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="CarInfoPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turboPush" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turboPush" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -513,21 +539,7 @@
       <workItem from="1571125542549" duration="3484000" />
       <workItem from="1573153002279" duration="5022000" />
       <workItem from="1573238694367" duration="6528000" />
-      <workItem from="1612787824817" duration="9886000" />
-    </task>
-    <task id="LOCAL-00018" summary="header fixed;">
-      <created>1569677064003</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1569677064003</updated>
-    </task>
-    <task id="LOCAL-00019" summary="header fixed;">
-      <created>1569697681554</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1569697681554</updated>
+      <workItem from="1612787824817" duration="10483000" />
     </task>
     <task id="LOCAL-00020" summary="header fixed;">
       <created>1569698104515</created>
@@ -858,11 +870,25 @@
       <option name="project" value="LOCAL" />
       <updated>1612797760727</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="cars link removed;">
+      <created>1612799384214</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1612799384215</updated>
+    </task>
+    <task id="LOCAL-00068" summary="cars link removed;">
+      <created>1612799446582</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1612799446582</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="373563000" />
+    <option name="totallyTimeSpent" value="374160000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -877,7 +903,7 @@
     <frame x="0" y="25" width="1920" height="1006" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17235859" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17235859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -892,7 +918,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32383123" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32383123" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -931,7 +957,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="meta tag controller added to admin panel;&#10;storage configured;" />
     <MESSAGE value="Image created;&#10;ImageController created;" />
     <MESSAGE value="admin home page configured;&#10;NavBarElement updated;&#10;MetaTagController updated;&#10;NavBarElementController updated;&#10;migrations fixed" />
     <MESSAGE value="little bit" />
@@ -956,7 +981,8 @@
     <MESSAGE value="new footer logo;" />
     <MESSAGE value="new pages added;" />
     <MESSAGE value="admin panel color updated;" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin panel color updated;" />
+    <MESSAGE value="cars link removed;" />
+    <option name="LAST_COMMIT_MESSAGE" value="cars link removed;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1013,7 +1039,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php</url>
-          <line>62</line>
+          <line>63</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -1023,7 +1049,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php</url>
-          <line>71</line>
+          <line>72</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -1124,13 +1150,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_09_29_140155_create_page_contents_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_09_13_172613_add_banner_image_column_to_page_contents_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1242,13 +1261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/components.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
@@ -1349,13 +1361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1479,8 +1484,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="268" column="79" lean-forward="true" selection-start-line="268" selection-start-column="79" selection-end-line="268" selection-end-column="79" />
+        <state relative-caret-position="270">
+          <caret line="270" column="44" lean-forward="true" selection-start-line="270" selection-start-column="44" selection-end-line="270" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/components.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CarInfoPage/CarInfoPageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
         </state>
       </provider>
     </entry>
