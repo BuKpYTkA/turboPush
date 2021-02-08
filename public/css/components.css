@@ -84,6 +84,10 @@ p {
     background-color: #0c3e5b;
 }
 
+.footer .footer-top {
+    border-bottom: none;
+}
+
 @media only screen and (max-width: 991px) {
     .secondNav .menu-mobile {
         color: #fff;
