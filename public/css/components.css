@@ -80,6 +80,10 @@ p {
     padding: 0!important;
 }
 
+.page-loader {
+    background-color: #f2f2f2!important;
+}
+
 .footer {
     background-color: #0c3e5b;
 }
