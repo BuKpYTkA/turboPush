@@ -32,6 +32,7 @@ class OrderCratedListener
         try {
             Mail::to([config('app.commonOrdersReceiver')])->send(new OrderCreatedMail($order));
         } catch (\Exception $exception) {
+            report($exception);
             return;
         }
     }
