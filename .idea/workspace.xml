@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b550565-e093-4966-a370-257a1f9a43a5" name="Default Changelist" comment="HelpController created;&#10;MetaTag updated;&#10;PostController updated;&#10;CarInfoPageController updated;">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4b550565-e093-4966-a370-257a1f9a43a5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,15 +65,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f9c2ade3-7322-415b-bc6c-221e092400c4/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -110,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/head.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -119,11 +106,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="11" column="88" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -204,7 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/layouts/components/full-contact-form.blade.php" />
         <option value="$PROJECT_DIR$/public/frontEnd/styles/vendor.css" />
         <option value="$PROJECT_DIR$/database/migrations/2019_10_06_072555_create_page_info_blocks_table.php" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/PageContentController.php" />
@@ -246,7 +241,6 @@
         <option value="$PROJECT_DIR$/app/Services/Factories/OrderFactory/OrderFactory.php" />
         <option value="$PROJECT_DIR$/app/Services/PageContent/PageContentService.php" />
         <option value="$PROJECT_DIR$/app/Services/BannerImageService/BannerImageService.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/staticPages/contact-us.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/contact-modal.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/footer.blade.php" />
@@ -255,6 +249,8 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f9c2ade3-7322-415b-bc6c-221e092400c4/console.sql" />
         <option value="$PROJECT_DIR$/resources/views/layouts/components/head.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -473,7 +469,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/frontEnd/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -564,14 +560,7 @@
       <workItem from="1571125542549" duration="3484000" />
       <workItem from="1573153002279" duration="5022000" />
       <workItem from="1573238694367" duration="6528000" />
-      <workItem from="1612787824817" duration="2220000" />
-    </task>
-    <task id="LOCAL-00008" summary="Post created;&#10;-admin&#10;-controller&#10;-view&#10;-events&#10;-listeners&#10;CarInfoPage created;&#10;-admin&#10;-controller&#10;-view&#10;-events&#10;-listeners&#10;&#10;MetaTagService updated;&#10;BannerImageService updated;">
-      <created>1568993266973</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1568993266973</updated>
+      <workItem from="1612787824817" duration="2638000" />
     </task>
     <task id="LOCAL-00009" summary="a couple of views were made;&#10;PhoneNumber crated;&#10;MetaTagService updated;&#10;PoneNumberController created;">
       <created>1569177423679</created>
@@ -909,11 +898,18 @@
       <option name="project" value="LOCAL" />
       <updated>1612789788266</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="logo updated;">
+      <created>1612790232247</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1612790232247</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365897000" />
+    <option name="totallyTimeSpent" value="366315000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -926,7 +922,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1006" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37620065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -999,7 +994,8 @@
     <MESSAGE value="PageContentService updated;&#10;Fixed bd request;&#10;&#10;BannerImageService&#10;Fixed bd request;" />
     <MESSAGE value="HelpController created;&#10;MetaTag updated;&#10;PostController updated;&#10;CarInfoPageController updated;" />
     <MESSAGE value="logos updated;" />
-    <option name="LAST_COMMIT_MESSAGE" value="logos updated;" />
+    <MESSAGE value="logo updated;" />
+    <option name="LAST_COMMIT_MESSAGE" value="logo updated;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1167,13 +1163,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_10_23_185640_create_black_list_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/BlackListItem/BlackListItem.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1473,17 +1462,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/head.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/components/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="88" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
         </state>
       </provider>
     </entry>

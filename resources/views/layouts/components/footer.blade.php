@@ -3,7 +3,7 @@
     <div class="container footer-top">
         <div class="row">
             <div class="col-md-12 text-center">
-                <img src="{{ asset('images') }}/main-logo.svg" alt="TwinTurbo" class="img-responsive mb20" width="100" style="margin: auto;">
+                <img src="{{ asset('images') }}/main-logo-white.svg" alt="TwinTurbo" class="img-responsive mb20" width="100" style="margin: auto;">
             </div>
             <div class="col-md-6">
                 <p class="footer-title"><span><i class="fa fa-calendar-check-o"></i></span><b> режим роботы: 9:00 - 18:00 с понедельника по субботу</b></p>
