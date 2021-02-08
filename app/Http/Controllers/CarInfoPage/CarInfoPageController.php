@@ -38,6 +38,7 @@ class CarInfoPageController extends Controller
      */
     public function buy(Request $request, string $alias)
     {
+        abort(404);
         /**
          * @var CarInfoPage $carInfoPage
          */
@@ -57,6 +58,7 @@ class CarInfoPageController extends Controller
 
     public function repair(Request $request, string $alias)
     {
+        abort(404);
         /**
          * @var CarInfoPage $carInfoPage
          */
