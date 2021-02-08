@@ -3,6 +3,7 @@
 namespace App\Models\Page;
 
 use App\Models\PageContent\PageContent;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -10,6 +11,7 @@ use Illuminate\Database\Eloquent\Model;
  * @package App\Models\Page
  * @property int $id
  * @property string $alias
+ * @property PageContent[]|Collection $content
  */
 class Page extends Model
 {
