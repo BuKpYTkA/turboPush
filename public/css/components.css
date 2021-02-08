@@ -121,7 +121,7 @@ p {
 }
 
 .header {
-    background-color: #2b2c2de8!important;
+    background-color: #0c3e5be8!important;
 }
 
 .section-text {
@@ -172,7 +172,7 @@ p {
 }
 
 .panel-body .icon {
-    color: #f24c2a;
+    color: #f1c45c;
 }
 
 .fixed-contact-button {
@@ -183,13 +183,13 @@ p {
     bottom: 20px;
     position: fixed;
     transform: translate(-50%, -50%);
-    background-color: #f24c2a;
+    background-color: #f1c45c;
     text-align: center;
     cursor: pointer;
     transform-origin: 50% 50%;
     transition: transform 0.4s;
     z-index: 300;
-    border: solid 1px #f24c2a;
+    border: solid 1px #f1c45c;
     animation: play 1.5s ease infinite;
 }
 
@@ -225,15 +225,15 @@ p {
 }
 
 .image-box {
-    border-top: 3px solid #f24c2a;
+    border-top: 3px solid #f1c45c;
 }
 
 .panel-primary {
-    border: 3px solid #2b2c2d!important;
+    border: 3px solid #0c3e5b!important;
 }
 
 .panel-primary .panel-heading {
-    border-color: #f24c2a!important;
+    border-color: #f1c45c!important;
 }
 
 .image-box img {
@@ -242,11 +242,11 @@ p {
 
 hr {
     margin-top: 0!important;
-    border-top: 1px solid #f24c2a!important;
+    border-top: 1px solid #f1c45c!important;
 }
 
 .pricing-foot {
-    border-top: #f24c2a solid 3px!important;
+    border-top: #f1c45c solid 3px!important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -370,13 +370,13 @@ hr {
 @keyframes play {
 
     15% {
-        box-shadow: 0 0 0 5px rgba(242, 76, 42, 0.8);
+        box-shadow: 0 0 0 5px rgba(241, 196, 92, 0.8);
     }
     25% {
-        box-shadow: 0 0 0 10px rgba(242, 76, 42, 0.76);
+        box-shadow: 0 0 0 10px rgba(241, 196, 92, 0.76);
     }
     25% {
-        box-shadow: 0 0 0 15px rgba(242, 76, 42, 0.65);
+        box-shadow: 0 0 0 15px rgba(241, 196, 92, 0.65);
     }
 }
 

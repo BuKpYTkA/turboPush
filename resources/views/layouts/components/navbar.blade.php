@@ -9,7 +9,7 @@
     <div class="top-menu">
         <div class="container-fluid custom-container transparent">
             <div class="logo">
-                <a href="/"><img height="80px" width="150px" src="{{ asset('images') }}/main-logo.svg" alt="Salt"></a>
+                <a href="/"><img height="100px" width="150px" src="{{ asset('images') }}/main-logo.svg" alt="Salt"></a>
             </div>
             <div class="right-div pull-right header-phones">
                 @foreach($phoneNumbers as $phoneNumber)
